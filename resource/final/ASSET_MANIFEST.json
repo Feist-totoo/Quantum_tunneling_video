@@ -1,0 +1,116 @@
+{
+  "project": "quantum-tunnelling",
+  "delivery": "resolve-assets-voice-aligned-2026-08-29",
+  "timeline": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "startFrame": 0,
+    "endFrame": 10795,
+    "durationSeconds": 179.933333,
+    "durationLimitSeconds": null,
+    "audioIncluded": false
+  },
+  "assets": [
+    {
+      "file": "06_resolve_aligned/01_fusion_aligned_F00000-F02768_2769f.mp4",
+      "role": "fusion_voice_aligned",
+      "globalIn": 0,
+      "globalOut": 2768,
+      "codec": "h264",
+      "size": "1920x1080",
+      "fps": 60,
+      "frames": 2769,
+      "audio": false
+    },
+    {
+      "file": "06_resolve_aligned/02_uncertainty_aligned_F02769-F03877_1109f.mp4",
+      "role": "uncertainty_voice_aligned",
+      "globalIn": 2769,
+      "globalOut": 3877,
+      "codec": "h264",
+      "size": "1920x1080",
+      "fps": 60,
+      "frames": 1109,
+      "audio": false
+    },
+    {
+      "file": "06_resolve_aligned/03_wavefunction_aligned_F03878-F05544_1667f.mp4",
+      "role": "wavefunction_voice_aligned",
+      "globalIn": 3878,
+      "globalOut": 5544,
+      "codec": "h264",
+      "size": "1920x1080",
+      "fps": 60,
+      "frames": 1667,
+      "audio": false
+    },
+    {
+      "file": "06_resolve_aligned/04_blender_right_manim_aligned_F05545-F09122_3578f_alpha.mov",
+      "role": "blender_right_formula_chart_alpha",
+      "globalIn": 5545,
+      "globalOut": 9122,
+      "codec": "qtrle",
+      "pixelFormat": "argb",
+      "size": "660x1080",
+      "fps": 60,
+      "frames": 3578,
+      "alpha": true,
+      "audio": false
+    },
+    {
+      "file": "06_resolve_aligned/04_blender_right_manim_aligned_F05545-F09122_3578f_resolve_cfr_intra.mp4",
+      "role": "blender_right_formula_dual_chart_resolve_playback",
+      "globalIn": 5545,
+      "globalOut": 9122,
+      "codec": "h264_high_all_intra",
+      "pixelFormat": "yuv420p",
+      "size": "660x1080",
+      "fps": 60,
+      "frames": 3578,
+      "alpha": false,
+      "audio": false
+    },
+    {
+      "file": "06_resolve_aligned/05_nobel_macro_aligned_F09123-F09708_586f.mp4",
+      "role": "nb12_blender_sis_josephson_with_right_nb13_to_2d",
+      "globalIn": 9123,
+      "globalOut": 9708,
+      "codec": "h264",
+      "size": "1920x1080",
+      "fps": 60,
+      "frames": 586,
+      "audio": false
+    },
+    {
+      "file": "06_resolve_aligned/06_applications_aligned_F09709-F10795_1087f.mp4",
+      "role": "nb14_nb15_applications_voice_aligned",
+      "globalIn": 9709,
+      "globalOut": 10795,
+      "codec": "h264",
+      "size": "1920x1080",
+      "fps": 60,
+      "frames": 1087,
+      "audio": false
+    },
+    {
+      "file": "05_optional_broll/nasa_sdo_active_sun_4500A_HD1080.mp4",
+      "role": "optional_public_broll",
+      "codec": "h264",
+      "size": "1920x1080",
+      "fps": 30,
+      "audio": false
+    }
+  ],
+  "pendingSlots": [
+    {
+      "role": "blender_v5_final_render",
+      "globalIn": 5545,
+      "globalOut": 9122,
+      "expectedSize": "1300x1080",
+      "expectedFps": 60,
+      "expectedFrames": 3578,
+      "note": "现有 blender_final_v5_voice_aligned_1080p60.mp4 只有 3094 帧，不能作为最终 V1 替换。"
+    }
+  ]
+}

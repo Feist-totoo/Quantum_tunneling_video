@@ -1,0 +1,47 @@
+{
+  "schema": "quantum-tunneling-master-timeline-v3.1",
+  "fps": 60,
+  "resolution": [1920, 1080],
+  "frame_range": [0, 5399],
+  "layout": {
+    "blender_normalized": [0.0, 0.0, 0.6666667, 1.0],
+    "remotion_normalized": [0.6666667, 0.0, 1.0, 1.0],
+    "full_screen_exceptions": [
+      {
+        "frames": [0, 1689],
+        "reason": "先完整展示 Blender 镜头与势垒进入过程"
+      },
+      {
+        "frames": [4140, 5399],
+        "reason": "坍缩与多次试验需要完整画面"
+      }
+    ]
+  },
+  "segments": [
+    {"name": "barrier_intro", "frames": [0, 599]},
+    {"name": "particle_to_wavepacket", "frames": [600, 1199]},
+    {"name": "camera_to_barrier", "frames": [1200, 1739]},
+    {"name": "formula_with_blender_highlight", "frames": [1740, 2039]},
+    {"name": "probability_chart_live", "frames": [2040, 2879], "update_every_frames": 3},
+    {"name": "width_study", "frames": [2880, 3419], "update_every_frames": 3},
+    {"name": "height_study", "frames": [3420, 3959], "update_every_frames": 3},
+    {"name": "comparison_hold", "frames": [3960, 4079]},
+    {"name": "overlay_out", "frames": [4080, 4139]},
+    {"name": "collapse_ensemble", "frames": [4140, 4859]},
+    {"name": "many_trials", "frames": [4860, 5399]}
+  ],
+  "source_of_truth": "probability_frames_v3.csv",
+  "overlay_rule": "Remotion 和 Blender 使用同一绝对帧号；公式从 1740 帧开始，概率图从 2040 帧开始。",
+  "chart": {
+    "linear_ticks": ["0%", "50%", "100%"],
+    "log_probability_ticks": ["1", "10^-3", "10^-6", "10^-9"],
+    "categories": ["势垒前", "势垒后"],
+    "series": ["基准", "厚度", "高度"],
+    "forbidden_chart_labels": ["W", "V0"]
+  },
+  "color": {
+    "base": "#58C4DD",
+    "width": "#9A72AC",
+    "height": "#FF862F"
+  }
+}

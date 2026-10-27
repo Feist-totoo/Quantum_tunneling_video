@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>量子隧穿与太阳核聚变｜配音源帧对齐版</title>
+  <style>
+    :root { --cyan:#58c4dd; --white:#f4f4f4; --ease:cubic-bezier(.22,.82,.24,1); }
+    * { box-sizing:border-box; }
+    html,body { margin:0; width:100%; height:100%; overflow:hidden; background:#000; color:var(--white); font-family:"Noto Sans SC","Microsoft YaHei",sans-serif; }
+    canvas { display:block; width:100%; height:100%; background:#000; }
+    #ui-layer { position:fixed; left:50%; bottom:24px; width:min(980px,calc(100vw - 48px)); transform:translateX(-50%); z-index:6; pointer-events:none; }
+    #subtitle { min-height:34px; margin-bottom:13px; text-align:center; font-size:clamp(16px,1.34vw,25px); text-shadow:0 2px 18px #000; }
+    #controls { display:flex; align-items:center; gap:14px; padding:12px; border:1px solid rgba(255,255,255,.1); border-radius:999px; background:rgba(8,12,18,.9); pointer-events:auto; }
+    button { min-width:82px; border:0; border-radius:999px; padding:10px 18px; color:#061015; background:var(--cyan); font-weight:700; cursor:pointer; transition:transform .5s var(--ease); }
+    button:active { transform:scale(.975); }
+    input { flex:1; accent-color:var(--cyan); }
+    #timecode { min-width:82px; color:rgba(244,244,244,.62); font:500 13px/1.1 "Courier New",monospace; text-align:right; }
+    body.clean #ui-layer { display:none; }
+  </style>
+</head>
+<body>
+  <canvas id="animCanvas"></canvas>
+  <div id="ui-layer">
+    <div id="subtitle"></div>
+    <div id="controls">
+      <button id="playBtn">播放</button>
+      <input id="timeline" type="range" min="0" max="46.15" step="0.01" value="0">
+      <span id="timecode">00:00.00</span>
+    </div>
+  </div>
+  <script>
+    const canvas = document.getElementById('animCanvas');
+    const ctx = canvas.getContext('2d');
+    const playBtn = document.getElementById('playBtn');
+    const timeline = document.getElementById('timeline');
+    const subtitleEl = document.getElementById('subtitle');
+    const timecodeEl = document.getElementById('timecode');
+    const C = {
+      bg:'#000000', white:'#f4f4f4', muted:'#8a97a8', grid:'#27313d',
+      cyan:'#58c4dd', cyanLight:'#8aeaff', blue:'#4a8dff', green:'#5cd0b3',
+      orange:'#ff862f', red:'#fc6255', yellow:'#ffff00', purple:'#9a72ac'
+    };
+    const FONT='"Noto Sans SC","Source Han Sans SC","Microsoft YaHei",sans-serif';
+    const MONO='"IBM Plex Mono","Courier New",monospace';
+    // 2769 frames at 60 fps: F00000-F02768, inclusive.
+    const MAX_TIME=46.15;
+    // The UI-only captions follow the supplied global frame cues. They are
+    // hidden in clean capture mode and are never baked into Resolve footage.
+    const subtitles=[
+      {s:0,e:1.016667,t:'核聚变，'},
+      {s:1.016667,e:2.966667,t:'是人类突破性的物理成就。'},
+      {s:2.966667,e:5.85,t:'而太阳46亿年来散发的辐射，'},
+      {s:5.85,e:9.05,t:'正是核聚变在其中不断反应的产物。'},
+      {s:9.05,e:11.35,t:'然而根据物理学家们计算，'},
+      {s:11.35,e:14.316667,t:'太阳中心温度约为1500万开，'},
+      {s:14.316667,e:18.45,t:'远远低于经典估算核聚变反应至少所需的温度，'},
+      {s:18.45,e:19.533333,t:'一亿。'},
+      {s:19.533333,e:22.133333,t:'这个问题先考虑核聚变的实质。'},
+      {s:22.133333,e:26.266667,t:'轻原子核克服库仑斥力、聚合并释放能量，'},
+      {s:26.266667,e:29.016667,t:'而温度表示轻核子携带的能量。'},
+      {s:29.016667,e:30.60,t:'根据经典电磁理论，'},
+      {s:30.60,e:33.083333,t:'核携带能量克服库仑力做功，'},
+      {s:33.083333,e:35.583333,t:'而太阳目前的温度只能到这。'},
+      {s:35.583333,e:38.40,t:'该理论下太阳无法发生核聚变。'},
+      {s:38.40,e:40.30,t:'然而太阳依旧燃烧，'},
+      {s:40.30,e:43.05,t:'明显是我们的理论有所遗漏，'},
+      {s:43.05,e:44.066667,t:'而这就是'}
+    ];
+    let width=1920,height=1080,dpr=1,time=0,playing=false,lastTimestamp=0;
+    const clamp=(v,lo=0,hi=1)=>Math.max(lo,Math.min(hi,v));
+    const lerp=(a,b,p)=>a+(b-a)*clamp(p);
+    const smooth=p=>{p=clamp(p);return p*p*(3-2*p);};
+    const heavyOut=p=>1-Math.pow(1-clamp(p),4);
+    const heavyInOut=p=>{p=clamp(p);return p<.5?8*p*p*p*p:1-Math.pow(-2*p+2,4)/2;};
+    const seeded=index=>{const x=Math.sin(index*97.13+18.7)*43758.5453;return x-Math.floor(x);};
+    const stars=Array.from({length:94},(_,i)=>({x:seeded(i*3+1),y:seeded(i*3+2),r:.45+seeded(i*3+3)*1.15,phase:seeded(i*5+9)*Math.PI*2}));
+
+    function line(x1,y1,x2,y2,color,lineWidth=2,alpha=1,dash=[]) {
+      ctx.save(); ctx.globalAlpha=alpha; ctx.strokeStyle=color; ctx.lineWidth=lineWidth; ctx.setLineDash(dash);
+      ctx.beginPath(); ctx.moveTo(x1,y1); ctx.lineTo(x2,y2); ctx.stroke(); ctx.restore();
+    }
+    function label(text,x,y,size,color=C.white,align='center',weight=600,family=FONT,alpha=1) {
+      ctx.save(); ctx.globalAlpha=alpha; ctx.fillStyle=color; ctx.font=`${weight} ${size}px ${family}`;
+      ctx.textAlign=align; ctx.textBaseline='middle'; ctx.fillText(text,x,y); ctx.restore();
+    }
+    function roundedRectPath(x,y,w,h,r) {
+      const rr=Math.min(r,w/2,h/2); ctx.beginPath(); ctx.moveTo(x+rr,y); ctx.arcTo(x+w,y,x+w,y+h,rr);
+      ctx.arcTo(x+w,y+h,x,y+h,rr); ctx.arcTo(x,y+h,x,y,rr); ctx.arcTo(x,y,x+w,y,rr); ctx.closePath();
+    }
+    function drawBackground(t) {
+      const gradient=ctx.createRadialGradient(width*.5,height*.45,0,width*.5,height*.45,Math.max(width,height)*.72);
+      gradient.addColorStop(0,'#071018'); gradient.addColorStop(.48,'#020508'); gradient.addColorStop(1,C.bg);
+      ctx.fillStyle=gradient; ctx.fillRect(0,0,width,height);
+      stars.forEach((star,i)=>{const pulse=.24+.18*Math.sin(t*.32+star.phase);ctx.fillStyle=`rgba(138,234,255,${pulse})`;
+        ctx.beginPath();ctx.arc(star.x*width,((star.y+t*.00045*(i%3+1))%1)*height,star.r,0,Math.PI*2);ctx.fill();});
+      const vignette=ctx.createRadialGradient(width/2,height/2,height*.18,width/2,height/2,width*.66);
+      vignette.addColorStop(0,'rgba(0,0,0,0)');vignette.addColorStop(1,'rgba(0,0,0,.70)');ctx.fillStyle=vignette;ctx.fillRect(0,0,width,height);
+    }
+    function drawSun(x,y,radius,brightness,t) {
+      ctx.save();ctx.translate(x,y);
+      const halo=ctx.createRadialGradient(0,0,radius*.1,0,0,radius*1.72);
+      halo.addColorStop(0,`rgba(255,255,238,${.98*brightness})`);halo.addColorStop(.22,`rgba(255,214,86,${.90*brightness})`);
+      halo.addColorStop(.54,`rgba(255,134,47,${.52*brightness})`);halo.addColorStop(1,'rgba(252,98,85,0)');
+      ctx.fillStyle=halo;ctx.beginPath();ctx.arc(0,0,radius*1.72,0,Math.PI*2);ctx.fill();
+      const core=ctx.createRadialGradient(-radius*.28,-radius*.32,radius*.06,0,0,radius);
+      core.addColorStop(0,'#fffde3');core.addColorStop(.34,'#ffd65f');core.addColorStop(.72,C.orange);core.addColorStop(1,'#8b2419');
+      ctx.fillStyle=core;ctx.beginPath();ctx.arc(0,0,radius,0,Math.PI*2);ctx.fill();
+      ctx.globalCompositeOperation='screen';
+      for(let i=0;i<10;i++){const a=i*.93+t*(.045+i*.001),rr=radius*(.18+seeded(i+77)*.64);
+        ctx.fillStyle=`rgba(255,255,190,${.05+seeded(i+21)*.06})`;ctx.beginPath();
+        ctx.ellipse(Math.cos(a)*rr*.62,Math.sin(a*1.23)*rr*.42,radius*(.13+seeded(i+3)*.11),radius*.06,a,0,Math.PI*2);ctx.fill();}
+      ctx.restore();
+    }
+    function particle(x,y,radius,color,text,glow=15){ctx.save();ctx.shadowColor=color;ctx.shadowBlur=glow;ctx.fillStyle=color;
+      ctx.beginPath();ctx.arc(x,y,radius,0,Math.PI*2);ctx.fill();ctx.shadowBlur=0;if(text)label(text,x,y+.5,radius*.82,'#071017','center',800,MONO);ctx.restore();}
+    function formatTime(value){const m=Math.floor(value/60).toString().padStart(2,'0');const s=(value%60).toFixed(2).padStart(5,'0');return `${m}:${s}`;}
+    let render=()=>{};
+  </script>
+  <script src="fusion_quantum_bridge_project_v9_override.js"></script>
+  <script>
+    function resize(){dpr=Math.min(2,window.devicePixelRatio||1);width=window.innerWidth;height=window.innerHeight;
+      canvas.width=Math.round(width*dpr);canvas.height=Math.round(height*dpr);canvas.style.width=width+'px';canvas.style.height=height+'px';
+      ctx.setTransform(dpr,0,0,dpr,0,0);render(time);}
+    function setTime(value){time=clamp(Number(value)||0,0,MAX_TIME);render(time);}
+    window.quantumFusion={setTime};
+    function play(){if(time>=MAX_TIME)time=0;playing=true;lastTimestamp=performance.now();playBtn.textContent='暂停';}
+    function pause(){playing=false;playBtn.textContent=time>=MAX_TIME?'重播':'播放';}
+    function animate(timestamp){if(!lastTimestamp)lastTimestamp=timestamp;const dt=Math.min(.05,(timestamp-lastTimestamp)/1000);lastTimestamp=timestamp;
+      if(playing){time=Math.min(MAX_TIME,time+dt);if(time>=MAX_TIME){playing=false;playBtn.textContent='重播';}}render(time);requestAnimationFrame(animate);}
+    playBtn.addEventListener('click',()=>playing?pause():play());timeline.addEventListener('input',e=>{pause();setTime(e.target.value);});window.addEventListener('resize',resize);
+    const params=new URLSearchParams(location.search);if(params.get('clean')==='1')document.body.classList.add('clean');if(params.has('t'))time=clamp(Number(params.get('t'))||0,0,MAX_TIME);
+    resize();requestAnimationFrame(animate);
+  </script>
+</body>
+</html>

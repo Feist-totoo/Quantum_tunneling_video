@@ -1,0 +1,144 @@
+{
+  "project": {
+    "name": "量子隧穿科普动画_179_5s",
+    "timeline": "QT_MASTER_1795_v01",
+    "fps": 60,
+    "width": 1920,
+    "height": 1080,
+    "total_frames": 10770,
+    "duration_seconds": 179.5,
+    "audio_policy": "不生成AI配音；A1保留为人工配音轨，字幕兼作录音台本"
+  },
+  "video": [
+    {
+      "id": "fusion",
+      "label": "核聚变与经典矛盾",
+      "path": "resource/fromAI/10_review_proxies/fusion_quantum_bridge_v8_1080p60.mp4",
+      "record_in": 0,
+      "record_out_exclusive": 2940,
+      "track": "V1"
+    },
+    {
+      "id": "uncertainty",
+      "label": "一维位置—动量不确定性",
+      "path": "resource/fromAI/10_review_proxies/uncertainty_1d_stochastic_v3_1080p60.mp4",
+      "record_in": 2940,
+      "record_out_exclusive": 3925,
+      "track": "V1"
+    },
+    {
+      "id": "wavefunction",
+      "label": "复值波函数与概率密度",
+      "path": "resolve_edit/proxies/wavefunction_language_edit_1080p60.mp4",
+      "record_in": 3925,
+      "record_out_exclusive": 4687,
+      "track": "V1"
+    },
+    {
+      "id": "barrier_bridge",
+      "label": "势场语言与矩形势垒过渡",
+      "path": "resolve_edit/proxies/blender_bridge_edit_1080p60.mp4",
+      "record_in": 4687,
+      "record_out_exclusive": 5193,
+      "track": "V1"
+    },
+    {
+      "id": "blender_pre_overlay",
+      "label": "Blender V3：粒子转波包",
+      "path": "resolve_edit/proxies/blender_v3_selected_animatic_1080p60.mp4",
+      "source_in": 0,
+      "source_out_inclusive": 599,
+      "record_in": 5193,
+      "record_out_exclusive": 5793,
+      "track": "V1"
+    },
+    {
+      "id": "blender_with_overlay",
+      "label": "Blender V3：隧穿与参数研究（左侧2/3）",
+      "path": "resolve_edit/proxies/blender_v3_selected_animatic_1080p60.mp4",
+      "source_in": 600,
+      "source_out_inclusive": 3536,
+      "record_in": 5793,
+      "record_out_exclusive": 8730,
+      "track": "V1",
+      "layout": "1280x720等比缩放，置于左侧1280x1080区域的垂直中央"
+    },
+    {
+      "id": "probability_overlay",
+      "label": "逐帧概率、公式与参数图表（右侧1/3）",
+      "path": "resource/fromAI/10_review_proxies/probability_overlay_v3_html_640x1080p60.mp4",
+      "source_in": 0,
+      "source_out_inclusive": 2936,
+      "record_in": 5793,
+      "record_out_exclusive": 8730,
+      "track": "V2",
+      "layout": "640x1080，贴齐画面右侧"
+    },
+    {
+      "id": "blender_post_overlay",
+      "label": "Blender V3：测量与粒子回归",
+      "path": "resolve_edit/proxies/blender_v3_selected_animatic_1080p60.mp4",
+      "source_in": 3537,
+      "source_out_inclusive": 3864,
+      "record_in": 8730,
+      "record_out_exclusive": 9058,
+      "track": "V1"
+    },
+    {
+      "id": "applications",
+      "label": "NAND、STM与器件泄漏",
+      "path": "resource/fromAI/10_review_proxies/tunnelling_applications_intermediate_layout_v7_1080p60.mp4",
+      "record_in": 9058,
+      "record_out_exclusive": 10440,
+      "track": "V1"
+    },
+    {
+      "id": "credits",
+      "label": "参考资料与结束卡",
+      "path": "resolve_edit/proxies/credits_5_5s_1080p60.mp4",
+      "record_in": 10440,
+      "record_out_exclusive": 10770,
+      "track": "V1"
+    }
+  ],
+  "narration": [
+    {"id":"VO01","start":0,"end":408,"text":"核聚变，是我们从高中物理就熟悉的概念。","direction":"平稳开场；“核聚变”后停0.2秒"},
+    {"id":"VO02","start":408,"end":828,"text":"太阳已燃烧约四十六亿年。它持续输出的光和热，来自核心的核聚变。","direction":"温和、克制；“四十六亿年”略加重"},
+    {"id":"VO03","start":828,"end":1290,"text":"但经典估算带来一个矛盾：太阳核心温度，大约只有一千五百万开尔文。","direction":"“矛盾”前略停；数字清楚分组"},
+    {"id":"VO04","start":1290,"end":1752,"text":"这远低于轻原子核直接克服库仑斥力所需的典型能量尺度。","direction":"“远低于”加重，句尾下沉"},
+    {"id":"VO05","start":1752,"end":2232,"text":"照经典图景，原子核会在势垒前被弹回；可太阳仍然在燃烧。","direction":"分号处停0.3秒，后半句形成反差"},
+    {"id":"VO06","start":2232,"end":2730,"text":"经典理论究竟漏掉了什么？","direction":"放慢，疑问后留白"},
+    {"id":"VO07","start":2736,"end":2940,"text":"答案，是量子隧穿。","direction":"短促有力；“答案”后停0.25秒"},
+    {"id":"VO08","start":2940,"end":3432,"text":"不确定性关系说明，位置与动量的分布，不能同时被压缩到任意小。","direction":"“位置与动量”并列清楚"},
+    {"id":"VO09","start":3432,"end":3925,"text":"这不是仪器粗糙，而是量子态本身的结构。","direction":"“不是”与“而是”形成对照"},
+    {"id":"VO10","start":3925,"end":4308,"text":"在微观尺度上，电子不能只被看作一颗沿确定轨迹运动的小球。","direction":"自然衔接，避免卡通化语气"},
+    {"id":"VO11","start":4308,"end":4687,"text":"我们用复值波函数描述它；波函数的模方，才是非负的概率密度。","direction":"“模方”稍加重；分号处短停"},
+    {"id":"VO12","start":4687,"end":5193,"text":"势能函数V编码粒子所处的环境。这里，我们选择最简单的矩形势垒。","direction":"V读作英文大写字母V；两句间停0.25秒"},
+    {"id":"VO13","start":5193,"end":5724,"text":"一个向右传播的局域波包，正接近一道高于自身能量的势垒。","direction":"随镜头推进，语气逐渐收紧"},
+    {"id":"VO14","start":5724,"end":6270,"text":"经典图景说它不可能通过；量子力学给出的结果却不同。","direction":"分号前后做明显反差"},
+    {"id":"VO15","start":6270,"end":6840,"text":"波函数及其一阶导数，必须在势垒的两个边界处保持连续。","direction":"“必须”“两个边界”加重"},
+    {"id":"VO16","start":6840,"end":7380,"text":"因此，概率波分成反射与透射两部分；势垒内部则出现指数衰减的倏逝解。","direction":"术语放慢；倏逝读shū shì"},
+    {"id":"VO17","start":7380,"end":7910,"text":"需要强调：分开的是概率流，不是半个电子和另半个电子。","direction":"“概率流”加重；后半句清晰否定"},
+    {"id":"VO18","start":7910,"end":8418,"text":"单次测量仍然只得到一个完整电子；重复很多次，频率才逼近理论概率。","direction":"“完整电子”与“重复很多次”加重"},
+    {"id":"VO19","start":8418,"end":9058,"text":"透射率对势垒宽度和高度呈指数敏感；W、V零与右侧图表共享同一时间基准。","direction":"W读double-u，V零读V零；句末略停"},
+    {"id":"VO20","start":9058,"end":9504,"text":"这种效应早已进入现实。NAND闪存利用隧穿，写入或移出浮栅电子。","direction":"NAND逐字母读；对应第一个中央舞台"},
+    {"id":"VO21","start":9504,"end":9948,"text":"扫描隧道显微镜利用隧道电流对间距的指数敏感，分辨原子级起伏。","direction":"“指数敏感”“原子级”加重"},
+    {"id":"VO22","start":9948,"end":10440,"text":"而器件继续缩小时，非期望隧穿和其他泄漏机制，也会增加功耗与发热。","direction":"对应第三个中央舞台；“功耗与发热”落句"},
+    {"id":"VO23","start":10440,"end":10770,"text":"极小的概率，也能成为可观测、可利用的现实。","direction":"收束；“可观测、可利用”逐级加重，最后0.5秒留白"}
+  ],
+  "chapter_markers": [
+    {"frame":0,"name":"01 核聚变与经典矛盾","color":"Sand"},
+    {"frame":2940,"name":"02 不确定性原理","color":"Blue"},
+    {"frame":3925,"name":"03 波函数语言","color":"Purple"},
+    {"frame":5193,"name":"04 量子隧穿演示","color":"Cyan"},
+    {"frame":9058,"name":"05 现实应用","color":"Green"},
+    {"frame":10440,"name":"06 参考与结语","color":"Cream"}
+  ],
+  "audio": {
+    "voice_track": "A1 人工配音（待录）",
+    "music_track": "A2 氛围音乐",
+    "sfx_track": "A3 转场音效",
+    "music_source": "resource/fromAI/07_music_sfx/generated/quantum_ambient_164s.wav",
+    "music_extended": "resolve_edit/audio/quantum_ambient_179_5s.wav"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "task_type": "shotlist_drafting",
+  "objective": "为量子隧穿科普项目起草非 Blender 部分的 ManimCE 分镜清单。把脚本中太阳核聚变悖论、不确定关系、波函数与势场、三个应用拆成连续镜头；核心 Blender 段只写与右侧公式图表的同步需求。",
+  "inputs": [
+    "脚本.md",
+    "docs/STAGE1_REVIEW.md",
+    "sync/master_timeline_v3.json",
+    "resource/fromme/README.md"
+  ],
+  "constraints": [
+    "输出必须包含镜头名、目的、建议时长、画面主体、进出场、公式/图表、与前后镜头的形态匹配关系",
+    "参考 3.mp4 的上下双图位置/空间频率联动，以及 4.mp4 的位置宽度与动量箭头直觉，但不直接使用原视频画面",
+    "Manim 使用 1920x1080、60fps；核心段右栏宽 640 像素",
+    "不编写最终代码，不批准科学结论，不判断版权"
+  ]
+}

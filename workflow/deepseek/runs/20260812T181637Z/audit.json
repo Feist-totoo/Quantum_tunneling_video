@@ -1,0 +1,19 @@
+{
+  "timestamp_utc": "20260812T181637Z",
+  "model_requested": "deepseek-v4-flash",
+  "model_returned": "deepseek-v4-flash",
+  "task_type": "qa_checklist",
+  "usage": {
+    "completion_tokens": 78,
+    "prompt_tokens": 252,
+    "total_tokens": 330,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 252
+  },
+  "codex_review_status": "pending"
+}

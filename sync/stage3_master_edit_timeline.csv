@@ -1,0 +1,9 @@
+﻿id,start_s,end_s,source,asset,layout,audio,notes
+S01,0.0,49.0,Manim,fusion_html_redesign_49s_1080p60.mp4,full,ambient,HTML逻辑重构太阳温度尺度氘氚聚变库仑势和隧穿揭示
+S02,49.0,65.4167,Manim,uncertainty_1d_stochastic_v3_1080p60.mp4,full,ambient,一维位置动量不确定且动量箭头严格共线
+S03,65.4167,77.0,Manim,WavefunctionLanguage.mp4,full,wave_transition,复值波函数与模方
+S04,77.0,88.0,Manim,WavefunctionLanguage.mp4,full,barrier_morph,势场族到矩形势垒
+S05,88.0,96.5,Manim,BlenderBridge.mp4,full,barrier_morph,W V0 T 接力
+S06,96.5,151.0,Blender+HTMLJS,quantum_tunneling_scientific_v3.blend+probability_overlay_v3_html_640x1080p60.mp4,left_2_3+right_1_3,ambient,概率右栏读取 probability_frames_v3.csv
+S07,151.0,172.0667,Blender+Manim,tunnelling_applications_sequence_v3_1080p60.mp4,full,ambient,量子隧穿左上半透明且三个应用中央演示3秒后依次归位
+S08,172.0667,200.9834,Manim+Credits,tunnelling_applications_sequence_v3_1080p60.mp4,full,heat_rise,保留四象限总览并进入来源与片尾

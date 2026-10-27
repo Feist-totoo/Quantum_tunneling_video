@@ -1,0 +1,56 @@
+{
+  "file": "C:\\Users\\liuzh\\Desktop\\1\\quantum_tunneling_scientific_v3.blend",
+  "frame_range": [
+    0,
+    5399
+  ],
+  "fps": 60,
+  "real_spans": {
+    "x": 99.9755859375,
+    "y": 4.545600414276123,
+    "z": 0.0
+  },
+  "imag_spans": {
+    "x": 99.9755859375,
+    "y": 4.55564546585083,
+    "z": 0.0
+  },
+  "density_spans": {
+    "x": 99.9755859375,
+    "y": 0.08399999886751175,
+    "z": 2.379403419792652
+  },
+  "density_shape_keys": 151,
+  "removed_hud_remaining": [],
+  "required_markers": {
+    "TXT_Barrier_W": true,
+    "TXT_Barrier_V0": true,
+    "TXT_Mapping": true
+  },
+  "sync_files": {
+    "timeline": true,
+    "probability_csv": true
+  },
+  "final_render_executed": 0,
+  "camera": {
+    "active": "CAM_V3_Continuous",
+    "timeline_camera_markers": 1,
+    "location_keys": 27
+  },
+  "collapsed_particle_x": 5.599999904632568,
+  "checks": {
+    "correct_file": true,
+    "ninety_seconds": true,
+    "real_imag_xy": true,
+    "density_xz": true,
+    "density_is_rho": true,
+    "density_baked": true,
+    "chart_formula_removed": true,
+    "markers_kept": true,
+    "sync_exported": true,
+    "single_continuous_camera": true,
+    "collapse_at_barrier_height_value": true,
+    "final_render_not_run": true
+  },
+  "passed": true
+}

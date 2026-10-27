@@ -1,0 +1,818 @@
+{
+  "schema": "quantum-tunnelling-blender-v5-voice-alignment",
+  "fps": 60,
+  "resolution": [
+    1300,
+    1080
+  ],
+  "blender_local_range": [
+    1,
+    3578
+  ],
+  "global_range": [
+    5545,
+    9122
+  ],
+  "global_offset": 5544,
+  "height_before_width": true,
+  "a03_removed": true,
+  "final_render_executed": false,
+  "retime_stats": {
+    "moved_keyframes": 4423,
+    "removed_a03_keyframes": 21,
+    "nla_strips": 0
+  },
+  "actions": [
+    {
+      "action": "A01",
+      "description": "势垒从背景中建立",
+      "old_frames": [
+        0,
+        89
+      ],
+      "new_local_frames": [
+        1,
+        235
+      ],
+      "new_global_frames": [
+        5545,
+        5779
+      ]
+    },
+    {
+      "action": "A02",
+      "description": "势垒尺寸与形态展示",
+      "old_frames": [
+        90,
+        299
+      ],
+      "new_local_frames": [
+        236,
+        345
+      ],
+      "new_global_frames": [
+        5780,
+        5889
+      ]
+    },
+    {
+      "action": "A03",
+      "description": "剪掉：势垒构图回落",
+      "old_frames": [
+        300,
+        509
+      ],
+      "new_local_frames": [
+        345,
+        345
+      ],
+      "new_global_frames": [
+        5889,
+        5889
+      ]
+    },
+    {
+      "action": "A04",
+      "description": "切到粒子前方15度镜头",
+      "old_frames": [
+        510,
+        599
+      ],
+      "new_local_frames": [
+        346,
+        380
+      ],
+      "new_global_frames": [
+        5890,
+        5924
+      ]
+    },
+    {
+      "action": "A05",
+      "description": "镜头随粒子向+X运动",
+      "old_frames": [
+        600,
+        719
+      ],
+      "new_local_frames": [
+        381,
+        405
+      ],
+      "new_global_frames": [
+        5925,
+        5949
+      ]
+    },
+    {
+      "action": "A06",
+      "description": "镜头抬升并开始转向俯视",
+      "old_frames": [
+        720,
+        899
+      ],
+      "new_local_frames": [
+        406,
+        470
+      ],
+      "new_global_frames": [
+        5950,
+        6014
+      ]
+    },
+    {
+      "action": "A07",
+      "description": "完成正上方构图",
+      "old_frames": [
+        900,
+        1049
+      ],
+      "new_local_frames": [
+        471,
+        505
+      ],
+      "new_global_frames": [
+        6015,
+        6049
+      ]
+    },
+    {
+      "action": "A08",
+      "description": "粒子分解为实部与虚部",
+      "old_frames": [
+        1050,
+        1120
+      ],
+      "new_local_frames": [
+        506,
+        624
+      ],
+      "new_global_frames": [
+        6050,
+        6168
+      ]
+    },
+    {
+      "action": "A09",
+      "description": "实部、虚部独立展示",
+      "old_frames": [
+        1121,
+        1179
+      ],
+      "new_local_frames": [
+        625,
+        711
+      ],
+      "new_global_frames": [
+        6169,
+        6255
+      ]
+    },
+    {
+      "action": "A10",
+      "description": "平面分量拟合为三维复波函数",
+      "old_frames": [
+        1180,
+        1319
+      ],
+      "new_local_frames": [
+        712,
+        780
+      ],
+      "new_global_frames": [
+        6256,
+        6324
+      ]
+    },
+    {
+      "action": "A11",
+      "description": "镜头沿Y轴移向波包展示位",
+      "old_frames": [
+        1320,
+        1559
+      ],
+      "new_local_frames": [
+        781,
+        886
+      ],
+      "new_global_frames": [
+        6325,
+        6430
+      ]
+    },
+    {
+      "action": "A12",
+      "description": "概率密度波包浮现",
+      "old_frames": [
+        1560,
+        1660
+      ],
+      "new_local_frames": [
+        887,
+        1021
+      ],
+      "new_global_frames": [
+        6431,
+        6565
+      ]
+    },
+    {
+      "action": "A13",
+      "description": "完整波函数系统向势垒传播",
+      "old_frames": [
+        1661,
+        1739
+      ],
+      "new_local_frames": [
+        1022,
+        1135
+      ],
+      "new_global_frames": [
+        6566,
+        6679
+      ]
+    },
+    {
+      "action": "A14",
+      "description": "公式演示与Blender高亮",
+      "old_frames": [
+        1740,
+        2039
+      ],
+      "new_local_frames": [
+        1136,
+        1446
+      ],
+      "new_global_frames": [
+        6680,
+        6990
+      ]
+    },
+    {
+      "action": "A15",
+      "description": "透射与反射概率动态图表同步",
+      "old_frames": [
+        2040,
+        2879
+      ],
+      "new_local_frames": [
+        1447,
+        2709
+      ],
+      "new_global_frames": [
+        6991,
+        8253
+      ]
+    },
+    {
+      "action": "A19",
+      "description": "势垒高度降低到0.8V0",
+      "old_frames": [
+        3420,
+        3540
+      ],
+      "new_local_frames": [
+        2710,
+        2745
+      ],
+      "new_global_frames": [
+        8254,
+        8289
+      ]
+    },
+    {
+      "action": "A20",
+      "description": "势垒高度升高到1.3V0",
+      "old_frames": [
+        3541,
+        3779
+      ],
+      "new_local_frames": [
+        2746,
+        2805
+      ],
+      "new_global_frames": [
+        8290,
+        8349
+      ]
+    },
+    {
+      "action": "A21",
+      "description": "势垒高度恢复到V0",
+      "old_frames": [
+        3780,
+        3959
+      ],
+      "new_local_frames": [
+        2806,
+        2848
+      ],
+      "new_global_frames": [
+        8350,
+        8392
+      ]
+    },
+    {
+      "action": "A16",
+      "description": "势垒宽度减小到1/2W",
+      "old_frames": [
+        2880,
+        3000
+      ],
+      "new_local_frames": [
+        2849,
+        2878
+      ],
+      "new_global_frames": [
+        8393,
+        8422
+      ]
+    },
+    {
+      "action": "A17",
+      "description": "势垒宽度扩展到3/2W",
+      "old_frames": [
+        3001,
+        3239
+      ],
+      "new_local_frames": [
+        2879,
+        2928
+      ],
+      "new_global_frames": [
+        8423,
+        8472
+      ]
+    },
+    {
+      "action": "A18",
+      "description": "势垒宽度恢复到W",
+      "old_frames": [
+        3240,
+        3419
+      ],
+      "new_local_frames": [
+        2929,
+        2961
+      ],
+      "new_global_frames": [
+        8473,
+        8505
+      ]
+    },
+    {
+      "action": "A22",
+      "description": "图表与叠加层退出",
+      "old_frames": [
+        3960,
+        4139
+      ],
+      "new_local_frames": [
+        2962,
+        3005
+      ],
+      "new_global_frames": [
+        8506,
+        8549
+      ]
+    },
+    {
+      "action": "A23",
+      "description": "镜头拉近透射后的波包",
+      "old_frames": [
+        4140,
+        4379
+      ],
+      "new_local_frames": [
+        3006,
+        3084
+      ],
+      "new_global_frames": [
+        8550,
+        8628
+      ]
+    },
+    {
+      "action": "A24",
+      "description": "波函数坍缩回单个粒子",
+      "old_frames": [
+        4380,
+        4499
+      ],
+      "new_local_frames": [
+        3085,
+        3239
+      ],
+      "new_global_frames": [
+        8629,
+        8783
+      ]
+    },
+    {
+      "action": "A25",
+      "description": "拉远到反射/透射系综",
+      "old_frames": [
+        4500,
+        4859
+      ],
+      "new_local_frames": [
+        3240,
+        3440
+      ],
+      "new_global_frames": [
+        8784,
+        8984
+      ]
+    },
+    {
+      "action": "A26",
+      "description": "多粒子隧穿与反射试验",
+      "old_frames": [
+        4860,
+        5399
+      ],
+      "new_local_frames": [
+        3441,
+        3578
+      ],
+      "new_global_frames": [
+        8985,
+        9122
+      ]
+    }
+  ],
+  "sync_cues": {
+    "BLENDER_START": {
+      "global_frame": 5545,
+      "local_frame": 1
+    },
+    "REAL_HIGHLIGHT_IN": {
+      "global_frame": 6200,
+      "local_frame": 656
+    },
+    "IMAG_HIGHLIGHT_IN": {
+      "global_frame": 6220,
+      "local_frame": 676
+    },
+    "PLANAR_HIGHLIGHT_OUT": {
+      "global_frame": 6255,
+      "local_frame": 711
+    },
+    "FORMULA_BC_IN": {
+      "global_frame": 6689,
+      "local_frame": 1145
+    },
+    "LEFT_REGION_IN": {
+      "global_frame": 6800,
+      "local_frame": 1256
+    },
+    "RIGHT_REGION_IN": {
+      "global_frame": 6850,
+      "local_frame": 1306
+    },
+    "LEFT_REGION_OUT": {
+      "global_frame": 6860,
+      "local_frame": 1316
+    },
+    "FORMULA_DF_IN": {
+      "global_frame": 6908,
+      "local_frame": 1364
+    },
+    "RIGHT_REGION_OUT": {
+      "global_frame": 6920,
+      "local_frame": 1376
+    },
+    "CHART_IN": {
+      "global_frame": 7000,
+      "local_frame": 1456
+    },
+    "COEFFICIENTS_IN": {
+      "global_frame": 7686,
+      "local_frame": 2142
+    },
+    "TRANSMISSION_FORMULA_IN": {
+      "global_frame": 7847,
+      "local_frame": 2303
+    },
+    "APPROX_FORMULA_IN": {
+      "global_frame": 7945,
+      "local_frame": 2401
+    },
+    "V0_HIGHLIGHT_IN": {
+      "global_frame": 8260,
+      "local_frame": 2716
+    },
+    "V0_HIGHLIGHT_OUT": {
+      "global_frame": 8390,
+      "local_frame": 2846
+    },
+    "W_HIGHLIGHT_IN": {
+      "global_frame": 8395,
+      "local_frame": 2851
+    },
+    "W_HIGHLIGHT_OUT": {
+      "global_frame": 8500,
+      "local_frame": 2956
+    },
+    "CHART_OUT": {
+      "global_frame": 8515,
+      "local_frame": 2971
+    },
+    "BLENDER_END": {
+      "global_frame": 9122,
+      "local_frame": 3578
+    }
+  },
+  "interpretation": {
+    "left_right_space_typo": "The duplicated cue-sheet labels were interpreted sequentially as left-space then right-space highlights.",
+    "highlight_rule": "Emission saturation is tightened and emission strength is raised by 2.0, then restored."
+  },
+  "qa_correction": {
+    "date": "2026-08-28T23:07:40",
+    "final_render_executed": false,
+    "fixed": [
+      "locked barrier height endpoints to 0.8V0, 1.3V0, V0",
+      "locked barrier width endpoints to 0.5W, 1.5W, W",
+      "separated height-arrow and width-arrow visibility windows",
+      "locked the opening follow camera target to the moving particle"
+    ],
+    "barrier_samples": [
+      {
+        "frame": 2745,
+        "dimensions": [
+          0.6,
+          7.0,
+          4.48
+        ]
+      },
+      {
+        "frame": 2805,
+        "dimensions": [
+          0.6,
+          7.0,
+          7.28
+        ]
+      },
+      {
+        "frame": 2848,
+        "dimensions": [
+          0.6,
+          7.0,
+          5.6
+        ]
+      },
+      {
+        "frame": 2878,
+        "dimensions": [
+          0.3,
+          7.0,
+          5.6
+        ]
+      },
+      {
+        "frame": 2928,
+        "dimensions": [
+          0.9,
+          7.0,
+          5.6
+        ]
+      },
+      {
+        "frame": 2961,
+        "dimensions": [
+          0.6,
+          7.0,
+          5.6
+        ]
+      }
+    ],
+    "width_arrow_scale_during_height": [
+      0.001,
+      0.001
+    ],
+    "height_arrow_scale_during_width": [
+      0.001,
+      0.001
+    ],
+    "opening_camera_samples": [
+      {
+        "frame": 346,
+        "center_error_degrees": 0.0,
+        "camera_x_between_particle_and_barrier": true,
+        "camera_up_dot_world_z": 0.9659
+      },
+      {
+        "frame": 380,
+        "center_error_degrees": 0.0
+      },
+      {
+        "frame": 405,
+        "center_error_degrees": 0.0
+      },
+      {
+        "frame": 470,
+        "center_error_degrees": 0.0
+      },
+      {
+        "frame": 505,
+        "center_error_degrees": 0.0
+      },
+      {
+        "frame": 624,
+        "center_error_degrees": 0.0
+      }
+    ]
+  },
+  "inverse_colour_highlight_correction": {
+    "date": "2026-08-28T23:32:31",
+    "final_render_executed": false,
+    "old_region_overlays_removed": true,
+    "component_flashes": [
+      {
+        "material": "MAT_Wave_Real_Red",
+        "frames": [
+          656,
+          661,
+          665,
+          672,
+          711
+        ],
+        "base_emission": [
+          1.0,
+          0.12,
+          0.15
+        ],
+        "inverse_emission": [
+          0.0,
+          0.88,
+          0.85
+        ]
+      },
+      {
+        "material": "MAT_Wave_Imag_Blue",
+        "frames": [
+          676,
+          681,
+          685,
+          692,
+          711
+        ],
+        "base_emission": [
+          0.15,
+          0.45,
+          1.0
+        ],
+        "inverse_emission": [
+          0.85,
+          0.55,
+          0.0
+        ]
+      }
+    ],
+    "retired_temporary_wave_flash_objects": [
+      "GEO_V5_Left_Wave_Flash_Helix",
+      "GEO_V5_Left_Wave_Flash_Envelope",
+      "GEO_V5_Right_Wave_Flash_Helix",
+      "GEO_V5_Right_Wave_Flash_Envelope"
+    ],
+    "barrier_materials_unchanged": [
+      "MAT_Barrier_Plain_70pct_Transparent"
+    ],
+    "spatial_flash_samples": [
+      {
+        "frame": 1255,
+        "expected_inverse_side": null,
+        "left_factor": 0.0,
+        "right_factor": 0.0
+      },
+      {
+        "frame": 1262,
+        "expected_inverse_side": "left",
+        "left_factor": 1.0,
+        "right_factor": 0.0
+      },
+      {
+        "frame": 1275,
+        "expected_inverse_side": null,
+        "left_factor": 0.0,
+        "right_factor": 0.0
+      },
+      {
+        "frame": 1305,
+        "expected_inverse_side": null,
+        "left_factor": 0.0,
+        "right_factor": 0.0
+      },
+      {
+        "frame": 1312,
+        "expected_inverse_side": "right",
+        "left_factor": 0.0,
+        "right_factor": 1.0
+      },
+      {
+        "frame": 1325,
+        "expected_inverse_side": null,
+        "left_factor": 0.0,
+        "right_factor": 0.0
+      }
+    ],
+    "removed_region_objects": [
+      "GEO_V5_LeftSpace_Highlight",
+      "GEO_V5_RightSpace_Highlight"
+    ],
+    "removed_region_materials": [],
+    "spatial_implementation": "direct wave-material mask; no transparent duplicate geometry",
+    "spatial_verification": {
+      "materials": [
+        {
+          "material": "MAT_V4_Complex_Helix",
+          "emission_keyframes_migrated": 6,
+          "left_boundary": -0.32,
+          "right_boundary": 0.32
+        },
+        {
+          "material": "MAT_Wave_Amplitude_Envelope",
+          "emission_keyframes_migrated": 6,
+          "left_boundary": -0.32,
+          "right_boundary": 0.32
+        }
+      ],
+      "samples": [
+        {
+          "frame": 1255,
+          "MAT_V4_Complex_Helix": {
+            "left": 0.0,
+            "right": 0.0
+          },
+          "MAT_Wave_Amplitude_Envelope": {
+            "left": 0.0,
+            "right": 0.0
+          }
+        },
+        {
+          "frame": 1262,
+          "MAT_V4_Complex_Helix": {
+            "left": 1.0,
+            "right": 0.0
+          },
+          "MAT_Wave_Amplitude_Envelope": {
+            "left": 1.0,
+            "right": 0.0
+          }
+        },
+        {
+          "frame": 1275,
+          "MAT_V4_Complex_Helix": {
+            "left": 0.0,
+            "right": 0.0
+          },
+          "MAT_Wave_Amplitude_Envelope": {
+            "left": 0.0,
+            "right": 0.0
+          }
+        },
+        {
+          "frame": 1305,
+          "MAT_V4_Complex_Helix": {
+            "left": 0.0,
+            "right": 0.0
+          },
+          "MAT_Wave_Amplitude_Envelope": {
+            "left": 0.0,
+            "right": 0.0
+          }
+        },
+        {
+          "frame": 1312,
+          "MAT_V4_Complex_Helix": {
+            "left": 0.0,
+            "right": 1.0
+          },
+          "MAT_Wave_Amplitude_Envelope": {
+            "left": 0.0,
+            "right": 1.0
+          }
+        },
+        {
+          "frame": 1325,
+          "MAT_V4_Complex_Helix": {
+            "left": 0.0,
+            "right": 0.0
+          },
+          "MAT_Wave_Amplitude_Envelope": {
+            "left": 0.0,
+            "right": 0.0
+          }
+        }
+      ],
+      "barrier_materials": [
+        "MAT_Barrier_Plain_70pct_Transparent"
+      ],
+      "temporary_overlay_objects_removed": [
+        "GEO_V5_Left_Wave_Flash_Helix",
+        "GEO_V5_Left_Wave_Flash_Envelope",
+        "GEO_V5_Right_Wave_Flash_Helix",
+        "GEO_V5_Right_Wave_Flash_Envelope"
+      ]
+    }
+  }
+}

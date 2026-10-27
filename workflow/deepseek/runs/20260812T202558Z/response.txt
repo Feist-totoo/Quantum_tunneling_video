@@ -1,0 +1,194 @@
+{
+  "summary": "已完成脚本全片素材需求初筛，形成 24 个素材需求条目。核心 Blender 段建议直接复用 V3（90 秒），其他概念与应用段主要由 Manim 制作；太阳模型与音乐/音效为候选公共素材，待许可证核验后使用。",
+  "deliverables": [
+    {
+      "script_position": "开篇演示：大号‘核聚变’立于屏幕中间",
+      "asset_type": "title_text",
+      "source_category": "manim",
+      "estimated_duration": 4,
+      "alternative": "省去，直接口播"
+    },
+    {
+      "script_position": "太阳模型自下移入并缩小，同时显示辐射增亮",
+      "asset_type": "model_animation",
+      "source_category": "public_candidate",
+      "estimated_duration": 10,
+      "alternative": "若公共素材不可用，用 Manim/Blender 绘制简化太阳"
+    },
+    {
+      "script_position": "1.5*10^7K 蓝色柱与 1*10^8K 红色柱对比，并缩放",
+      "asset_type": "chart",
+      "source_category": "manim",
+      "estimated_duration": 8,
+      "alternative": "可简化为一根柱和标注"
+    },
+    {
+      "script_position": "画面左右分栏，左侧公式/图表，右侧动画",
+      "asset_type": "layout",
+      "source_category": "manim",
+      "estimated_duration": 3,
+      "alternative": "用现成模板"
+    },
+    {
+      "script_position": "右侧原子核聚合演示，左侧反应方程式",
+      "asset_type": "animation_and_formula",
+      "source_category": "manim",
+      "estimated_duration": 8,
+      "alternative": "使用现有核聚变动画素材（但需许可证）"
+    },
+    {
+      "script_position": "库仑斥力-距离图，轻原子核沿曲线运动、回落、平移到y轴",
+      "asset_type": "animation",
+      "source_category": "manim",
+      "estimated_duration": 12,
+      "alternative": "分解为三步，或省略部分动作"
+    },
+    {
+      "script_position": "融化转场成一个巨大问号",
+      "asset_type": "transition",
+      "source_category": "manim",
+      "estimated_duration": 2,
+      "alternative": "使用普通淡入淡出和问号图案"
+    },
+    {
+      "script_position": "突然转场，显示‘量子隧穿’大字，缓缓放大",
+      "asset_type": "title_text",
+      "source_category": "manim",
+      "estimated_duration": 2,
+      "alternative": "使用预设文字动画"
+    },
+    {
+      "script_position": "中心浮现 σ_x σ_p ≥ ħ/2",
+      "asset_type": "formula",
+      "source_category": "manim",
+      "estimated_duration": 5,
+      "alternative": "可叠加在上一标题上"
+    },
+    {
+      "script_position": "公式向右上缩小，动态图表展示位置/动量不确定度",
+      "asset_type": "chart_animation",
+      "source_category": "manim",
+      "estimated_duration": 6,
+      "alternative": "只展示公式"
+    },
+    {
+      "script_position": "电子球缩小为点，浮现三维坐标系与 p 矢量",
+      "asset_type": "diagram",
+      "source_category": "manim",
+      "estimated_duration": 6,
+      "alternative": "可用二维坐标代替"
+    },
+    {
+      "script_position": "放大电子，消去边界变电子云，坐标变为含 σ 的表达式",
+      "asset_type": "animation",
+      "source_category": "manim",
+      "estimated_duration": 5,
+      "alternative": "可使用静态云图"
+    },
+    {
+      "script_position": "左侧显示一维波包概率密度图（Re/Im）",
+      "asset_type": "chart",
+      "source_category": "manim",
+      "estimated_duration": 6,
+      "alternative": "使用现有波包模拟图（需许可证）"
+    },
+    {
+      "script_position": "右侧浮现薛定谔方程，圈出 Ψ，并显示 p=|ψ|^2",
+      "asset_type": "formula",
+      "source_category": "manim",
+      "estimated_duration": 5,
+      "alternative": "可直接写在白板上"
+    },
+    {
+      "script_position": "定态薛定谔方程，高亮 V，并显示三种势场条件式（1）（2）（3）",
+      "asset_type": "formula_set",
+      "source_category": "manim",
+      "estimated_duration": 8,
+      "alternative": "拆分显示，或省略部分"
+    },
+    {
+      "script_position": "左侧绘制三种势场小图（无限深方势阱、自由粒子、谐振子）",
+      "asset_type": "diagrams",
+      "source_category": "manim",
+      "estimated_duration": 8,
+      "alternative": "用静态图"
+    },
+    {
+      "script_position": "从‘这种势场就是考察量子随穿的一个简化模型’到‘T≈...’，覆盖波包传播、势垒、透射、参数研究等",
+      "asset_type": "3d_scene",
+      "source_category": "blender_v3",
+      "estimated_duration": 90,
+      "alternative": "重新渲染或剪辑现有 V3，需对照 master_timeline_v3 同步"
+    },
+    {
+      "script_position": "蓝色线框内电子撞击势垒并隧穿的动画",
+      "asset_type": "animation",
+      "source_category": "manim",
+      "estimated_duration": 8,
+      "alternative": "可复用 Blender 渲染的片段，但需压缩"
+    },
+    {
+      "script_position": "SSD 剖面图，电子穿过绝缘层进入浮栅层",
+      "asset_type": "diagram_animation",
+      "source_category": "manim",
+      "estimated_duration": 8,
+      "alternative": "可参考 fromme/1.py 中的对象"
+    },
+    {
+      "script_position": "STM 探针扫描表面，隧道电流闪烁",
+      "asset_type": "diagram_animation",
+      "source_category": "manim",
+      "estimated_duration": 8,
+      "alternative": "可参考 fromme/1.py"
+    },
+    {
+      "script_position": "芯片制程缩小，电子漏电，发热光晕",
+      "asset_type": "diagram_animation",
+      "source_category": "manim",
+      "estimated_duration": 8,
+      "alternative": "可参考 fromme/1.py"
+    },
+    {
+      "script_position": "参考文献与推荐项目网址，致谢",
+      "asset_type": "text_card",
+      "source_category": "manim",
+      "estimated_duration": 3,
+      "alternative": "使用静态图文"
+    },
+    {
+      "script_position": "全片口播旁白",
+      "asset_type": "voiceover",
+      "source_category": "text_audio",
+      "estimated_duration": 240,
+      "alternative": "AI 配音或人工配音，需制作发音词典"
+    },
+    {
+      "script_position": "全片音乐与转场音效",
+      "asset_type": "music_sfx",
+      "source_category": "public_candidate",
+      "estimated_duration": 240,
+      "alternative": "使用免版权音乐库，如 Kevin MacLeod 等，需核验许可证"
+    }
+  ],
+  "issues": [
+    "部分公共素材（太阳模型、音乐）许可证未核验，需在阶段三检索时确认",
+    "参考视频 3.mp4/4.mp4 格式不适合直接使用，应采用 Manim 重做",
+    "应用段是否改造 1.py 还是重新搭建尚未决定，影响 Manim 工作量",
+    "全片总时长未定，导致各段时长分配不稳定",
+    "Blender V3 是否已按科学修订更新需确认"
+  ],
+  "uncertainties": [
+    "太阳模型能否找到合适的公共素材，或需 Manim 自带绘制",
+    "核心 Blender 段是否需要根据 STAGE1_REVIEW 中的科学修订调整动画内容（如“波函数连续性”等），尽管 STAGE1_REVIEW 说已写入脚本，但具体动画是否需调整未知",
+    "应用段三个示意是否完全复用 1.py 的现有实现，或需重新布局",
+    "全片音效/音乐的具体要求未在脚本中指定"
+  ],
+  "recommended_codex_checks": [
+    "复核太阳模型公共素材的版权状态，确认为可商用或需替换",
+    "复核 Blender V3 中“波函数分为透射波和反射波”等科学表述是否与修订后的脚本一致",
+    "复核 master_timeline_v3.json 中的帧偏移定义，确保 Manim 图层与 Blender 底片同步",
+    "复核应用段 Manim 脚本（1.py）是否满足脚本对 NAND、STM、芯片漏电的视觉要求",
+    "复核最终旁白脚本是否需要根据科学修订调整措辞",
+    "确认全片总时长，以便精确分配各段 duration"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "task_type": "subtitle_alignment",
+  "objective": "只依据用户明确授权外发的根目录《脚本.md》，提取非 Blender 部分与 Blender 旁白部分的纯中文口播台词，删除所有方括号/花括号中的制作说明、公式展示说明和网址朗读；保持原意和基本措辞，只修正明显口误与语病。输出按叙事顺序的字幕段落，每段包含 id、section、text、suggested_duration_seconds、pause_after_seconds、pronunciation_notes。总时长允许 90 至 115 秒。另给出可直接用于 TTS 的连续全文。",
+  "inputs": [
+    "脚本.md"
+  ],
+  "constraints": [
+    "这是本次唯一允许发送到 DeepSeek 官方接口的项目文件",
+    "不得输出或索要任何密钥",
+    "台词应基本保持脚本原文，不进行大幅改写",
+    "不朗读数学公式、括号内镜头说明、参考文献网址",
+    "量子隧穿、库仑、薛定谔、波函数、倏逝、透射等词语需给出发音/停顿提示",
+    "结果仅为字幕和 TTS 草稿，Codex 复核后使用"
+  ]
+}

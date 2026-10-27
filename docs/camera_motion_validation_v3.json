@@ -1,0 +1,162 @@
+{
+  "schema": "v3_camera_motion_validation.v1",
+  "camera": "CAM_V3_Continuous",
+  "sampled_frames": 5400,
+  "camera_markers": 1,
+  "peak_location_step": {
+    "frame": 494,
+    "location_step": 0.6626366903885398,
+    "rotation_step_degrees": 0.8943741334523669,
+    "lens_step": 0.0
+  },
+  "peak_rotation_step_degrees": {
+    "frame": 550,
+    "location_step": 0.10507628675673387,
+    "rotation_step_degrees": 1.4877687522686358,
+    "lens_step": 0.0
+  },
+  "peak_lens_step": {
+    "frame": 376,
+    "location_step": 0.022564818331894367,
+    "rotation_step_degrees": 0.0,
+    "lens_step": 0.06999588012695312
+  },
+  "former_edit_point_neighborhoods": {
+    "600": [
+      {
+        "frame": 598,
+        "location_step": 0.0,
+        "rotation_step_degrees": 0.0,
+        "lens_step": 0.0
+      },
+      {
+        "frame": 599,
+        "location_step": 0.0,
+        "rotation_step_degrees": 0.0,
+        "lens_step": 0.0
+      },
+      {
+        "frame": 600,
+        "location_step": 0.0,
+        "rotation_step_degrees": 0.0,
+        "lens_step": 0.0
+      },
+      {
+        "frame": 601,
+        "location_step": 0.0,
+        "rotation_step_degrees": 0.0,
+        "lens_step": 0.0
+      },
+      {
+        "frame": 602,
+        "location_step": 0.0,
+        "rotation_step_degrees": 0.0,
+        "lens_step": 0.0
+      }
+    ],
+    "1200": [
+      {
+        "frame": 1198,
+        "location_step": 0.02366726140122386,
+        "rotation_step_degrees": 0.0,
+        "lens_step": 0.0
+      },
+      {
+        "frame": 1199,
+        "location_step": 0.02352150778766114,
+        "rotation_step_degrees": 0.0,
+        "lens_step": 0.0
+      },
+      {
+        "frame": 1200,
+        "location_step": 0.02337476036889553,
+        "rotation_step_degrees": 0.05595291023658669,
+        "lens_step": 0.0
+      },
+      {
+        "frame": 1201,
+        "location_step": 0.023231619723439546,
+        "rotation_step_degrees": 0.03956468205889273,
+        "lens_step": 0.0
+      },
+      {
+        "frame": 1202,
+        "location_step": 0.023087490791180585,
+        "rotation_step_degrees": 0.0,
+        "lens_step": 0.0
+      }
+    ],
+    "4140": [
+      {
+        "frame": 4138,
+        "location_step": 0.007934238812050675,
+        "rotation_step_degrees": 0.0,
+        "lens_step": 0.0
+      },
+      {
+        "frame": 4139,
+        "location_step": 0.008153978090993394,
+        "rotation_step_degrees": 0.0,
+        "lens_step": 0.0
+      },
+      {
+        "frame": 4140,
+        "location_step": 0.008376312568567953,
+        "rotation_step_degrees": 0.0,
+        "lens_step": 0.0
+      },
+      {
+        "frame": 4141,
+        "location_step": 0.008603366639921485,
+        "rotation_step_degrees": 0.0,
+        "lens_step": 0.0
+      },
+      {
+        "frame": 4142,
+        "location_step": 0.008831486370605315,
+        "rotation_step_degrees": 0.0,
+        "lens_step": 0.0
+      }
+    ],
+    "4860": [
+      {
+        "frame": 4858,
+        "location_step": 0.06669782908333809,
+        "rotation_step_degrees": 0.0,
+        "lens_step": 0.0
+      },
+      {
+        "frame": 4859,
+        "location_step": 0.06708423314795457,
+        "rotation_step_degrees": 0.0,
+        "lens_step": 0.0
+      },
+      {
+        "frame": 4860,
+        "location_step": 0.06746428339744641,
+        "rotation_step_degrees": 0.03956468205889273,
+        "lens_step": 0.0
+      },
+      {
+        "frame": 4861,
+        "location_step": 0.06784466359209955,
+        "rotation_step_degrees": 0.0,
+        "lens_step": 0.0
+      },
+      {
+        "frame": 4862,
+        "location_step": 0.06821885738203803,
+        "rotation_step_degrees": 0.03956468205889273,
+        "lens_step": 0.0
+      }
+    ]
+  },
+  "checks": {
+    "single_active_camera": true,
+    "single_camera_marker": true,
+    "no_translation_jump": true,
+    "no_rotation_jump": true,
+    "no_lens_jump": true
+  },
+  "passed": true
+}

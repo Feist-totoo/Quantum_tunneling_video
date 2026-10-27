@@ -1,0 +1,75 @@
+{
+  "video": "wavefunction_language_current_480p30.mp4",
+  "duration": 12.699,
+  "resolution": {
+    "width": 854,
+    "height": 480
+  },
+  "mode": "interval",
+  "frames": [
+    {
+      "path": "C:\\Users\\liuzh\\Desktop\\1\\resource\\fromAI\\10_review_proxies\\wavefunction_language_current_480p30_frames\\frame_0001.jpg",
+      "timestamp": 0.0,
+      "timestamp_formatted": "00:00"
+    },
+    {
+      "path": "C:\\Users\\liuzh\\Desktop\\1\\resource\\fromAI\\10_review_proxies\\wavefunction_language_current_480p30_frames\\frame_0002.jpg",
+      "timestamp": 1.058,
+      "timestamp_formatted": "00:01"
+    },
+    {
+      "path": "C:\\Users\\liuzh\\Desktop\\1\\resource\\fromAI\\10_review_proxies\\wavefunction_language_current_480p30_frames\\frame_0003.jpg",
+      "timestamp": 2.116,
+      "timestamp_formatted": "00:02"
+    },
+    {
+      "path": "C:\\Users\\liuzh\\Desktop\\1\\resource\\fromAI\\10_review_proxies\\wavefunction_language_current_480p30_frames\\frame_0004.jpg",
+      "timestamp": 3.175,
+      "timestamp_formatted": "00:03"
+    },
+    {
+      "path": "C:\\Users\\liuzh\\Desktop\\1\\resource\\fromAI\\10_review_proxies\\wavefunction_language_current_480p30_frames\\frame_0005.jpg",
+      "timestamp": 4.233,
+      "timestamp_formatted": "00:04"
+    },
+    {
+      "path": "C:\\Users\\liuzh\\Desktop\\1\\resource\\fromAI\\10_review_proxies\\wavefunction_language_current_480p30_frames\\frame_0006.jpg",
+      "timestamp": 5.291,
+      "timestamp_formatted": "00:05"
+    },
+    {
+      "path": "C:\\Users\\liuzh\\Desktop\\1\\resource\\fromAI\\10_review_proxies\\wavefunction_language_current_480p30_frames\\frame_0007.jpg",
+      "timestamp": 6.349,
+      "timestamp_formatted": "00:06"
+    },
+    {
+      "path": "C:\\Users\\liuzh\\Desktop\\1\\resource\\fromAI\\10_review_proxies\\wavefunction_language_current_480p30_frames\\frame_0008.jpg",
+      "timestamp": 7.408,
+      "timestamp_formatted": "00:07"
+    },
+    {
+      "path": "C:\\Users\\liuzh\\Desktop\\1\\resource\\fromAI\\10_review_proxies\\wavefunction_language_current_480p30_frames\\frame_0009.jpg",
+      "timestamp": 8.466,
+      "timestamp_formatted": "00:08"
+    },
+    {
+      "path": "C:\\Users\\liuzh\\Desktop\\1\\resource\\fromAI\\10_review_proxies\\wavefunction_language_current_480p30_frames\\frame_0010.jpg",
+      "timestamp": 9.524,
+      "timestamp_formatted": "00:09"
+    },
+    {
+      "path": "C:\\Users\\liuzh\\Desktop\\1\\resource\\fromAI\\10_review_proxies\\wavefunction_language_current_480p30_frames\\frame_0011.jpg",
+      "timestamp": 10.582,
+      "timestamp_formatted": "00:10"
+    },
+    {
+      "path": "C:\\Users\\liuzh\\Desktop\\1\\resource\\fromAI\\10_review_proxies\\wavefunction_language_current_480p30_frames\\frame_0012.jpg",
+      "timestamp": 11.64,
+      "timestamp_formatted": "00:11"
+    }
+  ],
+  "frame_count": 12,
+  "transcript": [],
+  "text": "",
+  "note": "Use the Read tool to view frame images for visual understanding."
+}

@@ -1,0 +1,19 @@
+{
+  "configured_at": "2026-08-13",
+  "scope": "project-only",
+  "source_directory": "D:\\MY_WORLD\\Tools\\ffmpeg-2026-08-09-git-6bbc22dc09-full_build",
+  "bin_directory": "D:\\MY_WORLD\\Tools\\ffmpeg-2026-08-09-git-6bbc22dc09-full_build\\bin",
+  "ffmpeg_path": "D:\\MY_WORLD\\Tools\\ffmpeg-2026-08-09-git-6bbc22dc09-full_build\\bin\\ffmpeg.exe",
+  "ffprobe_path": "D:\\MY_WORLD\\Tools\\ffmpeg-2026-08-09-git-6bbc22dc09-full_build\\bin\\ffprobe.exe",
+  "ffplay_path": "D:\\MY_WORLD\\Tools\\ffmpeg-2026-08-09-git-6bbc22dc09-full_build\\bin\\ffplay.exe",
+  "version": "2026-08-09-git-6bbc22dc09-full_build-www.gyan.dev",
+  "sha256": {
+    "ffmpeg.exe": "15F13735C57918B20DBB5E63517BA4A312ED1A271D41A583A68B60129C481E1D",
+    "ffprobe.exe": "4871A1D367F45A2128BCF4861FA9281AACE31507DB03F107322BBA926BDBF2F9"
+  },
+  "verified_capabilities": {
+    "video_encoders": ["libx264", "libx265", "prores_ks", "libvpx-vp9"],
+    "audio_encoders": ["aac", "libopus"],
+    "filters": ["overlay", "subtitles", "drawtext", "xfade", "loudnorm"]
+  }
+}

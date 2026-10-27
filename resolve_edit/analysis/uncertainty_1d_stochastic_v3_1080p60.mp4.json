@@ -1,0 +1,75 @@
+{
+  "video": "uncertainty_1d_stochastic_v3_1080p60.mp4",
+  "duration": 16.417,
+  "resolution": {
+    "width": 1920,
+    "height": 1080
+  },
+  "mode": "interval",
+  "frames": [
+    {
+      "path": "C:\\Users\\liuzh\\Desktop\\1\\resource\\fromAI\\10_review_proxies\\uncertainty_1d_stochastic_v3_1080p60_frames\\frame_0001.jpg",
+      "timestamp": 0.0,
+      "timestamp_formatted": "00:00"
+    },
+    {
+      "path": "C:\\Users\\liuzh\\Desktop\\1\\resource\\fromAI\\10_review_proxies\\uncertainty_1d_stochastic_v3_1080p60_frames\\frame_0002.jpg",
+      "timestamp": 1.368,
+      "timestamp_formatted": "00:01"
+    },
+    {
+      "path": "C:\\Users\\liuzh\\Desktop\\1\\resource\\fromAI\\10_review_proxies\\uncertainty_1d_stochastic_v3_1080p60_frames\\frame_0003.jpg",
+      "timestamp": 2.736,
+      "timestamp_formatted": "00:02"
+    },
+    {
+      "path": "C:\\Users\\liuzh\\Desktop\\1\\resource\\fromAI\\10_review_proxies\\uncertainty_1d_stochastic_v3_1080p60_frames\\frame_0004.jpg",
+      "timestamp": 4.104,
+      "timestamp_formatted": "00:04"
+    },
+    {
+      "path": "C:\\Users\\liuzh\\Desktop\\1\\resource\\fromAI\\10_review_proxies\\uncertainty_1d_stochastic_v3_1080p60_frames\\frame_0005.jpg",
+      "timestamp": 5.472,
+      "timestamp_formatted": "00:05"
+    },
+    {
+      "path": "C:\\Users\\liuzh\\Desktop\\1\\resource\\fromAI\\10_review_proxies\\uncertainty_1d_stochastic_v3_1080p60_frames\\frame_0006.jpg",
+      "timestamp": 6.84,
+      "timestamp_formatted": "00:06"
+    },
+    {
+      "path": "C:\\Users\\liuzh\\Desktop\\1\\resource\\fromAI\\10_review_proxies\\uncertainty_1d_stochastic_v3_1080p60_frames\\frame_0007.jpg",
+      "timestamp": 8.208,
+      "timestamp_formatted": "00:08"
+    },
+    {
+      "path": "C:\\Users\\liuzh\\Desktop\\1\\resource\\fromAI\\10_review_proxies\\uncertainty_1d_stochastic_v3_1080p60_frames\\frame_0008.jpg",
+      "timestamp": 9.576,
+      "timestamp_formatted": "00:09"
+    },
+    {
+      "path": "C:\\Users\\liuzh\\Desktop\\1\\resource\\fromAI\\10_review_proxies\\uncertainty_1d_stochastic_v3_1080p60_frames\\frame_0009.jpg",
+      "timestamp": 10.944,
+      "timestamp_formatted": "00:10"
+    },
+    {
+      "path": "C:\\Users\\liuzh\\Desktop\\1\\resource\\fromAI\\10_review_proxies\\uncertainty_1d_stochastic_v3_1080p60_frames\\frame_0010.jpg",
+      "timestamp": 12.313,
+      "timestamp_formatted": "00:12"
+    },
+    {
+      "path": "C:\\Users\\liuzh\\Desktop\\1\\resource\\fromAI\\10_review_proxies\\uncertainty_1d_stochastic_v3_1080p60_frames\\frame_0011.jpg",
+      "timestamp": 13.681,
+      "timestamp_formatted": "00:13"
+    },
+    {
+      "path": "C:\\Users\\liuzh\\Desktop\\1\\resource\\fromAI\\10_review_proxies\\uncertainty_1d_stochastic_v3_1080p60_frames\\frame_0012.jpg",
+      "timestamp": 15.049,
+      "timestamp_formatted": "00:15"
+    }
+  ],
+  "frame_count": 12,
+  "transcript": [],
+  "text": "",
+  "note": "Use the Read tool to view frame images for visual understanding."
+}

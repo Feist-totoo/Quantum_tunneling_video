@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05070b"/>
+      <stop offset="0.55" stop-color="#070b11"/>
+      <stop offset="1" stop-color="#040609"/>
+    </linearGradient>
+    <linearGradient id="accentLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#58c4dd"/>
+      <stop offset="1" stop-color="#58c4dd" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+    <style>
+      .cn { font-family: "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; }
+      .latin { font-family: "Aptos", "Segoe UI", Arial, sans-serif; }
+      .title { fill: #f4f6f8; font-size: 64px; font-weight: 700; letter-spacing: 4px; }
+      .section { fill: #58c4dd; font-size: 28px; font-weight: 700; letter-spacing: 2px; }
+      .num { fill: #58c4dd; font-size: 25px; font-weight: 700; letter-spacing: 1px; }
+      .entry { fill: #edf1f4; font-size: 29px; font-weight: 600; }
+      .detail { fill: #aab6c2; font-size: 22px; font-weight: 400; }
+      .link { fill: #728292; font-size: 19px; font-weight: 400; }
+      .footer { fill: #7f8b98; font-size: 18px; }
+    </style>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#bg)"/>
+  <circle cx="132" cy="128" r="92" fill="#58c4dd" opacity="0.045" filter="url(#softGlow)"/>
+  <circle cx="1760" cy="920" r="145" fill="#9a72ac" opacity="0.018" filter="url(#softGlow)"/>
+
+  <rect x="96" y="82" width="7" height="103" rx="3.5" fill="#58c4dd"/>
+  <text x="132" y="151" class="cn title">参考文献</text>
+  <line x1="96" y1="220" x2="1824" y2="220" stroke="#27313b" stroke-width="1"/>
+
+  <text x="132" y="281" class="cn section">科学资料</text>
+  <rect x="132" y="302" width="780" height="3" rx="1.5" fill="url(#accentLine)"/>
+
+  <!-- 01 -->
+  <rect x="132" y="333" width="1656" height="137" rx="14" fill="#0b1118" opacity="0.78" stroke="#1e2a34"/>
+  <rect x="132" y="333" width="5" height="137" rx="2.5" fill="#58c4dd" opacity="0.88"/>
+  <text x="174" y="384" class="latin num">01</text>
+  <text x="240" y="381" class="latin entry">
+    <tspan>Griffiths, D. J. &amp; Schroeter, D. F. — </tspan>
+    <tspan font-style="italic">Introduction to Quantum Mechanics</tspan>
+  </text>
+  <text x="240" y="422" class="latin detail">3rd ed., Cambridge University Press, 2018</text>
+  <text x="1410" y="422" text-anchor="end" class="latin link">doi.org/10.1017/9781316995433</text>
+
+  <!-- 02 -->
+  <rect x="132" y="490" width="1656" height="137" rx="14" fill="#0b1118" opacity="0.78" stroke="#1e2a34"/>
+  <rect x="132" y="490" width="5" height="137" rx="2.5" fill="#58c4dd" opacity="0.72"/>
+  <text x="174" y="541" class="latin num">02</text>
+  <text x="240" y="538" class="latin entry">McKagan, S. B. et al. — Developing and Researching PhET Simulations for Teaching Quantum Mechanics</text>
+  <text x="240" y="579" class="latin detail">American Journal of Physics 76, 406–417 (2008)</text>
+  <text x="1410" y="579" text-anchor="end" class="latin link">doi.org/10.1119/1.2885199</text>
+
+  <!-- 03 -->
+  <rect x="132" y="647" width="1656" height="137" rx="14" fill="#0b1118" opacity="0.78" stroke="#1e2a34"/>
+  <rect x="132" y="647" width="5" height="137" rx="2.5" fill="#58c4dd" opacity="0.56"/>
+  <text x="174" y="698" class="latin num">03</text>
+  <text x="240" y="695" class="cn entry">2025 年诺贝尔物理学奖官方资料</text>
+  <text x="240" y="736" class="latin detail">Macroscopic quantum mechanical tunnelling and energy quantisation in an electric circuit</text>
+  <text x="1670" y="736" text-anchor="end" class="latin link">nobelprize.org/prizes/physics/2025/</text>
+
+  <!-- 04 -->
+  <rect x="132" y="804" width="1656" height="137" rx="14" fill="#0b1118" opacity="0.78" stroke="#1e2a34"/>
+  <rect x="132" y="804" width="5" height="137" rx="2.5" fill="#58c4dd" opacity="0.40"/>
+  <text x="174" y="855" class="latin num">04</text>
+  <text x="240" y="852" class="cn entry">PhET：量子隧穿与波包交互式模拟</text>
+  <text x="240" y="893" class="cn detail">用于补充不同形状势垒、势垒参数与波包传播的交互式观察</text>
+  <text x="1670" y="893" text-anchor="end" class="latin link">phet.colorado.edu/zh_CN/simulations/quantum-tunneling</text>
+
+  <line x1="96" y1="986" x2="1824" y2="986" stroke="#27313b" stroke-width="1"/>
+  <text x="132" y="1025" class="cn footer">本片科学可视化依据上述资料进行原创重构</text>
+  <path d="M800 1021 C840 990, 880 1052, 920 1021 C960 990, 1000 1052, 1040 1021 C1080 990, 1120 1052, 1160 1021" fill="none" stroke="#9a72ac" stroke-width="2" opacity="0.30"/>
+  <path d="M132 1050 H650" stroke="#58c4dd" stroke-width="2" opacity="0.23"/>
+  <path d="M1270 1050 H1788" stroke="#58c4dd" stroke-width="2" opacity="0.12"/>
+</svg>

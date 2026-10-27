@@ -1,0 +1,324 @@
+[
+  {
+    "tool": "timeline_markers",
+    "arguments": {
+      "action": "add",
+      "params": {
+        "frame": 0,
+        "color": "Sand",
+        "name": "01 核聚变与经典矛盾",
+        "note": "章节起点\nVO01｜核聚变，是我们从高中物理就熟悉的概念。｜平稳开场；“核聚变”后停0.2秒",
+        "duration": 408,
+        "custom_data": "chapter+voice:VO01"
+      }
+    }
+  },
+  {
+    "tool": "timeline_markers",
+    "arguments": {
+      "action": "add",
+      "params": {
+        "frame": 408,
+        "color": "Yellow",
+        "name": "VO02",
+        "note": "VO02｜太阳已燃烧约四十六亿年。它持续输出的光和热，来自核心的核聚变。｜温和、克制；“四十六亿年”略加重",
+        "duration": 420,
+        "custom_data": "voice:VO02"
+      }
+    }
+  },
+  {
+    "tool": "timeline_markers",
+    "arguments": {
+      "action": "add",
+      "params": {
+        "frame": 828,
+        "color": "Yellow",
+        "name": "VO03",
+        "note": "VO03｜但经典估算带来一个矛盾：太阳核心温度，大约只有一千五百万开尔文。｜“矛盾”前略停；数字清楚分组",
+        "duration": 462,
+        "custom_data": "voice:VO03"
+      }
+    }
+  },
+  {
+    "tool": "timeline_markers",
+    "arguments": {
+      "action": "add",
+      "params": {
+        "frame": 1290,
+        "color": "Yellow",
+        "name": "VO04",
+        "note": "VO04｜这远低于轻原子核直接克服库仑斥力所需的典型能量尺度。｜“远低于”加重，句尾下沉",
+        "duration": 462,
+        "custom_data": "voice:VO04"
+      }
+    }
+  },
+  {
+    "tool": "timeline_markers",
+    "arguments": {
+      "action": "add",
+      "params": {
+        "frame": 1752,
+        "color": "Yellow",
+        "name": "VO05",
+        "note": "VO05｜照经典图景，原子核会在势垒前被弹回；可太阳仍然在燃烧。｜分号处停0.3秒，后半句形成反差",
+        "duration": 480,
+        "custom_data": "voice:VO05"
+      }
+    }
+  },
+  {
+    "tool": "timeline_markers",
+    "arguments": {
+      "action": "add",
+      "params": {
+        "frame": 2232,
+        "color": "Yellow",
+        "name": "VO06",
+        "note": "VO06｜经典理论究竟漏掉了什么？｜放慢，疑问后留白",
+        "duration": 498,
+        "custom_data": "voice:VO06"
+      }
+    }
+  },
+  {
+    "tool": "timeline_markers",
+    "arguments": {
+      "action": "add",
+      "params": {
+        "frame": 2736,
+        "color": "Yellow",
+        "name": "VO07",
+        "note": "VO07｜答案，是量子隧穿。｜短促有力；“答案”后停0.25秒",
+        "duration": 204,
+        "custom_data": "voice:VO07"
+      }
+    }
+  },
+  {
+    "tool": "timeline_markers",
+    "arguments": {
+      "action": "add",
+      "params": {
+        "frame": 2940,
+        "color": "Blue",
+        "name": "02 不确定性原理",
+        "note": "章节起点\nVO08｜不确定性关系说明，位置与动量的分布，不能同时被压缩到任意小。｜“位置与动量”并列清楚",
+        "duration": 492,
+        "custom_data": "chapter+voice:VO08"
+      }
+    }
+  },
+  {
+    "tool": "timeline_markers",
+    "arguments": {
+      "action": "add",
+      "params": {
+        "frame": 3432,
+        "color": "Yellow",
+        "name": "VO09",
+        "note": "VO09｜这不是仪器粗糙，而是量子态本身的结构。｜“不是”与“而是”形成对照",
+        "duration": 493,
+        "custom_data": "voice:VO09"
+      }
+    }
+  },
+  {
+    "tool": "timeline_markers",
+    "arguments": {
+      "action": "add",
+      "params": {
+        "frame": 3925,
+        "color": "Purple",
+        "name": "03 波函数语言",
+        "note": "章节起点\nVO10｜在微观尺度上，电子不能只被看作一颗沿确定轨迹运动的小球。｜自然衔接，避免卡通化语气",
+        "duration": 383,
+        "custom_data": "chapter+voice:VO10"
+      }
+    }
+  },
+  {
+    "tool": "timeline_markers",
+    "arguments": {
+      "action": "add",
+      "params": {
+        "frame": 4308,
+        "color": "Yellow",
+        "name": "VO11",
+        "note": "VO11｜我们用复值波函数描述它；波函数的模方，才是非负的概率密度。｜“模方”稍加重；分号处短停",
+        "duration": 379,
+        "custom_data": "voice:VO11"
+      }
+    }
+  },
+  {
+    "tool": "timeline_markers",
+    "arguments": {
+      "action": "add",
+      "params": {
+        "frame": 4687,
+        "color": "Yellow",
+        "name": "VO12",
+        "note": "VO12｜势能函数V编码粒子所处的环境。这里，我们选择最简单的矩形势垒。｜V读作英文大写字母V；两句间停0.25秒",
+        "duration": 506,
+        "custom_data": "voice:VO12"
+      }
+    }
+  },
+  {
+    "tool": "timeline_markers",
+    "arguments": {
+      "action": "add",
+      "params": {
+        "frame": 5193,
+        "color": "Cyan",
+        "name": "04 量子隧穿演示",
+        "note": "章节起点\nVO13｜一个向右传播的局域波包，正接近一道高于自身能量的势垒。｜随镜头推进，语气逐渐收紧",
+        "duration": 531,
+        "custom_data": "chapter+voice:VO13"
+      }
+    }
+  },
+  {
+    "tool": "timeline_markers",
+    "arguments": {
+      "action": "add",
+      "params": {
+        "frame": 5724,
+        "color": "Yellow",
+        "name": "VO14",
+        "note": "VO14｜经典图景说它不可能通过；量子力学给出的结果却不同。｜分号前后做明显反差",
+        "duration": 546,
+        "custom_data": "voice:VO14"
+      }
+    }
+  },
+  {
+    "tool": "timeline_markers",
+    "arguments": {
+      "action": "add",
+      "params": {
+        "frame": 6270,
+        "color": "Yellow",
+        "name": "VO15",
+        "note": "VO15｜波函数及其一阶导数，必须在势垒的两个边界处保持连续。｜“必须”“两个边界”加重",
+        "duration": 570,
+        "custom_data": "voice:VO15"
+      }
+    }
+  },
+  {
+    "tool": "timeline_markers",
+    "arguments": {
+      "action": "add",
+      "params": {
+        "frame": 6840,
+        "color": "Yellow",
+        "name": "VO16",
+        "note": "VO16｜因此，概率波分成反射与透射两部分；势垒内部则出现指数衰减的倏逝解。｜术语放慢；倏逝读shū shì",
+        "duration": 540,
+        "custom_data": "voice:VO16"
+      }
+    }
+  },
+  {
+    "tool": "timeline_markers",
+    "arguments": {
+      "action": "add",
+      "params": {
+        "frame": 7380,
+        "color": "Yellow",
+        "name": "VO17",
+        "note": "VO17｜需要强调：分开的是概率流，不是半个电子和另半个电子。｜“概率流”加重；后半句清晰否定",
+        "duration": 530,
+        "custom_data": "voice:VO17"
+      }
+    }
+  },
+  {
+    "tool": "timeline_markers",
+    "arguments": {
+      "action": "add",
+      "params": {
+        "frame": 7910,
+        "color": "Yellow",
+        "name": "VO18",
+        "note": "VO18｜单次测量仍然只得到一个完整电子；重复很多次，频率才逼近理论概率。｜“完整电子”与“重复很多次”加重",
+        "duration": 508,
+        "custom_data": "voice:VO18"
+      }
+    }
+  },
+  {
+    "tool": "timeline_markers",
+    "arguments": {
+      "action": "add",
+      "params": {
+        "frame": 8418,
+        "color": "Yellow",
+        "name": "VO19",
+        "note": "VO19｜透射率对势垒宽度和高度呈指数敏感；W、V零与右侧图表共享同一时间基准。｜W读double-u，V零读V零；句末略停",
+        "duration": 640,
+        "custom_data": "voice:VO19"
+      }
+    }
+  },
+  {
+    "tool": "timeline_markers",
+    "arguments": {
+      "action": "add",
+      "params": {
+        "frame": 9058,
+        "color": "Green",
+        "name": "05 现实应用",
+        "note": "章节起点\nVO20｜这种效应早已进入现实。NAND闪存利用隧穿，写入或移出浮栅电子。｜NAND逐字母读；对应第一个中央舞台",
+        "duration": 446,
+        "custom_data": "chapter+voice:VO20"
+      }
+    }
+  },
+  {
+    "tool": "timeline_markers",
+    "arguments": {
+      "action": "add",
+      "params": {
+        "frame": 9504,
+        "color": "Yellow",
+        "name": "VO21",
+        "note": "VO21｜扫描隧道显微镜利用隧道电流对间距的指数敏感，分辨原子级起伏。｜“指数敏感”“原子级”加重",
+        "duration": 444,
+        "custom_data": "voice:VO21"
+      }
+    }
+  },
+  {
+    "tool": "timeline_markers",
+    "arguments": {
+      "action": "add",
+      "params": {
+        "frame": 9948,
+        "color": "Yellow",
+        "name": "VO22",
+        "note": "VO22｜而器件继续缩小时，非期望隧穿和其他泄漏机制，也会增加功耗与发热。｜对应第三个中央舞台；“功耗与发热”落句",
+        "duration": 492,
+        "custom_data": "voice:VO22"
+      }
+    }
+  },
+  {
+    "tool": "timeline_markers",
+    "arguments": {
+      "action": "add",
+      "params": {
+        "frame": 10440,
+        "color": "Cream",
+        "name": "06 参考与结语",
+        "note": "章节起点\nVO23｜极小的概率，也能成为可观测、可利用的现实。｜收束；“可观测、可利用”逐级加重，最后0.5秒留白",
+        "duration": 330,
+        "custom_data": "chapter+voice:VO23"
+      }
+    }
+  }
+]

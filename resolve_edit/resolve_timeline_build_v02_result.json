@@ -1,0 +1,1056 @@
+[
+  {
+    "tool": "media_pool",
+    "response": {
+      "meta": null,
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"success\": true,\n  \"name\": \"QT_MASTER_1795_v02\",\n  \"id\": \"8106c6ba-ab09-444d-b4ff-f539b45a91b4\",\n  \"requested_name\": \"QT_MASTER_1795_v02\",\n  \"created_new\": true,\n  \"versioned_name\": false,\n  \"_versioning\": {\n    \"analysis_run_id\": \"run_23fe5376d1ac\",\n    \"category\": \"media_pool\",\n    \"initiator\": \"auto\"\n  }\n}",
+          "annotations": null,
+          "meta": null
+        }
+      ],
+      "structuredContent": {
+        "result": {
+          "success": true,
+          "name": "QT_MASTER_1795_v02",
+          "id": "8106c6ba-ab09-444d-b4ff-f539b45a91b4",
+          "requested_name": "QT_MASTER_1795_v02",
+          "created_new": true,
+          "versioned_name": false,
+          "_versioning": {
+            "analysis_run_id": "run_23fe5376d1ac",
+            "category": "media_pool",
+            "initiator": "auto"
+          }
+        }
+      },
+      "isError": false
+    }
+  },
+  {
+    "tool": "timeline",
+    "response": {
+      "meta": null,
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"success\": true,\n  \"_versioning\": {\n    \"analysis_run_id\": \"run_23fe5376d1ac\",\n    \"archived\": true,\n    \"archived_version\": 1,\n    \"metric\": null,\n    \"before_value\": null,\n    \"after_value\": null\n  }\n}",
+          "annotations": null,
+          "meta": null
+        }
+      ],
+      "structuredContent": {
+        "result": {
+          "success": true,
+          "_versioning": {
+            "analysis_run_id": "run_23fe5376d1ac",
+            "archived": true,
+            "archived_version": 1,
+            "metric": null,
+            "before_value": null,
+            "after_value": null
+          }
+        }
+      },
+      "isError": false
+    }
+  },
+  {
+    "tool": "timeline",
+    "response": {
+      "meta": null,
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"success\": true,\n  \"_versioning\": {\n    \"analysis_run_id\": \"run_23fe5376d1ac\",\n    \"archived\": false,\n    \"archived_version\": null,\n    \"metric\": null,\n    \"before_value\": null,\n    \"after_value\": null\n  }\n}",
+          "annotations": null,
+          "meta": null
+        }
+      ],
+      "structuredContent": {
+        "result": {
+          "success": true,
+          "_versioning": {
+            "analysis_run_id": "run_23fe5376d1ac",
+            "archived": false,
+            "archived_version": null,
+            "metric": null,
+            "before_value": null,
+            "after_value": null
+          }
+        }
+      },
+      "isError": false
+    }
+  },
+  {
+    "tool": "timeline",
+    "response": {
+      "meta": null,
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"success\": true,\n  \"_versioning\": {\n    \"analysis_run_id\": \"run_23fe5376d1ac\",\n    \"archived\": false,\n    \"archived_version\": null,\n    \"metric\": null,\n    \"before_value\": null,\n    \"after_value\": null\n  }\n}",
+          "annotations": null,
+          "meta": null
+        }
+      ],
+      "structuredContent": {
+        "result": {
+          "success": true,
+          "_versioning": {
+            "analysis_run_id": "run_23fe5376d1ac",
+            "archived": false,
+            "archived_version": null,
+            "metric": null,
+            "before_value": null,
+            "after_value": null
+          }
+        }
+      },
+      "isError": false
+    }
+  },
+  {
+    "tool": "timeline",
+    "response": {
+      "meta": null,
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"success\": true,\n  \"_versioning\": {\n    \"analysis_run_id\": \"run_23fe5376d1ac\",\n    \"archived\": false,\n    \"archived_version\": null,\n    \"metric\": null,\n    \"before_value\": null,\n    \"after_value\": null\n  }\n}",
+          "annotations": null,
+          "meta": null
+        }
+      ],
+      "structuredContent": {
+        "result": {
+          "success": true,
+          "_versioning": {
+            "analysis_run_id": "run_23fe5376d1ac",
+            "archived": false,
+            "archived_version": null,
+            "metric": null,
+            "before_value": null,
+            "after_value": null
+          }
+        }
+      },
+      "isError": false
+    }
+  },
+  {
+    "tool": "timeline",
+    "response": {
+      "meta": null,
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"success\": true,\n  \"_versioning\": {\n    \"analysis_run_id\": \"run_23fe5376d1ac\",\n    \"archived\": false,\n    \"archived_version\": null,\n    \"metric\": null,\n    \"before_value\": null,\n    \"after_value\": null\n  }\n}",
+          "annotations": null,
+          "meta": null
+        }
+      ],
+      "structuredContent": {
+        "result": {
+          "success": true,
+          "_versioning": {
+            "analysis_run_id": "run_23fe5376d1ac",
+            "archived": false,
+            "archived_version": null,
+            "metric": null,
+            "before_value": null,
+            "after_value": null
+          }
+        }
+      },
+      "isError": false
+    }
+  },
+  {
+    "tool": "timeline",
+    "response": {
+      "meta": null,
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"success\": true,\n  \"_versioning\": {\n    \"analysis_run_id\": \"run_23fe5376d1ac\",\n    \"archived\": false,\n    \"archived_version\": null,\n    \"metric\": null,\n    \"before_value\": null,\n    \"after_value\": null\n  }\n}",
+          "annotations": null,
+          "meta": null
+        }
+      ],
+      "structuredContent": {
+        "result": {
+          "success": true,
+          "_versioning": {
+            "analysis_run_id": "run_23fe5376d1ac",
+            "archived": false,
+            "archived_version": null,
+            "metric": null,
+            "before_value": null,
+            "after_value": null
+          }
+        }
+      },
+      "isError": false
+    }
+  },
+  {
+    "tool": "timeline",
+    "response": {
+      "meta": null,
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"success\": true,\n  \"_versioning\": {\n    \"analysis_run_id\": \"run_23fe5376d1ac\",\n    \"archived\": false,\n    \"archived_version\": null,\n    \"metric\": null,\n    \"before_value\": null,\n    \"after_value\": null\n  }\n}",
+          "annotations": null,
+          "meta": null
+        }
+      ],
+      "structuredContent": {
+        "result": {
+          "success": true,
+          "_versioning": {
+            "analysis_run_id": "run_23fe5376d1ac",
+            "archived": false,
+            "archived_version": null,
+            "metric": null,
+            "before_value": null,
+            "after_value": null
+          }
+        }
+      },
+      "isError": false
+    }
+  },
+  {
+    "tool": "timeline",
+    "response": {
+      "meta": null,
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"success\": true,\n  \"_versioning\": {\n    \"analysis_run_id\": \"run_23fe5376d1ac\",\n    \"archived\": false,\n    \"archived_version\": null,\n    \"metric\": null,\n    \"before_value\": null,\n    \"after_value\": null\n  }\n}",
+          "annotations": null,
+          "meta": null
+        }
+      ],
+      "structuredContent": {
+        "result": {
+          "success": true,
+          "_versioning": {
+            "analysis_run_id": "run_23fe5376d1ac",
+            "archived": false,
+            "archived_version": null,
+            "metric": null,
+            "before_value": null,
+            "after_value": null
+          }
+        }
+      },
+      "isError": false
+    }
+  },
+  {
+    "tool": "media_pool",
+    "response": {
+      "meta": null,
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"success\": true,\n  \"count\": 9,\n  \"items\": [\n    {\n      \"timeline_item_id\": \"e322aeeb-3b37-4cc1-b407-b5ca851e2cae\",\n      \"name\": \"fusion_quantum_bridge_v8_1080p60.mp4\"\n    },\n    {\n      \"timeline_item_id\": \"0e571bb4-77e2-40ef-bce1-e9ec71005d77\",\n      \"name\": \"uncertainty_1d_stochastic_v3_1080p60.mp4\"\n    },\n    {\n      \"timeline_item_id\": \"cda65e42-5dd9-4bd4-ab00-20b083247d0a\",\n      \"name\": \"wavefunction_language_edit_1080p60.mp4\"\n    },\n    {\n      \"timeline_item_id\": \"7f6cb2dd-fe8d-4d78-a4b9-1fdf1d6c44dc\",\n      \"name\": \"blender_bridge_edit_1080p60.mp4\"\n    },\n    {\n      \"timeline_item_id\": \"54409504-cc49-48e4-8429-8e4919d9e9cb\",\n      \"name\": \"blender_v3_selected_animatic_1080p60.mp4\"\n    },\n    {\n      \"timeline_item_id\": \"ee02bd24-c65c-484f-9343-61f4e9f2760d\",\n      \"name\": \"blender_v3_selected_animatic_1080p60.mp4\"\n    },\n    {\n      \"timeline_item_id\": \"c5a52b64-ebf8-4796-a335-3e64266d27f4\",\n      \"name\": \"blender_v3_selected_animatic_1080p60.mp4\"\n    },\n    {\n      \"timeline_item_id\": \"b0463ae9-88d8-425e-9879-dffb2aade41e\",\n      \"name\": \"tunnelling_applications_intermediate_layout_v7_1080p60.mp4\"\n    },\n    {\n      \"timeline_item_id\": \"e11faf8f-2336-400a-8b05-62c313afb83a\",\n      \"name\": \"credits_5_5s_1080p60.mp4\"\n    }\n  ],\n  \"verified_operation\": {\n    \"name\": \"media_pool.append_to_timeline\",\n    \"preflight\": {\n      \"ok\": true,\n      \"current_timeline_available\": true,\n      \"expected_item_count_delta\": 9\n    },\n    \"requested\": {\n      \"mode\": \"clip_infos\",\n      \"clip_info_count\": 9,\n      \"expected_count\": 9\n    },\n    \"execution\": {\n      \"api\": \"MediaPool.AppendToTimeline\",\n      \"attempted\": true,\n      \"success\": true\n    },\n    \"readback\": {\n      \"before\": {\n        \"available\": true,\n        \"timeline\": {\n          \"name\": \"QT_MASTER_1795_v02\",\n          \"id\": \"8106c6ba-ab09-444d-b4ff-f539b45a91b4\"\n        },\n        \"item_count\": 0,\n        \"tracks\": {\n          \"video\": {\n            \"track_count\": 2,\n            \"tracks\": [\n              {\n                \"track_index\": 1,\n                \"item_count\": 0,\n                \"item_ids\": []\n              },\n              {\n                \"track_index\": 2,\n                \"item_count\": 0,\n                \"item_ids\": []\n              }\n            ]\n          },\n          \"audio\": {\n            \"track_count\": 3,\n            \"tracks\": [\n              {\n                \"track_index\": 1,\n                \"item_count\": 0,\n                \"item_ids\": []\n              },\n              {\n                \"track_index\": 2,\n                \"item_count\": 0,\n                \"item_ids\": []\n              },\n              {\n                \"track_index\": 3,\n                \"item_count\": 0,\n                \"item_ids\": []\n              }\n            ]\n          },\n          \"subtitle\": {\n            \"track_count\": 0,\n            \"tracks\": []\n          }\n        },\n        \"warnings\": []\n      },\n      \"after\": {\n        \"available\": true,\n        \"timeline\": {\n          \"name\": \"QT_MASTER_1795_v02\",\n          \"id\": \"8106c6ba-ab09-444d-b4ff-f539b45a91b4\"\n        },\n        \"item_count\": 9,\n        \"tracks\": {\n          \"video\": {\n            \"track_count\": 2,\n            \"tracks\": [\n              {\n                \"track_index\": 1,\n                \"item_count\": 9,\n                \"item_ids\": [\n                  \"e322aeeb-3b37-4cc1-b407-b5ca851e2cae\",\n                  \"0e571bb4-77e2-40ef-bce1-e9ec71005d77\",\n                  \"cda65e42-5dd9-4bd4-ab00-20b083247d0a\",\n                  \"7f6cb2dd-fe8d-4d78-a4b9-1fdf1d6c44dc\",\n                  \"54409504-cc49-48e4-8429-8e4919d9e9cb\",\n                  \"ee02bd24-c65c-484f-9343-61f4e9f2760d\",\n                  \"c5a52b64-ebf8-4796-a335-3e64266d27f4\",\n                  \"b0463ae9-88d8-425e-9879-dffb2aade41e\",\n                  \"e11faf8f-2336-400a-8b05-62c313afb83a\"\n                ]\n              },\n              {\n                \"track_index\": 2,\n                \"item_count\": 0,\n                \"item_ids\": []\n              }\n            ]\n          },\n          \"audio\": {\n            \"track_count\": 3,\n            \"tracks\": [\n              {\n                \"track_index\": 1,\n                \"item_count\": 0,\n                \"item_ids\": []\n              },\n              {\n                \"track_index\": 2,\n                \"item_count\": 0,\n                \"item_ids\": []\n              },\n              {\n                \"track_index\": 3,\n                \"item_count\": 0,\n                \"item_ids\": []\n              }\n            ]\n          },\n          \"subtitle\": {\n            \"track_count\": 0,\n            \"tracks\": []\n          }\n        },\n        \"warnings\": []\n      },\n      \"before_item_count\": 0,\n      \"after_item_count\": 9,\n      \"item_count_delta\": 9,\n      \"expected_item_count_delta\": 9\n    },\n    \"verified\": true,\n    \"verification_status\": \"readback_verified\",\n    \"journal_event\": {\n      \"type\": \"timeline.appended\",\n      \"success\": true,\n      \"verified\": true,\n      \"expected_count\": 9,\n      \"item_count_delta\": 9\n    }\n  },\n  \"_versioning\": {\n    \"analysis_run_id\": \"run_23fe5376d1ac\",\n    \"category\": \"media_pool\",\n    \"initiator\": \"auto\"\n  }\n}",
+          "annotations": null,
+          "meta": null
+        }
+      ],
+      "structuredContent": {
+        "result": {
+          "success": true,
+          "count": 9,
+          "items": [
+            {
+              "timeline_item_id": "e322aeeb-3b37-4cc1-b407-b5ca851e2cae",
+              "name": "fusion_quantum_bridge_v8_1080p60.mp4"
+            },
+            {
+              "timeline_item_id": "0e571bb4-77e2-40ef-bce1-e9ec71005d77",
+              "name": "uncertainty_1d_stochastic_v3_1080p60.mp4"
+            },
+            {
+              "timeline_item_id": "cda65e42-5dd9-4bd4-ab00-20b083247d0a",
+              "name": "wavefunction_language_edit_1080p60.mp4"
+            },
+            {
+              "timeline_item_id": "7f6cb2dd-fe8d-4d78-a4b9-1fdf1d6c44dc",
+              "name": "blender_bridge_edit_1080p60.mp4"
+            },
+            {
+              "timeline_item_id": "54409504-cc49-48e4-8429-8e4919d9e9cb",
+              "name": "blender_v3_selected_animatic_1080p60.mp4"
+            },
+            {
+              "timeline_item_id": "ee02bd24-c65c-484f-9343-61f4e9f2760d",
+              "name": "blender_v3_selected_animatic_1080p60.mp4"
+            },
+            {
+              "timeline_item_id": "c5a52b64-ebf8-4796-a335-3e64266d27f4",
+              "name": "blender_v3_selected_animatic_1080p60.mp4"
+            },
+            {
+              "timeline_item_id": "b0463ae9-88d8-425e-9879-dffb2aade41e",
+              "name": "tunnelling_applications_intermediate_layout_v7_1080p60.mp4"
+            },
+            {
+              "timeline_item_id": "e11faf8f-2336-400a-8b05-62c313afb83a",
+              "name": "credits_5_5s_1080p60.mp4"
+            }
+          ],
+          "verified_operation": {
+            "name": "media_pool.append_to_timeline",
+            "preflight": {
+              "ok": true,
+              "current_timeline_available": true,
+              "expected_item_count_delta": 9
+            },
+            "requested": {
+              "mode": "clip_infos",
+              "clip_info_count": 9,
+              "expected_count": 9
+            },
+            "execution": {
+              "api": "MediaPool.AppendToTimeline",
+              "attempted": true,
+              "success": true
+            },
+            "readback": {
+              "before": {
+                "available": true,
+                "timeline": {
+                  "name": "QT_MASTER_1795_v02",
+                  "id": "8106c6ba-ab09-444d-b4ff-f539b45a91b4"
+                },
+                "item_count": 0,
+                "tracks": {
+                  "video": {
+                    "track_count": 2,
+                    "tracks": [
+                      {
+                        "track_index": 1,
+                        "item_count": 0,
+                        "item_ids": []
+                      },
+                      {
+                        "track_index": 2,
+                        "item_count": 0,
+                        "item_ids": []
+                      }
+                    ]
+                  },
+                  "audio": {
+                    "track_count": 3,
+                    "tracks": [
+                      {
+                        "track_index": 1,
+                        "item_count": 0,
+                        "item_ids": []
+                      },
+                      {
+                        "track_index": 2,
+                        "item_count": 0,
+                        "item_ids": []
+                      },
+                      {
+                        "track_index": 3,
+                        "item_count": 0,
+                        "item_ids": []
+                      }
+                    ]
+                  },
+                  "subtitle": {
+                    "track_count": 0,
+                    "tracks": []
+                  }
+                },
+                "warnings": []
+              },
+              "after": {
+                "available": true,
+                "timeline": {
+                  "name": "QT_MASTER_1795_v02",
+                  "id": "8106c6ba-ab09-444d-b4ff-f539b45a91b4"
+                },
+                "item_count": 9,
+                "tracks": {
+                  "video": {
+                    "track_count": 2,
+                    "tracks": [
+                      {
+                        "track_index": 1,
+                        "item_count": 9,
+                        "item_ids": [
+                          "e322aeeb-3b37-4cc1-b407-b5ca851e2cae",
+                          "0e571bb4-77e2-40ef-bce1-e9ec71005d77",
+                          "cda65e42-5dd9-4bd4-ab00-20b083247d0a",
+                          "7f6cb2dd-fe8d-4d78-a4b9-1fdf1d6c44dc",
+                          "54409504-cc49-48e4-8429-8e4919d9e9cb",
+                          "ee02bd24-c65c-484f-9343-61f4e9f2760d",
+                          "c5a52b64-ebf8-4796-a335-3e64266d27f4",
+                          "b0463ae9-88d8-425e-9879-dffb2aade41e",
+                          "e11faf8f-2336-400a-8b05-62c313afb83a"
+                        ]
+                      },
+                      {
+                        "track_index": 2,
+                        "item_count": 0,
+                        "item_ids": []
+                      }
+                    ]
+                  },
+                  "audio": {
+                    "track_count": 3,
+                    "tracks": [
+                      {
+                        "track_index": 1,
+                        "item_count": 0,
+                        "item_ids": []
+                      },
+                      {
+                        "track_index": 2,
+                        "item_count": 0,
+                        "item_ids": []
+                      },
+                      {
+                        "track_index": 3,
+                        "item_count": 0,
+                        "item_ids": []
+                      }
+                    ]
+                  },
+                  "subtitle": {
+                    "track_count": 0,
+                    "tracks": []
+                  }
+                },
+                "warnings": []
+              },
+              "before_item_count": 0,
+              "after_item_count": 9,
+              "item_count_delta": 9,
+              "expected_item_count_delta": 9
+            },
+            "verified": true,
+            "verification_status": "readback_verified",
+            "journal_event": {
+              "type": "timeline.appended",
+              "success": true,
+              "verified": true,
+              "expected_count": 9,
+              "item_count_delta": 9
+            }
+          },
+          "_versioning": {
+            "analysis_run_id": "run_23fe5376d1ac",
+            "category": "media_pool",
+            "initiator": "auto"
+          }
+        }
+      },
+      "isError": false
+    }
+  },
+  {
+    "tool": "media_pool",
+    "response": {
+      "meta": null,
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"success\": true,\n  \"count\": 1,\n  \"items\": [\n    {\n      \"timeline_item_id\": \"218afa79-7ec7-4591-85d4-51a371a7d26d\",\n      \"name\": \"probability_overlay_v3_html_640x1080p60.mp4\"\n    }\n  ],\n  \"verified_operation\": {\n    \"name\": \"media_pool.append_to_timeline\",\n    \"preflight\": {\n      \"ok\": true,\n      \"current_timeline_available\": true,\n      \"expected_item_count_delta\": 1\n    },\n    \"requested\": {\n      \"mode\": \"clip_infos\",\n      \"clip_info_count\": 1,\n      \"expected_count\": 1\n    },\n    \"execution\": {\n      \"api\": \"MediaPool.AppendToTimeline\",\n      \"attempted\": true,\n      \"success\": true\n    },\n    \"readback\": {\n      \"before\": {\n        \"available\": true,\n        \"timeline\": {\n          \"name\": \"QT_MASTER_1795_v02\",\n          \"id\": \"8106c6ba-ab09-444d-b4ff-f539b45a91b4\"\n        },\n        \"item_count\": 9,\n        \"tracks\": {\n          \"video\": {\n            \"track_count\": 2,\n            \"tracks\": [\n              {\n                \"track_index\": 1,\n                \"item_count\": 9,\n                \"item_ids\": [\n                  \"e322aeeb-3b37-4cc1-b407-b5ca851e2cae\",\n                  \"0e571bb4-77e2-40ef-bce1-e9ec71005d77\",\n                  \"cda65e42-5dd9-4bd4-ab00-20b083247d0a\",\n                  \"7f6cb2dd-fe8d-4d78-a4b9-1fdf1d6c44dc\",\n                  \"54409504-cc49-48e4-8429-8e4919d9e9cb\",\n                  \"ee02bd24-c65c-484f-9343-61f4e9f2760d\",\n                  \"c5a52b64-ebf8-4796-a335-3e64266d27f4\",\n                  \"b0463ae9-88d8-425e-9879-dffb2aade41e\",\n                  \"e11faf8f-2336-400a-8b05-62c313afb83a\"\n                ]\n              },\n              {\n                \"track_index\": 2,\n                \"item_count\": 0,\n                \"item_ids\": []\n              }\n            ]\n          },\n          \"audio\": {\n            \"track_count\": 3,\n            \"tracks\": [\n              {\n                \"track_index\": 1,\n                \"item_count\": 0,\n                \"item_ids\": []\n              },\n              {\n                \"track_index\": 2,\n                \"item_count\": 0,\n                \"item_ids\": []\n              },\n              {\n                \"track_index\": 3,\n                \"item_count\": 0,\n                \"item_ids\": []\n              }\n            ]\n          },\n          \"subtitle\": {\n            \"track_count\": 0,\n            \"tracks\": []\n          }\n        },\n        \"warnings\": []\n      },\n      \"after\": {\n        \"available\": true,\n        \"timeline\": {\n          \"name\": \"QT_MASTER_1795_v02\",\n          \"id\": \"8106c6ba-ab09-444d-b4ff-f539b45a91b4\"\n        },\n        \"item_count\": 10,\n        \"tracks\": {\n          \"video\": {\n            \"track_count\": 2,\n            \"tracks\": [\n              {\n                \"track_index\": 1,\n                \"item_count\": 9,\n                \"item_ids\": [\n                  \"e322aeeb-3b37-4cc1-b407-b5ca851e2cae\",\n                  \"0e571bb4-77e2-40ef-bce1-e9ec71005d77\",\n                  \"cda65e42-5dd9-4bd4-ab00-20b083247d0a\",\n                  \"7f6cb2dd-fe8d-4d78-a4b9-1fdf1d6c44dc\",\n                  \"54409504-cc49-48e4-8429-8e4919d9e9cb\",\n                  \"ee02bd24-c65c-484f-9343-61f4e9f2760d\",\n                  \"c5a52b64-ebf8-4796-a335-3e64266d27f4\",\n                  \"b0463ae9-88d8-425e-9879-dffb2aade41e\",\n                  \"e11faf8f-2336-400a-8b05-62c313afb83a\"\n                ]\n              },\n              {\n                \"track_index\": 2,\n                \"item_count\": 1,\n                \"item_ids\": [\n                  \"218afa79-7ec7-4591-85d4-51a371a7d26d\"\n                ]\n              }\n            ]\n          },\n          \"audio\": {\n            \"track_count\": 3,\n            \"tracks\": [\n              {\n                \"track_index\": 1,\n                \"item_count\": 0,\n                \"item_ids\": []\n              },\n              {\n                \"track_index\": 2,\n                \"item_count\": 0,\n                \"item_ids\": []\n              },\n              {\n                \"track_index\": 3,\n                \"item_count\": 0,\n                \"item_ids\": []\n              }\n            ]\n          },\n          \"subtitle\": {\n            \"track_count\": 0,\n            \"tracks\": []\n          }\n        },\n        \"warnings\": []\n      },\n      \"before_item_count\": 9,\n      \"after_item_count\": 10,\n      \"item_count_delta\": 1,\n      \"expected_item_count_delta\": 1\n    },\n    \"verified\": true,\n    \"verification_status\": \"readback_verified\",\n    \"journal_event\": {\n      \"type\": \"timeline.appended\",\n      \"success\": true,\n      \"verified\": true,\n      \"expected_count\": 1,\n      \"item_count_delta\": 1\n    }\n  },\n  \"_versioning\": {\n    \"analysis_run_id\": \"run_23fe5376d1ac\",\n    \"category\": \"media_pool\",\n    \"initiator\": \"auto\"\n  }\n}",
+          "annotations": null,
+          "meta": null
+        }
+      ],
+      "structuredContent": {
+        "result": {
+          "success": true,
+          "count": 1,
+          "items": [
+            {
+              "timeline_item_id": "218afa79-7ec7-4591-85d4-51a371a7d26d",
+              "name": "probability_overlay_v3_html_640x1080p60.mp4"
+            }
+          ],
+          "verified_operation": {
+            "name": "media_pool.append_to_timeline",
+            "preflight": {
+              "ok": true,
+              "current_timeline_available": true,
+              "expected_item_count_delta": 1
+            },
+            "requested": {
+              "mode": "clip_infos",
+              "clip_info_count": 1,
+              "expected_count": 1
+            },
+            "execution": {
+              "api": "MediaPool.AppendToTimeline",
+              "attempted": true,
+              "success": true
+            },
+            "readback": {
+              "before": {
+                "available": true,
+                "timeline": {
+                  "name": "QT_MASTER_1795_v02",
+                  "id": "8106c6ba-ab09-444d-b4ff-f539b45a91b4"
+                },
+                "item_count": 9,
+                "tracks": {
+                  "video": {
+                    "track_count": 2,
+                    "tracks": [
+                      {
+                        "track_index": 1,
+                        "item_count": 9,
+                        "item_ids": [
+                          "e322aeeb-3b37-4cc1-b407-b5ca851e2cae",
+                          "0e571bb4-77e2-40ef-bce1-e9ec71005d77",
+                          "cda65e42-5dd9-4bd4-ab00-20b083247d0a",
+                          "7f6cb2dd-fe8d-4d78-a4b9-1fdf1d6c44dc",
+                          "54409504-cc49-48e4-8429-8e4919d9e9cb",
+                          "ee02bd24-c65c-484f-9343-61f4e9f2760d",
+                          "c5a52b64-ebf8-4796-a335-3e64266d27f4",
+                          "b0463ae9-88d8-425e-9879-dffb2aade41e",
+                          "e11faf8f-2336-400a-8b05-62c313afb83a"
+                        ]
+                      },
+                      {
+                        "track_index": 2,
+                        "item_count": 0,
+                        "item_ids": []
+                      }
+                    ]
+                  },
+                  "audio": {
+                    "track_count": 3,
+                    "tracks": [
+                      {
+                        "track_index": 1,
+                        "item_count": 0,
+                        "item_ids": []
+                      },
+                      {
+                        "track_index": 2,
+                        "item_count": 0,
+                        "item_ids": []
+                      },
+                      {
+                        "track_index": 3,
+                        "item_count": 0,
+                        "item_ids": []
+                      }
+                    ]
+                  },
+                  "subtitle": {
+                    "track_count": 0,
+                    "tracks": []
+                  }
+                },
+                "warnings": []
+              },
+              "after": {
+                "available": true,
+                "timeline": {
+                  "name": "QT_MASTER_1795_v02",
+                  "id": "8106c6ba-ab09-444d-b4ff-f539b45a91b4"
+                },
+                "item_count": 10,
+                "tracks": {
+                  "video": {
+                    "track_count": 2,
+                    "tracks": [
+                      {
+                        "track_index": 1,
+                        "item_count": 9,
+                        "item_ids": [
+                          "e322aeeb-3b37-4cc1-b407-b5ca851e2cae",
+                          "0e571bb4-77e2-40ef-bce1-e9ec71005d77",
+                          "cda65e42-5dd9-4bd4-ab00-20b083247d0a",
+                          "7f6cb2dd-fe8d-4d78-a4b9-1fdf1d6c44dc",
+                          "54409504-cc49-48e4-8429-8e4919d9e9cb",
+                          "ee02bd24-c65c-484f-9343-61f4e9f2760d",
+                          "c5a52b64-ebf8-4796-a335-3e64266d27f4",
+                          "b0463ae9-88d8-425e-9879-dffb2aade41e",
+                          "e11faf8f-2336-400a-8b05-62c313afb83a"
+                        ]
+                      },
+                      {
+                        "track_index": 2,
+                        "item_count": 1,
+                        "item_ids": [
+                          "218afa79-7ec7-4591-85d4-51a371a7d26d"
+                        ]
+                      }
+                    ]
+                  },
+                  "audio": {
+                    "track_count": 3,
+                    "tracks": [
+                      {
+                        "track_index": 1,
+                        "item_count": 0,
+                        "item_ids": []
+                      },
+                      {
+                        "track_index": 2,
+                        "item_count": 0,
+                        "item_ids": []
+                      },
+                      {
+                        "track_index": 3,
+                        "item_count": 0,
+                        "item_ids": []
+                      }
+                    ]
+                  },
+                  "subtitle": {
+                    "track_count": 0,
+                    "tracks": []
+                  }
+                },
+                "warnings": []
+              },
+              "before_item_count": 9,
+              "after_item_count": 10,
+              "item_count_delta": 1,
+              "expected_item_count_delta": 1
+            },
+            "verified": true,
+            "verification_status": "readback_verified",
+            "journal_event": {
+              "type": "timeline.appended",
+              "success": true,
+              "verified": true,
+              "expected_count": 1,
+              "item_count_delta": 1
+            }
+          },
+          "_versioning": {
+            "analysis_run_id": "run_23fe5376d1ac",
+            "category": "media_pool",
+            "initiator": "auto"
+          }
+        }
+      },
+      "isError": false
+    }
+  },
+  {
+    "tool": "media_pool",
+    "response": {
+      "meta": null,
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"success\": true,\n  \"count\": 1,\n  \"items\": [\n    {\n      \"timeline_item_id\": \"086920f3-75f8-4a33-92d3-685904c2c90e\",\n      \"name\": \"quantum_ambient_179_5s.wav\"\n    }\n  ],\n  \"verified_operation\": {\n    \"name\": \"media_pool.append_to_timeline\",\n    \"preflight\": {\n      \"ok\": true,\n      \"current_timeline_available\": true,\n      \"expected_item_count_delta\": 1\n    },\n    \"requested\": {\n      \"mode\": \"clip_infos\",\n      \"clip_info_count\": 1,\n      \"expected_count\": 1\n    },\n    \"execution\": {\n      \"api\": \"MediaPool.AppendToTimeline\",\n      \"attempted\": true,\n      \"success\": true\n    },\n    \"readback\": {\n      \"before\": {\n        \"available\": true,\n        \"timeline\": {\n          \"name\": \"QT_MASTER_1795_v02\",\n          \"id\": \"8106c6ba-ab09-444d-b4ff-f539b45a91b4\"\n        },\n        \"item_count\": 10,\n        \"tracks\": {\n          \"video\": {\n            \"track_count\": 2,\n            \"tracks\": [\n              {\n                \"track_index\": 1,\n                \"item_count\": 9,\n                \"item_ids\": [\n                  \"e322aeeb-3b37-4cc1-b407-b5ca851e2cae\",\n                  \"0e571bb4-77e2-40ef-bce1-e9ec71005d77\",\n                  \"cda65e42-5dd9-4bd4-ab00-20b083247d0a\",\n                  \"7f6cb2dd-fe8d-4d78-a4b9-1fdf1d6c44dc\",\n                  \"54409504-cc49-48e4-8429-8e4919d9e9cb\",\n                  \"ee02bd24-c65c-484f-9343-61f4e9f2760d\",\n                  \"c5a52b64-ebf8-4796-a335-3e64266d27f4\",\n                  \"b0463ae9-88d8-425e-9879-dffb2aade41e\",\n                  \"e11faf8f-2336-400a-8b05-62c313afb83a\"\n                ]\n              },\n              {\n                \"track_index\": 2,\n                \"item_count\": 1,\n                \"item_ids\": [\n                  \"218afa79-7ec7-4591-85d4-51a371a7d26d\"\n                ]\n              }\n            ]\n          },\n          \"audio\": {\n            \"track_count\": 3,\n            \"tracks\": [\n              {\n                \"track_index\": 1,\n                \"item_count\": 0,\n                \"item_ids\": []\n              },\n              {\n                \"track_index\": 2,\n                \"item_count\": 0,\n                \"item_ids\": []\n              },\n              {\n                \"track_index\": 3,\n                \"item_count\": 0,\n                \"item_ids\": []\n              }\n            ]\n          },\n          \"subtitle\": {\n            \"track_count\": 0,\n            \"tracks\": []\n          }\n        },\n        \"warnings\": []\n      },\n      \"after\": {\n        \"available\": true,\n        \"timeline\": {\n          \"name\": \"QT_MASTER_1795_v02\",\n          \"id\": \"8106c6ba-ab09-444d-b4ff-f539b45a91b4\"\n        },\n        \"item_count\": 11,\n        \"tracks\": {\n          \"video\": {\n            \"track_count\": 2,\n            \"tracks\": [\n              {\n                \"track_index\": 1,\n                \"item_count\": 9,\n                \"item_ids\": [\n                  \"e322aeeb-3b37-4cc1-b407-b5ca851e2cae\",\n                  \"0e571bb4-77e2-40ef-bce1-e9ec71005d77\",\n                  \"cda65e42-5dd9-4bd4-ab00-20b083247d0a\",\n                  \"7f6cb2dd-fe8d-4d78-a4b9-1fdf1d6c44dc\",\n                  \"54409504-cc49-48e4-8429-8e4919d9e9cb\",\n                  \"ee02bd24-c65c-484f-9343-61f4e9f2760d\",\n                  \"c5a52b64-ebf8-4796-a335-3e64266d27f4\",\n                  \"b0463ae9-88d8-425e-9879-dffb2aade41e\",\n                  \"e11faf8f-2336-400a-8b05-62c313afb83a\"\n                ]\n              },\n              {\n                \"track_index\": 2,\n                \"item_count\": 1,\n                \"item_ids\": [\n                  \"218afa79-7ec7-4591-85d4-51a371a7d26d\"\n                ]\n              }\n            ]\n          },\n          \"audio\": {\n            \"track_count\": 3,\n            \"tracks\": [\n              {\n                \"track_index\": 1,\n                \"item_count\": 0,\n                \"item_ids\": []\n              },\n              {\n                \"track_index\": 2,\n                \"item_count\": 1,\n                \"item_ids\": [\n                  \"086920f3-75f8-4a33-92d3-685904c2c90e\"\n                ]\n              },\n              {\n                \"track_index\": 3,\n                \"item_count\": 0,\n                \"item_ids\": []\n              }\n            ]\n          },\n          \"subtitle\": {\n            \"track_count\": 0,\n            \"tracks\": []\n          }\n        },\n        \"warnings\": []\n      },\n      \"before_item_count\": 10,\n      \"after_item_count\": 11,\n      \"item_count_delta\": 1,\n      \"expected_item_count_delta\": 1\n    },\n    \"verified\": true,\n    \"verification_status\": \"readback_verified\",\n    \"journal_event\": {\n      \"type\": \"timeline.appended\",\n      \"success\": true,\n      \"verified\": true,\n      \"expected_count\": 1,\n      \"item_count_delta\": 1\n    }\n  },\n  \"_versioning\": {\n    \"analysis_run_id\": \"run_23fe5376d1ac\",\n    \"category\": \"media_pool\",\n    \"initiator\": \"auto\"\n  }\n}",
+          "annotations": null,
+          "meta": null
+        }
+      ],
+      "structuredContent": {
+        "result": {
+          "success": true,
+          "count": 1,
+          "items": [
+            {
+              "timeline_item_id": "086920f3-75f8-4a33-92d3-685904c2c90e",
+              "name": "quantum_ambient_179_5s.wav"
+            }
+          ],
+          "verified_operation": {
+            "name": "media_pool.append_to_timeline",
+            "preflight": {
+              "ok": true,
+              "current_timeline_available": true,
+              "expected_item_count_delta": 1
+            },
+            "requested": {
+              "mode": "clip_infos",
+              "clip_info_count": 1,
+              "expected_count": 1
+            },
+            "execution": {
+              "api": "MediaPool.AppendToTimeline",
+              "attempted": true,
+              "success": true
+            },
+            "readback": {
+              "before": {
+                "available": true,
+                "timeline": {
+                  "name": "QT_MASTER_1795_v02",
+                  "id": "8106c6ba-ab09-444d-b4ff-f539b45a91b4"
+                },
+                "item_count": 10,
+                "tracks": {
+                  "video": {
+                    "track_count": 2,
+                    "tracks": [
+                      {
+                        "track_index": 1,
+                        "item_count": 9,
+                        "item_ids": [
+                          "e322aeeb-3b37-4cc1-b407-b5ca851e2cae",
+                          "0e571bb4-77e2-40ef-bce1-e9ec71005d77",
+                          "cda65e42-5dd9-4bd4-ab00-20b083247d0a",
+                          "7f6cb2dd-fe8d-4d78-a4b9-1fdf1d6c44dc",
+                          "54409504-cc49-48e4-8429-8e4919d9e9cb",
+                          "ee02bd24-c65c-484f-9343-61f4e9f2760d",
+                          "c5a52b64-ebf8-4796-a335-3e64266d27f4",
+                          "b0463ae9-88d8-425e-9879-dffb2aade41e",
+                          "e11faf8f-2336-400a-8b05-62c313afb83a"
+                        ]
+                      },
+                      {
+                        "track_index": 2,
+                        "item_count": 1,
+                        "item_ids": [
+                          "218afa79-7ec7-4591-85d4-51a371a7d26d"
+                        ]
+                      }
+                    ]
+                  },
+                  "audio": {
+                    "track_count": 3,
+                    "tracks": [
+                      {
+                        "track_index": 1,
+                        "item_count": 0,
+                        "item_ids": []
+                      },
+                      {
+                        "track_index": 2,
+                        "item_count": 0,
+                        "item_ids": []
+                      },
+                      {
+                        "track_index": 3,
+                        "item_count": 0,
+                        "item_ids": []
+                      }
+                    ]
+                  },
+                  "subtitle": {
+                    "track_count": 0,
+                    "tracks": []
+                  }
+                },
+                "warnings": []
+              },
+              "after": {
+                "available": true,
+                "timeline": {
+                  "name": "QT_MASTER_1795_v02",
+                  "id": "8106c6ba-ab09-444d-b4ff-f539b45a91b4"
+                },
+                "item_count": 11,
+                "tracks": {
+                  "video": {
+                    "track_count": 2,
+                    "tracks": [
+                      {
+                        "track_index": 1,
+                        "item_count": 9,
+                        "item_ids": [
+                          "e322aeeb-3b37-4cc1-b407-b5ca851e2cae",
+                          "0e571bb4-77e2-40ef-bce1-e9ec71005d77",
+                          "cda65e42-5dd9-4bd4-ab00-20b083247d0a",
+                          "7f6cb2dd-fe8d-4d78-a4b9-1fdf1d6c44dc",
+                          "54409504-cc49-48e4-8429-8e4919d9e9cb",
+                          "ee02bd24-c65c-484f-9343-61f4e9f2760d",
+                          "c5a52b64-ebf8-4796-a335-3e64266d27f4",
+                          "b0463ae9-88d8-425e-9879-dffb2aade41e",
+                          "e11faf8f-2336-400a-8b05-62c313afb83a"
+                        ]
+                      },
+                      {
+                        "track_index": 2,
+                        "item_count": 1,
+                        "item_ids": [
+                          "218afa79-7ec7-4591-85d4-51a371a7d26d"
+                        ]
+                      }
+                    ]
+                  },
+                  "audio": {
+                    "track_count": 3,
+                    "tracks": [
+                      {
+                        "track_index": 1,
+                        "item_count": 0,
+                        "item_ids": []
+                      },
+                      {
+                        "track_index": 2,
+                        "item_count": 1,
+                        "item_ids": [
+                          "086920f3-75f8-4a33-92d3-685904c2c90e"
+                        ]
+                      },
+                      {
+                        "track_index": 3,
+                        "item_count": 0,
+                        "item_ids": []
+                      }
+                    ]
+                  },
+                  "subtitle": {
+                    "track_count": 0,
+                    "tracks": []
+                  }
+                },
+                "warnings": []
+              },
+              "before_item_count": 10,
+              "after_item_count": 11,
+              "item_count_delta": 1,
+              "expected_item_count_delta": 1
+            },
+            "verified": true,
+            "verification_status": "readback_verified",
+            "journal_event": {
+              "type": "timeline.appended",
+              "success": true,
+              "verified": true,
+              "expected_count": 1,
+              "item_count_delta": 1
+            }
+          },
+          "_versioning": {
+            "analysis_run_id": "run_23fe5376d1ac",
+            "category": "media_pool",
+            "initiator": "auto"
+          }
+        }
+      },
+      "isError": false
+    }
+  },
+  {
+    "tool": "media_pool",
+    "response": {
+      "meta": null,
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"success\": true,\n  \"count\": 5,\n  \"items\": [\n    {\n      \"timeline_item_id\": \"2808bf8d-e421-4f3d-aace-d40c29ff4db6\",\n      \"name\": \"heat_rise_01.wav\"\n    },\n    {\n      \"timeline_item_id\": \"c5e7210a-6f28-470a-a0de-86395c96fd0c\",\n      \"name\": \"tunnel_chime_01.wav\"\n    },\n    {\n      \"timeline_item_id\": \"e47f62fe-1b2f-47d7-ae27-afc2a1314a36\",\n      \"name\": \"wave_transition_01.wav\"\n    },\n    {\n      \"timeline_item_id\": \"88d90a1f-efbe-4263-b926-7121f8363def\",\n      \"name\": \"barrier_morph_01.wav\"\n    },\n    {\n      \"timeline_item_id\": \"037e0bf2-83da-4ee8-a47c-3a7b72aae15f\",\n      \"name\": \"barrier_morph_01.wav\"\n    }\n  ],\n  \"verified_operation\": {\n    \"name\": \"media_pool.append_to_timeline\",\n    \"preflight\": {\n      \"ok\": true,\n      \"current_timeline_available\": true,\n      \"expected_item_count_delta\": 5\n    },\n    \"requested\": {\n      \"mode\": \"clip_infos\",\n      \"clip_info_count\": 5,\n      \"expected_count\": 5\n    },\n    \"execution\": {\n      \"api\": \"MediaPool.AppendToTimeline\",\n      \"attempted\": true,\n      \"success\": true\n    },\n    \"readback\": {\n      \"before\": {\n        \"available\": true,\n        \"timeline\": {\n          \"name\": \"QT_MASTER_1795_v02\",\n          \"id\": \"8106c6ba-ab09-444d-b4ff-f539b45a91b4\"\n        },\n        \"item_count\": 11,\n        \"tracks\": {\n          \"video\": {\n            \"track_count\": 2,\n            \"tracks\": [\n              {\n                \"track_index\": 1,\n                \"item_count\": 9,\n                \"item_ids\": [\n                  \"e322aeeb-3b37-4cc1-b407-b5ca851e2cae\",\n                  \"0e571bb4-77e2-40ef-bce1-e9ec71005d77\",\n                  \"cda65e42-5dd9-4bd4-ab00-20b083247d0a\",\n                  \"7f6cb2dd-fe8d-4d78-a4b9-1fdf1d6c44dc\",\n                  \"54409504-cc49-48e4-8429-8e4919d9e9cb\",\n                  \"ee02bd24-c65c-484f-9343-61f4e9f2760d\",\n                  \"c5a52b64-ebf8-4796-a335-3e64266d27f4\",\n                  \"b0463ae9-88d8-425e-9879-dffb2aade41e\",\n                  \"e11faf8f-2336-400a-8b05-62c313afb83a\"\n                ]\n              },\n              {\n                \"track_index\": 2,\n                \"item_count\": 1,\n                \"item_ids\": [\n                  \"218afa79-7ec7-4591-85d4-51a371a7d26d\"\n                ]\n              }\n            ]\n          },\n          \"audio\": {\n            \"track_count\": 3,\n            \"tracks\": [\n              {\n                \"track_index\": 1,\n                \"item_count\": 0,\n                \"item_ids\": []\n              },\n              {\n                \"track_index\": 2,\n                \"item_count\": 1,\n                \"item_ids\": [\n                  \"086920f3-75f8-4a33-92d3-685904c2c90e\"\n                ]\n              },\n              {\n                \"track_index\": 3,\n                \"item_count\": 0,\n                \"item_ids\": []\n              }\n            ]\n          },\n          \"subtitle\": {\n            \"track_count\": 0,\n            \"tracks\": []\n          }\n        },\n        \"warnings\": []\n      },\n      \"after\": {\n        \"available\": true,\n        \"timeline\": {\n          \"name\": \"QT_MASTER_1795_v02\",\n          \"id\": \"8106c6ba-ab09-444d-b4ff-f539b45a91b4\"\n        },\n        \"item_count\": 16,\n        \"tracks\": {\n          \"video\": {\n            \"track_count\": 2,\n            \"tracks\": [\n              {\n                \"track_index\": 1,\n                \"item_count\": 9,\n                \"item_ids\": [\n                  \"e322aeeb-3b37-4cc1-b407-b5ca851e2cae\",\n                  \"0e571bb4-77e2-40ef-bce1-e9ec71005d77\",\n                  \"cda65e42-5dd9-4bd4-ab00-20b083247d0a\",\n                  \"7f6cb2dd-fe8d-4d78-a4b9-1fdf1d6c44dc\",\n                  \"54409504-cc49-48e4-8429-8e4919d9e9cb\",\n                  \"ee02bd24-c65c-484f-9343-61f4e9f2760d\",\n                  \"c5a52b64-ebf8-4796-a335-3e64266d27f4\",\n                  \"b0463ae9-88d8-425e-9879-dffb2aade41e\",\n                  \"e11faf8f-2336-400a-8b05-62c313afb83a\"\n                ]\n              },\n              {\n                \"track_index\": 2,\n                \"item_count\": 1,\n                \"item_ids\": [\n                  \"218afa79-7ec7-4591-85d4-51a371a7d26d\"\n                ]\n              }\n            ]\n          },\n          \"audio\": {\n            \"track_count\": 3,\n            \"tracks\": [\n              {\n                \"track_index\": 1,\n                \"item_count\": 0,\n                \"item_ids\": []\n              },\n              {\n                \"track_index\": 2,\n                \"item_count\": 1,\n                \"item_ids\": [\n                  \"086920f3-75f8-4a33-92d3-685904c2c90e\"\n                ]\n              },\n              {\n                \"track_index\": 3,\n                \"item_count\": 5,\n                \"item_ids\": [\n                  \"2808bf8d-e421-4f3d-aace-d40c29ff4db6\",\n                  \"c5e7210a-6f28-470a-a0de-86395c96fd0c\",\n                  \"e47f62fe-1b2f-47d7-ae27-afc2a1314a36\",\n                  \"88d90a1f-efbe-4263-b926-7121f8363def\",\n                  \"037e0bf2-83da-4ee8-a47c-3a7b72aae15f\"\n                ]\n              }\n            ]\n          },\n          \"subtitle\": {\n            \"track_count\": 0,\n            \"tracks\": []\n          }\n        },\n        \"warnings\": []\n      },\n      \"before_item_count\": 11,\n      \"after_item_count\": 16,\n      \"item_count_delta\": 5,\n      \"expected_item_count_delta\": 5\n    },\n    \"verified\": true,\n    \"verification_status\": \"readback_verified\",\n    \"journal_event\": {\n      \"type\": \"timeline.appended\",\n      \"success\": true,\n      \"verified\": true,\n      \"expected_count\": 5,\n      \"item_count_delta\": 5\n    }\n  },\n  \"_versioning\": {\n    \"analysis_run_id\": \"run_23fe5376d1ac\",\n    \"category\": \"media_pool\",\n    \"initiator\": \"auto\"\n  }\n}",
+          "annotations": null,
+          "meta": null
+        }
+      ],
+      "structuredContent": {
+        "result": {
+          "success": true,
+          "count": 5,
+          "items": [
+            {
+              "timeline_item_id": "2808bf8d-e421-4f3d-aace-d40c29ff4db6",
+              "name": "heat_rise_01.wav"
+            },
+            {
+              "timeline_item_id": "c5e7210a-6f28-470a-a0de-86395c96fd0c",
+              "name": "tunnel_chime_01.wav"
+            },
+            {
+              "timeline_item_id": "e47f62fe-1b2f-47d7-ae27-afc2a1314a36",
+              "name": "wave_transition_01.wav"
+            },
+            {
+              "timeline_item_id": "88d90a1f-efbe-4263-b926-7121f8363def",
+              "name": "barrier_morph_01.wav"
+            },
+            {
+              "timeline_item_id": "037e0bf2-83da-4ee8-a47c-3a7b72aae15f",
+              "name": "barrier_morph_01.wav"
+            }
+          ],
+          "verified_operation": {
+            "name": "media_pool.append_to_timeline",
+            "preflight": {
+              "ok": true,
+              "current_timeline_available": true,
+              "expected_item_count_delta": 5
+            },
+            "requested": {
+              "mode": "clip_infos",
+              "clip_info_count": 5,
+              "expected_count": 5
+            },
+            "execution": {
+              "api": "MediaPool.AppendToTimeline",
+              "attempted": true,
+              "success": true
+            },
+            "readback": {
+              "before": {
+                "available": true,
+                "timeline": {
+                  "name": "QT_MASTER_1795_v02",
+                  "id": "8106c6ba-ab09-444d-b4ff-f539b45a91b4"
+                },
+                "item_count": 11,
+                "tracks": {
+                  "video": {
+                    "track_count": 2,
+                    "tracks": [
+                      {
+                        "track_index": 1,
+                        "item_count": 9,
+                        "item_ids": [
+                          "e322aeeb-3b37-4cc1-b407-b5ca851e2cae",
+                          "0e571bb4-77e2-40ef-bce1-e9ec71005d77",
+                          "cda65e42-5dd9-4bd4-ab00-20b083247d0a",
+                          "7f6cb2dd-fe8d-4d78-a4b9-1fdf1d6c44dc",
+                          "54409504-cc49-48e4-8429-8e4919d9e9cb",
+                          "ee02bd24-c65c-484f-9343-61f4e9f2760d",
+                          "c5a52b64-ebf8-4796-a335-3e64266d27f4",
+                          "b0463ae9-88d8-425e-9879-dffb2aade41e",
+                          "e11faf8f-2336-400a-8b05-62c313afb83a"
+                        ]
+                      },
+                      {
+                        "track_index": 2,
+                        "item_count": 1,
+                        "item_ids": [
+                          "218afa79-7ec7-4591-85d4-51a371a7d26d"
+                        ]
+                      }
+                    ]
+                  },
+                  "audio": {
+                    "track_count": 3,
+                    "tracks": [
+                      {
+                        "track_index": 1,
+                        "item_count": 0,
+                        "item_ids": []
+                      },
+                      {
+                        "track_index": 2,
+                        "item_count": 1,
+                        "item_ids": [
+                          "086920f3-75f8-4a33-92d3-685904c2c90e"
+                        ]
+                      },
+                      {
+                        "track_index": 3,
+                        "item_count": 0,
+                        "item_ids": []
+                      }
+                    ]
+                  },
+                  "subtitle": {
+                    "track_count": 0,
+                    "tracks": []
+                  }
+                },
+                "warnings": []
+              },
+              "after": {
+                "available": true,
+                "timeline": {
+                  "name": "QT_MASTER_1795_v02",
+                  "id": "8106c6ba-ab09-444d-b4ff-f539b45a91b4"
+                },
+                "item_count": 16,
+                "tracks": {
+                  "video": {
+                    "track_count": 2,
+                    "tracks": [
+                      {
+                        "track_index": 1,
+                        "item_count": 9,
+                        "item_ids": [
+                          "e322aeeb-3b37-4cc1-b407-b5ca851e2cae",
+                          "0e571bb4-77e2-40ef-bce1-e9ec71005d77",
+                          "cda65e42-5dd9-4bd4-ab00-20b083247d0a",
+                          "7f6cb2dd-fe8d-4d78-a4b9-1fdf1d6c44dc",
+                          "54409504-cc49-48e4-8429-8e4919d9e9cb",
+                          "ee02bd24-c65c-484f-9343-61f4e9f2760d",
+                          "c5a52b64-ebf8-4796-a335-3e64266d27f4",
+                          "b0463ae9-88d8-425e-9879-dffb2aade41e",
+                          "e11faf8f-2336-400a-8b05-62c313afb83a"
+                        ]
+                      },
+                      {
+                        "track_index": 2,
+                        "item_count": 1,
+                        "item_ids": [
+                          "218afa79-7ec7-4591-85d4-51a371a7d26d"
+                        ]
+                      }
+                    ]
+                  },
+                  "audio": {
+                    "track_count": 3,
+                    "tracks": [
+                      {
+                        "track_index": 1,
+                        "item_count": 0,
+                        "item_ids": []
+                      },
+                      {
+                        "track_index": 2,
+                        "item_count": 1,
+                        "item_ids": [
+                          "086920f3-75f8-4a33-92d3-685904c2c90e"
+                        ]
+                      },
+                      {
+                        "track_index": 3,
+                        "item_count": 5,
+                        "item_ids": [
+                          "2808bf8d-e421-4f3d-aace-d40c29ff4db6",
+                          "c5e7210a-6f28-470a-a0de-86395c96fd0c",
+                          "e47f62fe-1b2f-47d7-ae27-afc2a1314a36",
+                          "88d90a1f-efbe-4263-b926-7121f8363def",
+                          "037e0bf2-83da-4ee8-a47c-3a7b72aae15f"
+                        ]
+                      }
+                    ]
+                  },
+                  "subtitle": {
+                    "track_count": 0,
+                    "tracks": []
+                  }
+                },
+                "warnings": []
+              },
+              "before_item_count": 11,
+              "after_item_count": 16,
+              "item_count_delta": 5,
+              "expected_item_count_delta": 5
+            },
+            "verified": true,
+            "verification_status": "readback_verified",
+            "journal_event": {
+              "type": "timeline.appended",
+              "success": true,
+              "verified": true,
+              "expected_count": 5,
+              "item_count_delta": 5
+            }
+          },
+          "_versioning": {
+            "analysis_run_id": "run_23fe5376d1ac",
+            "category": "media_pool",
+            "initiator": "auto"
+          }
+        }
+      },
+      "isError": false
+    }
+  }
+]

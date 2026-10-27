@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <rect width="1920" height="1080" fill="#05070b"/>
+  <circle cx="142" cy="142" r="56" fill="none" stroke="#58c4dd" stroke-width="4" opacity="0.95"/>
+  <path d="M112 142h60M142 112v60" stroke="#58c4dd" stroke-width="4" stroke-linecap="round" opacity="0.9"/>
+  <text x="240" y="178" fill="#f4f4f4" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="88" font-weight="700">参考与延伸</text>
+  <line x1="240" y1="222" x2="1680" y2="222" stroke="#58c4dd" stroke-width="3" opacity="0.75"/>
+
+  <text x="240" y="352" fill="#f4f4f4" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="48" font-weight="600">量子力学概论</text>
+  <text x="240" y="414" fill="#9fa8b6" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="34">David J. Griffiths</text>
+
+  <text x="240" y="546" fill="#f4f4f4" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="48" font-weight="600">量子隧道与波包 · 交互式演示</text>
+  <text x="240" y="608" fill="#58c4dd" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="32">phet.colorado.edu/zh_CN/simulations/quantum-tunneling</text>
+
+  <text x="240" y="740" fill="#f4f4f4" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="48" font-weight="600">开源项目</text>
+  <text x="240" y="802" fill="#83c167" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="32">github.com/louishrm/Quantum-Tunneling</text>
+
+  <text x="1680" y="944" text-anchor="end" fill="#f4f4f4" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="48">感谢观看</text>
+  <circle cx="1725" cy="925" r="7" fill="#f6c85f"/>
+</svg>

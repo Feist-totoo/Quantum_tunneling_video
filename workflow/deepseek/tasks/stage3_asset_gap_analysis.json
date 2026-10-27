@@ -1,0 +1,18 @@
+{
+  "task_type": "asset_manifest_drafting",
+  "objective": "把量子隧穿科普脚本拆成第三阶段素材需求清单，标出可检索公共素材、应由 Manim 制作、应复用 Blender V3、只需文字/音效的部分，并给出与现有 60fps 同步结构兼容的建议。只做文本初筛，不判断画面质量、科学正确性或最终版权。",
+  "inputs": [
+    "脚本.md",
+    "docs/STAGE1_REVIEW.md",
+    "sync/master_timeline_v3.json",
+    "resource/fromme/README.md",
+    "resource/fromAI/ASSET_CATALOG.md"
+  ],
+  "constraints": [
+    "除 Blender 段外保留脚本台词基本不变",
+    "每个素材需求必须写明脚本定位、类型、建议来源类别、预计时长和替代方案",
+    "网络素材未核验许可证前只能标记为候选",
+    "不得声称看过视频或图片",
+    "不得直接下载或修改正式文档"
+  ]
+}

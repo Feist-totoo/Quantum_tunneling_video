@@ -1,0 +1,24 @@
+{
+  "timestamp_utc": "20260812T202558Z",
+  "model_requested": "deepseek-v4-flash",
+  "model_returned": "deepseek-v4-flash",
+  "task_type": "asset_manifest_drafting",
+  "usage": {
+    "completion_tokens": 15480,
+    "prompt_tokens": 5365,
+    "total_tokens": 20845,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 13411,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 256
+    },
+    "prompt_cache_hit_tokens": 256,
+    "prompt_cache_miss_tokens": 5109
+  },
+  "codex_review_status": "pending"
+}

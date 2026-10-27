@@ -1,0 +1,32 @@
+[
+  {"tool":"media_pool","arguments":{"action":"add_subfolder","params":{"name":"01_VIDEO_MASTER","parent_path":"Master"}}},
+  {"tool":"media_pool","arguments":{"action":"add_subfolder","params":{"name":"02_BLENDER_PROXY","parent_path":"Master"}}},
+  {"tool":"media_pool","arguments":{"action":"add_subfolder","params":{"name":"03_OVERLAYS","parent_path":"Master"}}},
+  {"tool":"media_pool","arguments":{"action":"add_subfolder","params":{"name":"04_AUDIO_MUSIC","parent_path":"Master"}}},
+  {"tool":"media_pool","arguments":{"action":"add_subfolder","params":{"name":"05_AUDIO_SFX","parent_path":"Master"}}},
+  {"tool":"media_pool","arguments":{"action":"add_subfolder","params":{"name":"06_SUBTITLES","parent_path":"Master"}}},
+  {"tool":"media_pool","arguments":{"action":"add_subfolder","params":{"name":"99_REFERENCES","parent_path":"Master"}}},
+  {"tool":"media_pool","arguments":{"action":"safe_import_media","params":{"target_folder":"Master/01_VIDEO_MASTER","paths":[
+    "C:/Users/liuzh/Desktop/1/resource/fromAI/10_review_proxies/fusion_quantum_bridge_v8_1080p60.mp4",
+    "C:/Users/liuzh/Desktop/1/resource/fromAI/10_review_proxies/uncertainty_1d_stochastic_v3_1080p60.mp4",
+    "C:/Users/liuzh/Desktop/1/resource/fromAI/10_review_proxies/wavefunction_language_current_480p30.mp4",
+    "C:/Users/liuzh/Desktop/1/resource/fromAI/10_review_proxies/blender_bridge_current_480p30.mp4",
+    "C:/Users/liuzh/Desktop/1/resource/fromAI/10_review_proxies/tunnelling_applications_intermediate_layout_v7_1080p60.mp4",
+    "C:/Users/liuzh/Desktop/1/resolve_edit/proxies/credits_5_5s_1080p60.mp4"
+  ]}}},
+  {"tool":"media_pool","arguments":{"action":"safe_import_media","params":{"target_folder":"Master/02_BLENDER_PROXY","paths":[
+    "C:/Users/liuzh/Desktop/1/resolve_edit/proxies/blender_v3_selected_animatic_1080p60.mp4"
+  ]}}},
+  {"tool":"media_pool","arguments":{"action":"safe_import_media","params":{"target_folder":"Master/03_OVERLAYS","paths":[
+    "C:/Users/liuzh/Desktop/1/resource/fromAI/10_review_proxies/probability_overlay_v3_html_640x1080p60.mp4"
+  ]}}},
+  {"tool":"media_pool","arguments":{"action":"safe_import_media","params":{"target_folder":"Master/04_AUDIO_MUSIC","paths":[
+    "C:/Users/liuzh/Desktop/1/resolve_edit/audio/quantum_ambient_179_5s.wav"
+  ]}}},
+  {"tool":"media_pool","arguments":{"action":"safe_import_media","params":{"target_folder":"Master/05_AUDIO_SFX","paths":[
+    "C:/Users/liuzh/Desktop/1/resource/fromAI/07_music_sfx/generated/tunnel_chime_01.wav",
+    "C:/Users/liuzh/Desktop/1/resource/fromAI/07_music_sfx/generated/wave_transition_01.wav",
+    "C:/Users/liuzh/Desktop/1/resource/fromAI/07_music_sfx/generated/barrier_morph_01.wav",
+    "C:/Users/liuzh/Desktop/1/resource/fromAI/07_music_sfx/generated/heat_rise_01.wav"
+  ]}}}
+]

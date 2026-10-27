@@ -1,0 +1,35 @@
+[
+  {"tool":"media_pool","arguments":{"action":"create_timeline","params":{"name":"QT_MASTER_1795_v02","if_exists":"fail"}}},
+  {"tool":"timeline","arguments":{"action":"add_track","params":{"track_type":"video"}}},
+  {"tool":"timeline","arguments":{"action":"add_track","params":{"track_type":"audio","options":{"audio_type":"stereo"}}}},
+  {"tool":"timeline","arguments":{"action":"add_track","params":{"track_type":"audio","options":{"audio_type":"stereo"}}}},
+  {"tool":"timeline","arguments":{"action":"set_track_name","params":{"track_type":"video","index":1,"name":"V1 主画面"}}},
+  {"tool":"timeline","arguments":{"action":"set_track_name","params":{"track_type":"video","index":2,"name":"V2 公式与图表"}}},
+  {"tool":"timeline","arguments":{"action":"set_track_name","params":{"track_type":"audio","index":1,"name":"A1 人工配音（待录）"}}},
+  {"tool":"timeline","arguments":{"action":"set_track_name","params":{"track_type":"audio","index":2,"name":"A2 氛围音乐"}}},
+  {"tool":"timeline","arguments":{"action":"set_track_name","params":{"track_type":"audio","index":3,"name":"A3 转场音效"}}},
+  {"tool":"media_pool","arguments":{"action":"append_to_timeline","params":{"record_frame_mode":"relative","clip_infos":[
+    {"clip_id":"1ffd044c-a7b9-41e4-9326-4397a182005d","start_frame":0,"end_frame":2940,"record_frame":0,"track_index":1,"media_type":1},
+    {"clip_id":"a3ee6606-0de8-46ef-bd55-70e9892ad119","start_frame":0,"end_frame":985,"record_frame":2940,"track_index":1,"media_type":1},
+    {"clip_id":"3a26fb7b-ae08-4235-84ca-650c867f0fab","start_frame":0,"end_frame":762,"record_frame":3925,"track_index":1,"media_type":1},
+    {"clip_id":"8f772405-72f4-4cc7-9dc9-f1aaac748c66","start_frame":0,"end_frame":506,"record_frame":4687,"track_index":1,"media_type":1},
+    {"clip_id":"ee298b68-9b13-4636-89e0-91d9af33a019","start_frame":0,"end_frame":600,"record_frame":5193,"track_index":1,"media_type":1},
+    {"clip_id":"ee298b68-9b13-4636-89e0-91d9af33a019","start_frame":600,"end_frame":3537,"record_frame":5793,"track_index":1,"media_type":1},
+    {"clip_id":"ee298b68-9b13-4636-89e0-91d9af33a019","start_frame":3537,"end_frame":3865,"record_frame":8730,"track_index":1,"media_type":1},
+    {"clip_id":"28aaa0e9-c794-40b5-a4e2-7be56c22594a","start_frame":0,"end_frame":1382,"record_frame":9058,"track_index":1,"media_type":1},
+    {"clip_id":"de63ef46-0dd2-4e94-819c-cdcde1af44b8","start_frame":0,"end_frame":330,"record_frame":10440,"track_index":1,"media_type":1}
+  ]}}},
+  {"tool":"media_pool","arguments":{"action":"append_to_timeline","params":{"record_frame_mode":"relative","clip_infos":[
+    {"clip_id":"54086d64-ac84-4705-95e0-60569e3b8daf","start_frame":0,"end_frame":2937,"record_frame":5793,"track_index":2,"media_type":1}
+  ]}}},
+  {"tool":"media_pool","arguments":{"action":"append_to_timeline","params":{"record_frame_mode":"relative","clip_infos":[
+    {"clip_id":"e1cc9a74-b3f5-425b-892c-227a49bb68b2","start_frame":0,"end_frame":10770,"record_frame":0,"track_index":2,"media_type":2}
+  ]}}},
+  {"tool":"media_pool","arguments":{"action":"append_to_timeline","params":{"record_frame_mode":"relative","clip_infos":[
+    {"clip_id":"cffaf584-6637-47be-b2ff-4a5e29a554af","start_frame":0,"end_frame":173,"record_frame":828,"track_index":3,"media_type":2},
+    {"clip_id":"4cd576ac-221b-4b68-a416-6b4472ef5442","start_frame":0,"end_frame":102,"record_frame":2736,"track_index":3,"media_type":2},
+    {"clip_id":"d2260325-1560-4cd0-aa3d-8c880189a7ce","start_frame":0,"end_frame":72,"record_frame":2940,"track_index":3,"media_type":2},
+    {"clip_id":"347a2c83-9a64-42ef-885c-a3f8c2bc70fc","start_frame":0,"end_frame":144,"record_frame":7473,"track_index":3,"media_type":2},
+    {"clip_id":"347a2c83-9a64-42ef-885c-a3f8c2bc70fc","start_frame":0,"end_frame":144,"record_frame":8013,"track_index":3,"media_type":2}
+  ]}}}
+]

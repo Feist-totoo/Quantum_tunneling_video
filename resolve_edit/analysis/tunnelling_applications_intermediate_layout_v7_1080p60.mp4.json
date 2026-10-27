@@ -1,0 +1,75 @@
+{
+  "video": "tunnelling_applications_intermediate_layout_v7_1080p60.mp4",
+  "duration": 23.033,
+  "resolution": {
+    "width": 1920,
+    "height": 1080
+  },
+  "mode": "interval",
+  "frames": [
+    {
+      "path": "C:\\Users\\liuzh\\Desktop\\1\\resource\\fromAI\\10_review_proxies\\tunnelling_applications_intermediate_layout_v7_1080p60_frames\\frame_0001.jpg",
+      "timestamp": 0.0,
+      "timestamp_formatted": "00:00"
+    },
+    {
+      "path": "C:\\Users\\liuzh\\Desktop\\1\\resource\\fromAI\\10_review_proxies\\tunnelling_applications_intermediate_layout_v7_1080p60_frames\\frame_0002.jpg",
+      "timestamp": 1.919,
+      "timestamp_formatted": "00:01"
+    },
+    {
+      "path": "C:\\Users\\liuzh\\Desktop\\1\\resource\\fromAI\\10_review_proxies\\tunnelling_applications_intermediate_layout_v7_1080p60_frames\\frame_0003.jpg",
+      "timestamp": 3.839,
+      "timestamp_formatted": "00:03"
+    },
+    {
+      "path": "C:\\Users\\liuzh\\Desktop\\1\\resource\\fromAI\\10_review_proxies\\tunnelling_applications_intermediate_layout_v7_1080p60_frames\\frame_0004.jpg",
+      "timestamp": 5.758,
+      "timestamp_formatted": "00:05"
+    },
+    {
+      "path": "C:\\Users\\liuzh\\Desktop\\1\\resource\\fromAI\\10_review_proxies\\tunnelling_applications_intermediate_layout_v7_1080p60_frames\\frame_0005.jpg",
+      "timestamp": 7.678,
+      "timestamp_formatted": "00:07"
+    },
+    {
+      "path": "C:\\Users\\liuzh\\Desktop\\1\\resource\\fromAI\\10_review_proxies\\tunnelling_applications_intermediate_layout_v7_1080p60_frames\\frame_0006.jpg",
+      "timestamp": 9.597,
+      "timestamp_formatted": "00:09"
+    },
+    {
+      "path": "C:\\Users\\liuzh\\Desktop\\1\\resource\\fromAI\\10_review_proxies\\tunnelling_applications_intermediate_layout_v7_1080p60_frames\\frame_0007.jpg",
+      "timestamp": 11.516,
+      "timestamp_formatted": "00:11"
+    },
+    {
+      "path": "C:\\Users\\liuzh\\Desktop\\1\\resource\\fromAI\\10_review_proxies\\tunnelling_applications_intermediate_layout_v7_1080p60_frames\\frame_0008.jpg",
+      "timestamp": 13.436,
+      "timestamp_formatted": "00:13"
+    },
+    {
+      "path": "C:\\Users\\liuzh\\Desktop\\1\\resource\\fromAI\\10_review_proxies\\tunnelling_applications_intermediate_layout_v7_1080p60_frames\\frame_0009.jpg",
+      "timestamp": 15.355,
+      "timestamp_formatted": "00:15"
+    },
+    {
+      "path": "C:\\Users\\liuzh\\Desktop\\1\\resource\\fromAI\\10_review_proxies\\tunnelling_applications_intermediate_layout_v7_1080p60_frames\\frame_0010.jpg",
+      "timestamp": 17.275,
+      "timestamp_formatted": "00:17"
+    },
+    {
+      "path": "C:\\Users\\liuzh\\Desktop\\1\\resource\\fromAI\\10_review_proxies\\tunnelling_applications_intermediate_layout_v7_1080p60_frames\\frame_0011.jpg",
+      "timestamp": 19.194,
+      "timestamp_formatted": "00:19"
+    },
+    {
+      "path": "C:\\Users\\liuzh\\Desktop\\1\\resource\\fromAI\\10_review_proxies\\tunnelling_applications_intermediate_layout_v7_1080p60_frames\\frame_0012.jpg",
+      "timestamp": 21.113,
+      "timestamp_formatted": "00:21"
+    }
+  ],
+  "frame_count": 12,
+  "transcript": [],
+  "text": "",
+  "note": "Use the Read tool to view frame images for visual understanding."
+}

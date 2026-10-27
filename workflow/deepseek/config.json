@@ -1,0 +1,30 @@
+{
+  "base_url": "https://api.deepseek.com",
+  "model": "deepseek-v4-flash",
+  "thinking": {
+    "type": "enabled",
+    "reasoning_effort": "max"
+  },
+  "temperature": 0.2,
+  "max_tokens": 24000,
+  "user_id": "quantum_tunneling_video_pipeline",
+  "allowed_tasks": [
+    "script_analysis",
+    "subtitle_alignment",
+    "shotlist_drafting",
+    "asset_manifest_drafting",
+    "source_metadata_summary",
+    "license_text_summary",
+    "transition_notes",
+    "qa_checklist"
+  ],
+  "forbidden_tasks": [
+    "image_or_video_quality_judgment",
+    "audio_quality_judgment",
+    "direct_download",
+    "direct_file_mutation_outside_runs",
+    "blender_or_editor_control",
+    "final_scientific_fact_approval",
+    "final_license_approval"
+  ]
+}

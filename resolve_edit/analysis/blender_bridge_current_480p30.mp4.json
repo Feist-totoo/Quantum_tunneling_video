@@ -1,0 +1,75 @@
+{
+  "video": "blender_bridge_current_480p30.mp4",
+  "duration": 8.432,
+  "resolution": {
+    "width": 854,
+    "height": 480
+  },
+  "mode": "interval",
+  "frames": [
+    {
+      "path": "C:\\Users\\liuzh\\Desktop\\1\\resource\\fromAI\\10_review_proxies\\blender_bridge_current_480p30_frames\\frame_0001.jpg",
+      "timestamp": 0.0,
+      "timestamp_formatted": "00:00"
+    },
+    {
+      "path": "C:\\Users\\liuzh\\Desktop\\1\\resource\\fromAI\\10_review_proxies\\blender_bridge_current_480p30_frames\\frame_0002.jpg",
+      "timestamp": 0.703,
+      "timestamp_formatted": "00:00"
+    },
+    {
+      "path": "C:\\Users\\liuzh\\Desktop\\1\\resource\\fromAI\\10_review_proxies\\blender_bridge_current_480p30_frames\\frame_0003.jpg",
+      "timestamp": 1.405,
+      "timestamp_formatted": "00:01"
+    },
+    {
+      "path": "C:\\Users\\liuzh\\Desktop\\1\\resource\\fromAI\\10_review_proxies\\blender_bridge_current_480p30_frames\\frame_0004.jpg",
+      "timestamp": 2.108,
+      "timestamp_formatted": "00:02"
+    },
+    {
+      "path": "C:\\Users\\liuzh\\Desktop\\1\\resource\\fromAI\\10_review_proxies\\blender_bridge_current_480p30_frames\\frame_0005.jpg",
+      "timestamp": 2.811,
+      "timestamp_formatted": "00:02"
+    },
+    {
+      "path": "C:\\Users\\liuzh\\Desktop\\1\\resource\\fromAI\\10_review_proxies\\blender_bridge_current_480p30_frames\\frame_0006.jpg",
+      "timestamp": 3.513,
+      "timestamp_formatted": "00:03"
+    },
+    {
+      "path": "C:\\Users\\liuzh\\Desktop\\1\\resource\\fromAI\\10_review_proxies\\blender_bridge_current_480p30_frames\\frame_0007.jpg",
+      "timestamp": 4.216,
+      "timestamp_formatted": "00:04"
+    },
+    {
+      "path": "C:\\Users\\liuzh\\Desktop\\1\\resource\\fromAI\\10_review_proxies\\blender_bridge_current_480p30_frames\\frame_0008.jpg",
+      "timestamp": 4.919,
+      "timestamp_formatted": "00:04"
+    },
+    {
+      "path": "C:\\Users\\liuzh\\Desktop\\1\\resource\\fromAI\\10_review_proxies\\blender_bridge_current_480p30_frames\\frame_0009.jpg",
+      "timestamp": 5.621,
+      "timestamp_formatted": "00:05"
+    },
+    {
+      "path": "C:\\Users\\liuzh\\Desktop\\1\\resource\\fromAI\\10_review_proxies\\blender_bridge_current_480p30_frames\\frame_0010.jpg",
+      "timestamp": 6.324,
+      "timestamp_formatted": "00:06"
+    },
+    {
+      "path": "C:\\Users\\liuzh\\Desktop\\1\\resource\\fromAI\\10_review_proxies\\blender_bridge_current_480p30_frames\\frame_0011.jpg",
+      "timestamp": 7.027,
+      "timestamp_formatted": "00:07"
+    },
+    {
+      "path": "C:\\Users\\liuzh\\Desktop\\1\\resource\\fromAI\\10_review_proxies\\blender_bridge_current_480p30_frames\\frame_0012.jpg",
+      "timestamp": 7.729,
+      "timestamp_formatted": "00:07"
+    }
+  ],
+  "frame_count": 12,
+  "transcript": [],
+  "text": "",
+  "note": "Use the Read tool to view frame images for visual understanding."
+}

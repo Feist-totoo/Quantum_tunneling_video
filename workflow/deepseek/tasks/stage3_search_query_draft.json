@@ -1,0 +1,15 @@
+{
+  "task_type": "source_metadata_summary",
+  "objective": "根据量子隧穿科普脚本，为第三阶段网络素材检索生成高信号查询词和候选来源类型，重点覆盖太阳、核聚变、扫描隧道显微镜、NAND 闪存、半导体晶圆/芯片、公共领域音乐音效。",
+  "inputs": [
+    "脚本.md",
+    "docs/STAGE1_REVIEW.md",
+    "resource/fromAI/ASSET_CATALOG.md"
+  ],
+  "constraints": [
+    "优先 NASA、DOE、NIST、Wikimedia Commons、大学与成熟开源项目的官方页面",
+    "每项给出中英文查询词、目标素材形式、建议用途、需核验的许可证字段",
+    "不得虚构具体链接、作者、许可证或下载状态",
+    "不得直接下载"
+  ]
+}

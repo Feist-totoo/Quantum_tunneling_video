@@ -1,0 +1,13 @@
+{
+  "task_type": "script_analysis",
+  "objective": "找出量子隧穿科普脚本中的术语、逻辑和口播衔接问题，不直接改写原稿。",
+  "inputs": [
+    "脚本.md"
+  ],
+  "constraints": [
+    "除 Blender 段外尽量保持原台词",
+    "每项问题必须给出原文定位和建议",
+    "不虚构来源"
+  ]
+}
+

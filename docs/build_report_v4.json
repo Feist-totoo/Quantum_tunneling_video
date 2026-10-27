@@ -1,0 +1,41 @@
+{
+  "blend": "C:\\Users\\liuzh\\Desktop\\1\\quantum_tunneling_scientific_v4.blend",
+  "source": "C:\\Users\\liuzh\\Desktop\\1\\quantum_tunneling_scientific_v3_fullrender.blend",
+  "cameras": {
+    "intro": "CAM_V4_Barrier_Intro",
+    "follow": "CAM_V4_Particle_Wave_Follow",
+    "cut_frame": 510,
+    "follow_initial_plane": "XZ",
+    "follow_initial_sightline_degrees": 15.010635183949715,
+    "follow_initial_position_relation": "particle.x < camera.x < barrier.x",
+    "follow_screen_up_axis": "+Z",
+    "post_cut_hard_cuts": 0,
+    "intro_key_count": 4,
+    "follow_key_count": 28
+  },
+  "wavefunction": {
+    "object": "GEO_V4_Complex_Wavefunction_Helix",
+    "mapping": "r(x,t)=(x, Re(psi(x,t)), Im(psi(x,t)))",
+    "shape_key_count": 151,
+    "sample_points": 720,
+    "planar_component_frames": [
+      1050,
+      1320
+    ],
+    "helix_fit_frames": [
+      1180,
+      1320
+    ]
+  },
+  "probability": {
+    "object": "GEO_Probability_Density_XZ",
+    "hidden_until_camera_y_move": true,
+    "fade_frames": [
+      1560,
+      1660
+    ]
+  },
+  "timeline": "C:\\Users\\liuzh\\Desktop\\1\\sync\\master_timeline_v4.json",
+  "later_animation_preserved": "barrier study, collapse, ensemble, and many-trial object animation retained",
+  "final_render_executed": false
+}

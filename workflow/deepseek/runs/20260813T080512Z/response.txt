@@ -1,0 +1,227 @@
+{
+  "summary": "本清单仅为量子隧穿科普视频第三阶段素材需求草稿，按脚本顺序整理约20条需制作/检索的素材项。所有素材默认必须重制或待检索后评估，尚无任何素材被假定为已可用；版权许可、科学准确性与最终取舍均需Codex复核。整体美术取向应保持3Blue1Brown式黑底开放数学画布、公式与图形同色映射，避免仪表盘/卡片式UI。",
+  "deliverables": [
+    {
+      "sequence": 1,
+      "section": "太阳与核聚变——开篇“核聚变”标题大字",
+      "purpose": "屏幕中间展示大号“核聚变”文字，后缩小上移消失，作为开篇锚点。",
+      "source_types": "不涉及外部素材，自建文本动画",
+      "production_mode": ["必须重制", "适合Manim"],
+      "duration_seconds": 2,
+      "license_check": "检查Manim默认字体及中文字体（如思源黑体）的商用许可",
+      "risk": "低"
+    },
+    {
+      "sequence": 2,
+      "section": "太阳与核聚变——太阳模型与辐射动画",
+      "purpose": "从画面下方构建精细太阳模型并移动到中心，然后显示太阳发出辐射（亮度/白度提升）。",
+      "source_types": "NASA/ESA官方媒体库（太阳表面纹理，可选）；Blender自建模型和材质；不依赖外部模型下载",
+      "production_mode": ["必须重制", "适合Blender"],
+      "duration_seconds": 6,
+      "license_check": "若从NASA/ESA获取太阳纹理/影像，需按各自媒体使用条款核验；如全部自绘则无外部许可",
+      "risk": "中"
+    },
+    {
+      "sequence": 3,
+      "section": "太阳与核聚变——温度轴对比（1500万K vs 1亿K）",
+      "purpose": "设计横向温度轴（单位10^7K），显示蓝色柱1.5*10^7K，后接红色柱10单位并缩放标注1*10^8K。",
+      "source_types": "不涉及外部素材；Manim数学图表",
+      "production_mode": ["必须重制", "适合Manim"],
+      "duration_seconds": 5,
+      "license_check": "无外部许可",
+      "risk": "低"
+    },
+    {
+      "sequence": 4,
+      "section": "太阳与核聚变——核聚变反应演示与核反应公式",
+      "purpose": "右侧显示轻核聚变过程（两个轻核靠近、融合、释放中子/能量），左侧显示D+T→He+n的核反应方程式。",
+      "source_types": "自建原子模型动画；可参考PhET交互模拟的物理逻辑（但不得截取PhET素材）；还可参考开源物理引擎",
+      "production_mode": ["必须重制", "适合Blender", "适合Manim"],
+      "duration_seconds": 6,
+      "license_check": "不复制PhET界面；自建原子3D模型；字体许可同前",
+      "risk": "低"
+    },
+    {
+      "sequence": 5,
+      "section": "经典粒子失败——库仑斥力-距离图与经典粒子做功",
+      "purpose": "绘制库仑斥力随距离变化的曲线，展示轻原子核在曲线上移动到顶端、回落到1/3高度，说明经典理论下太阳温度不足以让核聚变发生。",
+      "source_types": "不涉及外部素材；Manim绘制势能曲线",
+      "production_mode": ["必须重制", "适合Manim"],
+      "duration_seconds": 8,
+      "license_check": "无外部许可",
+      "risk": "低"
+    },
+    {
+      "sequence": 6,
+      "section": "转场与标题——融化转场到问号、突然转场到“量子隧穿”",
+      "purpose": "从库仑曲线场景融化转场为巨大问号，再从问号突然转场为“量子隧穿”大字并缓慢放大2秒。",
+      "source_types": "不涉及外部素材；转场特效在剪辑/Manim/Blender中合成",
+      "production_mode": ["必须重制", "适合Manim", "适合剪辑合成"],
+      "duration_seconds": 6,
+      "license_check": "无外部许可",
+      "risk": "低"
+    },
+    {
+      "sequence": 7,
+      "section": "不确定性原理——公式与动态图表",
+      "purpose": "中心浮现不确定性原理公式σ_x σ_p ≥ ħ/2，随后向一侧缩小，展示位置/动量不确定度联动图表。",
+      "source_types": "不涉及外部素材；Manim生成公式和滑块联动图表",
+      "production_mode": ["必须重制", "适合Manim"],
+      "duration_seconds": 8,
+      "license_check": "无外部许可；字体许可同前",
+      "risk": "低"
+    },
+    {
+      "sequence": 8,
+      "section": "不确定性原理——电子粒子模型到电子云的过渡",
+      "purpose": "表现电子从宏观“小球/点粒子”到微观电子云、再到量子态坐标（含σ_x、σ_p标注）的转变。",
+      "source_types": "不涉及外部素材；三维粒子模型与坐标系使用Blender/Manim",
+      "production_mode": ["必须重制", "适合Blender", "适合Manim"],
+      "duration_seconds": 8,
+      "license_check": "无外部许可",
+      "risk": "低"
+    },
+    {
+      "sequence": 9,
+      "section": "波函数与势垒——波包、薛定谔方程与概率密度",
+      "purpose": "展示一维概率密度波包三维坐标图，随后呈现薛定谔方程、波函数模方与概率密度的关系，并切换为定态薛定谔方程。",
+      "source_types": "不涉及外部素材；Manim三维概率密度图/坐标；公式由Manim呈现",
+      "production_mode": ["必须重制", "适合Manim"],
+      "duration_seconds": 10,
+      "license_check": "无外部许可",
+      "risk": "低"
+    },
+    {
+      "sequence": 10,
+      "section": "波函数与势垒——三类势场图（方势阱、自由粒子、谐振子）",
+      "purpose": "根据条件式绘制一维无限深方势阱、自由粒子模型、经典谐振子三个小型势场图，并标注(1)(2)(3)。",
+      "source_types": "不涉及外部素材；Manim绘制方势阱、自由粒子势、谐振子势",
+      "production_mode": ["必须重制", "适合Manim"],
+      "duration_seconds": 6,
+      "license_check": "无外部许可",
+      "risk": "低"
+    },
+    {
+      "sequence": 11,
+      "section": "波函数与势垒——Blender量子隧穿模拟",
+      "purpose": "使用Blender实现波包从左侧向右传播遇到势垒，形成反射波和透射波；同步展示波函数表达式、边界连续条件、透射概率T=|F|^2及厚高势垒近似公式。",
+      "source_types": "自建3D波包和势垒模型；可参考脚本中提到的GitHub开源项目的物理实现（需核验其开源许可证）；不直接使用任何现成资产",
+      "production_mode": ["必须重制", "适合Blender", "适合剪辑合成"],
+      "duration_seconds": 30,
+      "license_check": "若参考/整合GitHub项目代码或渲染资产，需确认仓库许可证（MIT/GPL等）并遵守条款；公式与数学文本自绘；使用Blender默认资源无需额外许可",
+      "risk": "高"
+    },
+    {
+      "sequence": 12,
+      "section": "转场——渐隐转场（连接Blender模拟与生活应用部分）",
+      "purpose": "在Blender模拟完成后使用渐隐转场进入生活应用板块。",
+      "source_types": "不涉及外部素材；剪辑合成",
+      "production_mode": ["必须重制", "适合剪辑合成"],
+      "duration_seconds": 1,
+      "license_check": "无外部许可",
+      "risk": "低"
+    },
+    {
+      "sequence": 13,
+      "section": "生活应用开场——蓝色线框量子隧穿简易示意图（电子穿墙）",
+      "purpose": "用干净的大蓝色线框展示电子入射势垒、部分概率穿墙并在墙后留下微光轨迹的示意图。注意：应设计为开放几何线框，避免卡片式UI。",
+      "source_types": "不涉及外部素材；Manim动画；注意开放线框而非卡片式UI",
+      "production_mode": ["必须重制", "适合Manim"],
+      "duration_seconds": 5,
+      "license_check": "无外部许可；字体许可同前",
+      "risk": "中"
+    },
+    {
+      "sequence": 14,
+      "section": "生活应用——NAND闪存擦写原理动画",
+      "purpose": "显示SSD科幻风简化剖面，展示电子通过量子隧穿穿透绝缘层进入浮栅层（NAND闪存擦写原理）。先在中间放大演示，再缩小到左上位置。",
+      "source_types": "自建SSD剖面3D模型；可参考开放技术文档的描述；不复制受版权图片",
+      "production_mode": ["必须重制", "适合Blender", "适合剪辑合成"],
+      "duration_seconds": 8,
+      "license_check": "技术示意需原创；如参考专利图/教材图需注意版权；无外部媒体素材",
+      "risk": "高"
+    },
+    {
+      "sequence": 15,
+      "section": "生活应用——扫描隧道显微镜（STM）原理动画",
+      "purpose": "展示高度简化的STM模型：金属探针在材料表面上方微小距离滑过，探针尖端与表面之间闪烁微弱蓝色电弧（隧道电流），背景伴有波形图变化。先在中间放大演示，再缩小到左中位置。",
+      "source_types": "自建STM探针/表面模型；可参考教科书示意（避免直接复制受版权图片）；可参考PhET模拟的物理逻辑（但自绘）",
+      "production_mode": ["必须重制", "适合Blender"],
+      "duration_seconds": 8,
+      "license_check": "原创3D模型；参考的逻辑不涉及复制；若有外部参考图需获得许可",
+      "risk": "高"
+    },
+    {
+      "sequence": 16,
+      "section": "生活应用——芯片漏电发热动画",
+      "purpose": "展示密集的晶体管芯片微观结构，制程缩减（5nm→3nm）时栅极无法完全挡住电子，电子漏向四周，随后泛起橙红色热量光晕和细微烟雾/发热波纹。先在中间放大演示，再缩小到左下位置。",
+      "source_types": "自建芯片微结构3D模型；热效应与烟雾特效在Blender/剪辑中合成；可参考公开技术文章描述，但不直接复制受版权图片",
+      "production_mode": ["必须重制", "适合Blender", "适合剪辑合成"],
+      "duration_seconds": 8,
+      "license_check": "原创素材；技术表述需准确，不夸大",
+      "risk": "中"
+    },
+    {
+      "sequence": 17,
+      "section": "结束转场——参考文献/项目/致谢",
+      "purpose": "展示参考文献与推荐项目名称、网址，以及致谢文字。脚本文本中已有具体的GitHub和PhET链接，按文本排版展示。",
+      "source_types": "文本展示；脚本已给出参考文献/项目名称与链接，按文本排版即可；可选用开源排版模板",
+      "production_mode": ["必须重制", "适合剪辑合成"],
+      "duration_seconds": 3,
+      "license_check": "展示GitHub项目名称/链接前，建议核对项目许可证；PhET模拟的版权说明需核验；参考文献引用属于合理引用，但需按学术规范标注",
+      "risk": "低"
+    },
+    {
+      "sequence": 18,
+      "section": "音乐——背景音乐",
+      "purpose": "为全片提供与量子隧穿主题匹配的科技感/极简感背景音乐，避免喧宾夺主。",
+      "source_types": "优先检索CC0/CC BY音乐库（如incompetech、Free Music Archive）；也可用DAW自作曲或AI音乐生成",
+      "production_mode": ["必须重制", "适合剪辑合成"],
+      "duration_seconds": 90,
+      "license_check": "音乐库许可需核验（CC0/CC BY署名要求）；AI音乐需确认平台条款；最终版权由Codex复核",
+      "risk": "中"
+    },
+    {
+      "sequence": 19,
+      "section": "音乐音效——转场、粒子隧穿、电子运动等音效",
+      "purpose": "制作或检索多个短音效：从太阳到问号的融化音效、“量子隧穿”标题出现音效、电子穿墙/隧穿的微弱音效、NAND闪存写入的电子运动音效等。",
+      "source_types": "优先检索CC0音效库；自录/合成音效",
+      "production_mode": ["必须重制", "适合剪辑合成"],
+      "duration_seconds": 10,
+      "license_check": "音效库许可需核验；合成音效无版权",
+      "risk": "低"
+    },
+    {
+      "sequence": 20,
+      "section": "旁白——中文配音占位",
+      "purpose": "为全片预留中文解说/旁白音轨，可先用TTS生成占位，后续替换为正式配音。",
+      "source_types": "录播室录音/TTS合成；若用TTS需确认商用许可",
+      "production_mode": ["必须重制", "适合剪辑合成"],
+      "duration_seconds": 80,
+      "license_check": "TTS服务使用条款需核验；最终配音版权/演员许可由Codex复核",
+      "risk": "中"
+    }
+  ],
+  "issues": [
+    "整体美术取向要求避免仪表盘和卡片式UI。摘要第13条中的“干净的大蓝色线框”应被设计成开放的纯几何线框（仅勾勒区域），不要加标题栏/按钮/填充背景等卡片式元素。",
+    "脚本中多处需要使用Manim/Blender动画，但没有现成工程；所有资产需新建，时间预算需考虑。",
+    "Blender模拟部分（第11条）是最复杂的一块，需要波包、势垒、反射透射、公式同步，建议先做分镜/动画Layout，再进入渲染。",
+    "音乐/音效应选择与黑底数学画布一致的极简科技感，避免过于唐突。"
+  ],
+  "uncertainties": [
+    "脚本中已标注温度：太阳中心约1500万K，经典核聚变至少需要一亿K（1e8 K）。台词中写作“一亿”，与公式1*10^8K一致；但前面红色柱长为“10”可能代表以10^7K为单位，即1e8K，需确认。",
+    "脚本中“轻原子核向左平移到y轴”的具体运动含义不明确（是表示遂穿到另一侧还是仅示意？），需与Codex/科学顾问确认。",
+    "Blender部分文本中“C$$\\ne^{ -...}$$”疑似排版错误（可能应为e^{...}），需修正。",
+    "NAND/STM/芯片漏电动画的科学细节（如浮栅层位置、探针高度、5nm→3nm是否准确）需专家复核，避免误导。",
+    "脚本中提到的GitHub项目与PhET链接是展示内容，但我们未确认其开源许可与商标使用，不能假定可自由使用。"
+  ],
+  "recommended_codex_checks": [
+    "核实太阳中心温度与经典核聚变所需温度的数值和描述是否准确。",
+    "核实透射概率公式（包括厚高势垒近似）与边界条件方程组是否书写正确。",
+    "检查Blender实现部分中波函数表达式（k 和 κ）的物理意义与显示是否一致。",
+    "核验所有外部素材（如NASA太阳纹理、音乐、音效、TTS语音）的许可证与署名要求。",
+    "确认脚本中GitHub项目/PhET链接展示是否符合其条款（开源许可/商标）。",
+    "审阅最终动画是否保持3Blue1Brown式黑底开放数学画布、公式与图形同色映射，避免卡片式UI。",
+    "确认旁白占位与时间轴匹配，并核对最终台词。"
+  ]
+}

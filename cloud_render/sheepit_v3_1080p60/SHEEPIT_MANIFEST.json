@@ -1,0 +1,28 @@
+{
+  "blenderVersion": "5.2.0 LTS",
+  "blendFile": "quantum_tunneling_v3_sheepit_blender_5_2.blend",
+  "engine": "BLENDER_EEVEE",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 60,
+  "frameStart": 0,
+  "frameEnd": 5399,
+  "frameCount": 5400,
+  "outputFormat": "PNG RGB 8-bit",
+  "eeveeRenderSamples": 16,
+  "eeveeVolumetricSamples": 16,
+  "camera": "CAM_V3_Continuous",
+  "externalFilesBeforePacking": [],
+  "linkedLibraries": [],
+  "handlers": {
+    "frame_change_pre": 0,
+    "frame_change_post": 0,
+    "render_pre": 0,
+    "render_post": 0
+  },
+  "drivers": 0,
+  "vseStrips": 0,
+  "requiresCustomPython": false
+}

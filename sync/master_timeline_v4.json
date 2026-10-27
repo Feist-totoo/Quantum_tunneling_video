@@ -1,0 +1,129 @@
+{
+  "schema": "quantum-tunneling-master-timeline-v4",
+  "fps": 60,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "frame_range": [
+    0,
+    5399
+  ],
+  "camera": {
+    "intro": "CAM_V4_Barrier_Intro",
+    "continuous_after_cut": "CAM_V4_Particle_Wave_Follow",
+    "only_cut_frame": 510,
+    "initial_follow_sightline_degrees_to_negative_x": 15.0,
+    "initial_follow_plane": "XZ",
+    "initial_follow_position_relation": "between incident particle and barrier",
+    "screen_up_axis": "+Z"
+  },
+  "segments": [
+    {
+      "name": "barrier_intro",
+      "frames": [
+        0,
+        509
+      ]
+    },
+    {
+      "name": "particle_follow_15deg_to_topdown",
+      "frames": [
+        510,
+        1079
+      ]
+    },
+    {
+      "name": "particle_to_planar_real_imag",
+      "frames": [
+        1080,
+        1199
+      ]
+    },
+    {
+      "name": "planar_to_3d_complex_helix",
+      "frames": [
+        1200,
+        1319
+      ]
+    },
+    {
+      "name": "camera_translate_y_probability_reveal",
+      "frames": [
+        1320,
+        1739
+      ]
+    },
+    {
+      "name": "formula_with_blender_highlight",
+      "frames": [
+        1740,
+        2039
+      ]
+    },
+    {
+      "name": "probability_chart_live",
+      "frames": [
+        2040,
+        2879
+      ]
+    },
+    {
+      "name": "width_study",
+      "frames": [
+        2880,
+        3419
+      ]
+    },
+    {
+      "name": "height_study",
+      "frames": [
+        3420,
+        3959
+      ]
+    },
+    {
+      "name": "comparison_hold",
+      "frames": [
+        3960,
+        4079
+      ]
+    },
+    {
+      "name": "overlay_out",
+      "frames": [
+        4080,
+        4139
+      ]
+    },
+    {
+      "name": "collapse_ensemble",
+      "frames": [
+        4140,
+        4859
+      ]
+    },
+    {
+      "name": "many_trials",
+      "frames": [
+        4860,
+        5399
+      ]
+    }
+  ],
+  "complex_wavefunction_mapping": {
+    "curve": "r(x,t)=(x, Re(psi), Im(psi))",
+    "radius": "|psi|",
+    "phase": "arg(psi)",
+    "probability_density": "rho=|psi|^2",
+    "probability_reveal_frames": [
+      1560,
+      1660
+    ]
+  },
+  "external_overlay_sync": {
+    "formula_start": 1740,
+    "probability_chart_start": 2040,
+    "absolute_frame_numbers_unchanged_after_1740": true
+  }
+}

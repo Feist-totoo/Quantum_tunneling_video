@@ -1,0 +1,7 @@
+{
+  "task": {
+    "task_type": "qa_checklist",
+    "objective": "返回工作流连通性测试结果"
+  },
+  "documents": []
+}

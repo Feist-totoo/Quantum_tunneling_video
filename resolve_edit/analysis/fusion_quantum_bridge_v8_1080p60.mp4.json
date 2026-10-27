@@ -1,0 +1,75 @@
+{
+  "video": "fusion_quantum_bridge_v8_1080p60.mp4",
+  "duration": 49.0,
+  "resolution": {
+    "width": 1920,
+    "height": 1080
+  },
+  "mode": "interval",
+  "frames": [
+    {
+      "path": "C:\\Users\\liuzh\\Desktop\\1\\resource\\fromAI\\10_review_proxies\\fusion_quantum_bridge_v8_1080p60_frames\\frame_0001.jpg",
+      "timestamp": 0.0,
+      "timestamp_formatted": "00:00"
+    },
+    {
+      "path": "C:\\Users\\liuzh\\Desktop\\1\\resource\\fromAI\\10_review_proxies\\fusion_quantum_bridge_v8_1080p60_frames\\frame_0002.jpg",
+      "timestamp": 4.083,
+      "timestamp_formatted": "00:04"
+    },
+    {
+      "path": "C:\\Users\\liuzh\\Desktop\\1\\resource\\fromAI\\10_review_proxies\\fusion_quantum_bridge_v8_1080p60_frames\\frame_0003.jpg",
+      "timestamp": 8.167,
+      "timestamp_formatted": "00:08"
+    },
+    {
+      "path": "C:\\Users\\liuzh\\Desktop\\1\\resource\\fromAI\\10_review_proxies\\fusion_quantum_bridge_v8_1080p60_frames\\frame_0004.jpg",
+      "timestamp": 12.25,
+      "timestamp_formatted": "00:12"
+    },
+    {
+      "path": "C:\\Users\\liuzh\\Desktop\\1\\resource\\fromAI\\10_review_proxies\\fusion_quantum_bridge_v8_1080p60_frames\\frame_0005.jpg",
+      "timestamp": 16.333,
+      "timestamp_formatted": "00:16"
+    },
+    {
+      "path": "C:\\Users\\liuzh\\Desktop\\1\\resource\\fromAI\\10_review_proxies\\fusion_quantum_bridge_v8_1080p60_frames\\frame_0006.jpg",
+      "timestamp": 20.417,
+      "timestamp_formatted": "00:20"
+    },
+    {
+      "path": "C:\\Users\\liuzh\\Desktop\\1\\resource\\fromAI\\10_review_proxies\\fusion_quantum_bridge_v8_1080p60_frames\\frame_0007.jpg",
+      "timestamp": 24.5,
+      "timestamp_formatted": "00:24"
+    },
+    {
+      "path": "C:\\Users\\liuzh\\Desktop\\1\\resource\\fromAI\\10_review_proxies\\fusion_quantum_bridge_v8_1080p60_frames\\frame_0008.jpg",
+      "timestamp": 28.583,
+      "timestamp_formatted": "00:28"
+    },
+    {
+      "path": "C:\\Users\\liuzh\\Desktop\\1\\resource\\fromAI\\10_review_proxies\\fusion_quantum_bridge_v8_1080p60_frames\\frame_0009.jpg",
+      "timestamp": 32.667,
+      "timestamp_formatted": "00:32"
+    },
+    {
+      "path": "C:\\Users\\liuzh\\Desktop\\1\\resource\\fromAI\\10_review_proxies\\fusion_quantum_bridge_v8_1080p60_frames\\frame_0010.jpg",
+      "timestamp": 36.75,
+      "timestamp_formatted": "00:36"
+    },
+    {
+      "path": "C:\\Users\\liuzh\\Desktop\\1\\resource\\fromAI\\10_review_proxies\\fusion_quantum_bridge_v8_1080p60_frames\\frame_0011.jpg",
+      "timestamp": 40.833,
+      "timestamp_formatted": "00:40"
+    },
+    {
+      "path": "C:\\Users\\liuzh\\Desktop\\1\\resource\\fromAI\\10_review_proxies\\fusion_quantum_bridge_v8_1080p60_frames\\frame_0012.jpg",
+      "timestamp": 44.917,
+      "timestamp_formatted": "00:44"
+    }
+  ],
+  "frame_count": 12,
+  "transcript": [],
+  "text": "",
+  "note": "Use the Read tool to view frame images for visual understanding."
+}

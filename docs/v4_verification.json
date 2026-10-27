@@ -1,0 +1,106 @@
+{
+  "blend": "C:\\Users\\liuzh\\Desktop\\1\\quantum_tunneling_scientific_v4.blend",
+  "frame_range": [
+    0,
+    5399
+  ],
+  "fps": 60.0,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "camera": {
+    "markers": [
+      {
+        "name": "V4 / BARRIER INTRO",
+        "frame": 0,
+        "camera": "CAM_V4_Barrier_Intro"
+      },
+      {
+        "name": "V4 / CONTINUOUS PARTICLE + WAVE CAMERA",
+        "frame": 510,
+        "camera": "CAM_V4_Particle_Wave_Follow"
+      }
+    ],
+    "initial_follow_y": 0.0,
+    "initial_sightline_angle_degrees": 15.010635674831187,
+    "initial_camera_x": -17.5,
+    "initial_particle_x": -31.0,
+    "barrier_x": 0.0,
+    "initial_camera_between_particle_and_barrier": true,
+    "screen_up_world_vector": [
+      -0.25899839401245117,
+      0.0,
+      0.9658777713775635
+    ],
+    "screen_up_to_world_z_degrees": 15.010635021950737,
+    "projected_world_z_on_image_plane": [
+      -0.2589983344078064,
+      0.0,
+      0.9658777713775635
+    ],
+    "screen_up_to_projected_world_z_degrees": 0.0,
+    "screen_up_is_projected_world_z": true,
+    "screen_up_has_positive_z": true,
+    "max_post_cut_translation_per_frame": {
+      "value": 0.2417891349578212,
+      "frame": 4597
+    },
+    "max_post_cut_target_translation_per_frame": {
+      "value": 0.044904708173672675,
+      "frame": 689
+    },
+    "max_post_cut_rotation_per_frame": {
+      "value_degrees": 0.6632258485484289,
+      "frame": 776
+    },
+    "post_cut_hard_cuts": 0
+  },
+  "wavefunction": {
+    "helix_object": "GEO_V4_Complex_Wavefunction_Helix",
+    "sample_points": 720,
+    "shape_keys": 151,
+    "mapping": "r(x,t)=(x, Re(psi(x,t)), Im(psi(x,t)))",
+    "max_shape_definition_mapping_error": 1.1920928955078125e-07,
+    "max_shape_weight_timing_error_at_frame_1740": 0.0,
+    "largest_shape_weight_timing_differences": [],
+    "mapping_tolerance": 1e-05,
+    "mapping_pass": true
+  },
+  "visibility": {
+    "real_component_alpha": {
+      "0": 0.0,
+      "1049": 0.0,
+      "1050": 0.0,
+      "1120": 0.9200000166893005,
+      "1190": 0.9200000166893005,
+      "1320": 0.0,
+      "1321": 0.0
+    },
+    "helix_alpha": {
+      "0": 0.0,
+      "1179": 0.0,
+      "1180": 0.0,
+      "1250": 1.0,
+      "1320": 1.0,
+      "4380": 1.0,
+      "4500": 0.0
+    },
+    "probability_density_alpha": {
+      "0": 0.0,
+      "1559": 0.0,
+      "1560": 0.0,
+      "1610": 0.20999999344348907,
+      "1660": 0.41999998688697815,
+      "4380": 0.41999998688697815,
+      "4500": 0.0
+    },
+    "probability_hidden_through_y_move_end": true
+  },
+  "later_objects_present": {
+    "GEO_Barrier_Plain": true,
+    "GEO_Collapsed_Transmitted_Particle": true,
+    "GEO_V3_Width_Arrow_Left": true,
+    "GEO_V3_Height_Arrow_Top": true
+  }
+}

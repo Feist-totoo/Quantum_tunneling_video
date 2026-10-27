@@ -1,0 +1,27 @@
+{
+  "blend": "C:\\Users\\liuzh\\Desktop\\1\\quantum_tunneling_scientific_v3.blend",
+  "source": "quantum_tunneling_scientific_v2.blend rebuilt through V2 script",
+  "removed_chart_formula_objects": 187,
+  "probability_density": {
+    "object": "GEO_Probability_Density_XZ",
+    "plane": "XZ",
+    "quantity": "|psi|^2"
+  },
+  "real_imag_plane": "XY",
+  "camera": {
+    "object": "CAM_V3_Continuous",
+    "hard_cuts": 0,
+    "key_count": 27,
+    "close_barrier_frames": [
+      2100,
+      4080
+    ],
+    "target_barrier_vertical_fill": 0.5
+  },
+  "collapse_particle_x": 5.6,
+  "sync": [
+    "C:\\Users\\liuzh\\Desktop\\1\\sync\\master_timeline_v3.json",
+    "C:\\Users\\liuzh\\Desktop\\1\\sync\\probability_frames_v3.csv"
+  ],
+  "final_render_executed": false
+}

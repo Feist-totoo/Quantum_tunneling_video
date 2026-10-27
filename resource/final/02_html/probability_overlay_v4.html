@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=640,height=1080" />
+  <script src="data.js"></script>
+  <style>
+    :root{--cyan:#58c4dd;--purple:#9a72ac;--orange:#ff862f;--yellow:#ffff00;--white:#f4f4f4;--axis:#77808b;--grid:#26313b}
+    *{box-sizing:border-box}html,body{margin:0;width:640px;height:1080px;overflow:hidden;background:transparent;color:var(--white)}
+    body{font-family:"Noto Sans SC","Microsoft YaHei",sans-serif}.math{font-family:"Cambria Math","Times New Roman",serif}
+    #root{position:relative;width:640px;height:1080px;background:transparent;opacity:0}
+    .formula-stage{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:54px;padding:92px 44px;transform:translateY(14px);opacity:0}
+    .formula-main{font-size:62px;line-height:1.25;letter-spacing:.5px}.formula-sub{font-size:38px;line-height:1.35;color:#c8ced6}.formula-balance{font-size:38px;color:#c8ced6}
+    .token{display:inline-block;position:relative;transition:none}.t{color:var(--yellow)}.k{color:var(--orange)}.w{color:var(--purple)}.e{color:var(--cyan)}
+    .focus{filter:drop-shadow(0 0 4px currentColor);transform:scale(1.04)}
+    .chart-stage{position:absolute;inset:0;opacity:0;padding:42px 28px 34px 58px}
+    .legend{height:46px;display:flex;justify-content:flex-end;gap:24px;font-size:17px;color:#bbc3cc}
+    .entry{display:flex;align-items:center;gap:8px;white-space:nowrap}.sw{width:24px;height:4px;border-radius:2px}.base{background:var(--cyan)}.width{background:var(--purple)}.height{background:var(--orange)}
+    .axis{position:absolute;left:82px;width:518px;border-left:2px solid var(--axis)}
+    .upper{top:120px;height:350px;border-bottom:2px solid var(--axis)}.lower{top:610px;height:350px;border-top:2px solid var(--axis)}
+    .axis-title{position:absolute;left:-58px;top:-38px;color:#e8edf2;font:700 22px/1 "Cambria Math",serif}
+    .grid{position:absolute;left:0;width:100%;height:1px;background:var(--grid)}.tick{position:absolute;left:-62px;top:0;transform:translateY(-50%);color:#aeb7c1;font:600 16px/1 "IBM Plex Mono","Courier New",monospace;white-space:nowrap}
+    .cat{position:absolute;transform:translateX(-50%);font-size:18px;color:#d7dce2;white-space:nowrap}.upper .cat{bottom:-42px}.lower .cat{bottom:-42px}
+    .bar{position:absolute;transform:translateX(-50%);border-radius:3px 3px 0 0;will-change:height}.upper .bar{bottom:0;transform-origin:center bottom}.lower .bar{top:0;transform-origin:center top;border-radius:0 0 3px 3px}
+    .bar.base{width:42px}.bar.width,.bar.height{width:19px}.series-hidden{display:none}
+    .value{position:absolute;transform:translateX(-50%);white-space:nowrap;font:700 15px/1 "IBM Plex Mono","Courier New",monospace;color:#e8edf2}.upper .value{top:-24px}.lower .value{display:none}
+    .zero-line{position:absolute;left:0;right:0;top:0;height:2px;background:rgba(255,255,255,.18)}
+  </style>
+</head>
+<body>
+<div id="root">
+  <section class="formula-stage math" id="formula">
+    <div class="formula-main"><span class="token t" id="tokT">T</span> ≈ exp[−2<span class="token k" id="tokK">κ</span><span class="token w" id="tokW">W</span>]</div>
+    <div class="formula-sub"><span class="token k" id="tokK2">κ</span> = √(2m·<span class="token e" id="tokV">(V₀−E)</span>)/ℏ</div>
+    <div class="formula-balance"><span class="token t">R</span> = 1 − <span class="token t">T</span></div>
+  </section>
+  <section class="chart-stage" id="chart">
+    <div class="legend"><span class="entry"><i class="sw base"></i>基准</span><span class="entry" id="legendW"><i class="sw width"></i>厚度</span><span class="entry" id="legendH"><i class="sw height"></i>高度</span></div>
+    <div class="axis upper">
+      <div class="axis-title">P</div>
+      <div class="grid" style="top:0"><span class="tick">100%</span></div><div class="grid" style="top:50%"><span class="tick">50%</span></div><div class="grid" style="top:100%"><span class="tick">0%</span></div>
+      <span class="cat" style="left:30%">势垒前</span><span class="cat" style="left:72%">势垒后</span>
+      <div id="ub0" class="bar base" style="left:27%"><span id="uv0" class="value"></span></div><div id="ub1" class="bar base" style="left:69%"><span id="uv1" class="value"></span></div>
+      <div id="uw0" class="bar width series-hidden" style="left:32%"></div><div id="uw1" class="bar width series-hidden" style="left:74%"></div><div id="uh0" class="bar height series-hidden" style="left:37%"></div><div id="uh1" class="bar height series-hidden" style="left:79%"></div>
+    </div>
+    <div class="axis lower">
+      <div class="zero-line"></div><div class="axis-title">P（log₁₀）</div>
+      <div class="grid" style="top:0"><span class="tick">1</span></div><div class="grid" style="top:33.333%"><span class="tick">10⁻³</span></div><div class="grid" style="top:66.666%"><span class="tick">10⁻⁶</span></div><div class="grid" style="top:100%"><span class="tick">10⁻⁹</span></div>
+      <span class="cat" style="left:30%">势垒前</span><span class="cat" style="left:72%">势垒后</span>
+      <div id="lb0" class="bar base" style="left:27%"><span id="lv0" class="value"></span></div><div id="lb1" class="bar base" style="left:69%"><span id="lv1" class="value"></span></div>
+      <div id="lw0" class="bar width series-hidden" style="left:32%"></div><div id="lw1" class="bar width series-hidden" style="left:74%"></div><div id="lh0" class="bar height series-hidden" style="left:37%"></div><div id="lh1" class="bar height series-hidden" style="left:79%"></div>
+    </div>
+  </section>
+</div>
+<script>
+const D=window.PROBABILITY_DATA;const $=id=>document.getElementById(id);const clamp=(v,a=0,b=1)=>Math.max(a,Math.min(b,v));const smooth=p=>{p=clamp(p);return p*p*(3-2*p)};
+const ROOT_FRAME=1200,FORMULA_IN=1740,CHART_IN=2040,WIDTH_IN=2880,HEIGHT_IN=3420,OUT_IN=4080,OUT_END=4140;
+function rowForAbsolute(frame){const local=clamp(frame-ROOT_FRAME,0,D[D.length-1].f);return D[Math.max(0,Math.min(D.length-1,Math.round(local/3)))]}
+function latestGroup(frame,group){const local=frame-ROOT_FRAME;for(let i=Math.min(D.length-1,Math.floor(local/3));i>=0;i--){if(D[i].g===group)return D[i]}return null}
+function logP(v){return Math.max(-9,Math.log10(Math.max(v,1e-9)))}function pct(v){return(v*100).toFixed(v<.01?2:1)+'%'}
+function setBar(id,v,lower=false){$(id).style.height=(lower?(-logP(v)/9):clamp(v))*350+'px'}
+function showSeries(ids,show){ids.forEach(id=>$(id).classList.toggle('series-hidden',!show))}
+function highlight(ids){['tokT','tokK','tokK2','tokW','tokV'].forEach(id=>$(id).classList.toggle('focus',ids.includes(id)))}
+function apply(seconds){const frame=Math.round(seconds*60);const root=$('root'),formula=$('formula'),chart=$('chart');root.style.opacity='1';
+  const formulaActive=frame>=FORMULA_IN&&frame<CHART_IN,chartActive=frame>=CHART_IN&&frame<OUT_END;
+  formula.style.opacity=formulaActive?String(smooth((frame-FORMULA_IN)/28)*smooth((CHART_IN-frame)/22)):'0';formula.style.transform=`translateY(${14-14*smooth((frame-FORMULA_IN)/36)}px)`;
+  chart.style.opacity=chartActive?String(smooth((frame-CHART_IN)/24)*(frame<OUT_IN?1:1-smooth((frame-OUT_IN)/(OUT_END-OUT_IN)))):'0';
+  if(formulaActive){const q=(frame-FORMULA_IN)/(CHART_IN-FORMULA_IN);highlight(q<.34?['tokV','tokK2']:q<.68?['tokW']:['tokT','tokK']);}
+  if(chartActive){const r=rowForAbsolute(frame),wr=latestGroup(frame,'width'),hr=latestGroup(frame,'height');setBar('ub0',r.b);setBar('ub1',r.a);setBar('lb0',r.b,true);setBar('lb1',r.a,true);$('uv0').textContent=pct(r.b);$('uv1').textContent=pct(r.a);$('lv0').textContent=r.b>=.999?'1':`10^${logP(r.b).toFixed(2)}`;$('lv1').textContent=r.a>=.999?'1':`10^${logP(r.a).toFixed(2)}`;
+    const showW=frame>=WIDTH_IN&&!!wr,showH=frame>=HEIGHT_IN&&!!hr;showSeries(['uw0','uw1','lw0','lw1'],showW);showSeries(['uh0','uh1','lh0','lh1'],showH);$('legendW').style.opacity=showW?'1':'.18';$('legendH').style.opacity=showH?'1':'.18';if(showW){setBar('uw0',wr.cb);setBar('uw1',wr.ca);setBar('lw0',wr.cb,true);setBar('lw1',wr.ca,true)}if(showH){setBar('uh0',hr.cb);setBar('uh1',hr.ca);setBar('lh0',hr.cb,true);setBar('lh1',hr.ca,true)}
+  }
+}
+window.quantumOverlay={setTime:apply};window.__hfSeek=apply;apply(0);
+</script>
+</body>
+</html>

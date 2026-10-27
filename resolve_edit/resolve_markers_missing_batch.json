@@ -1,0 +1,4 @@
+[
+  {"tool":"timeline_markers","arguments":{"action":"add","params":{"frame":0,"color":"Sand","name":"01 核聚变与经典矛盾","note":"章节起点\nVO01｜核聚变，是我们从高中物理就熟悉的概念。｜平稳开场；“核聚变”后停0.2秒","duration":408,"custom_data":"chapter+voice:VO01"}}},
+  {"tool":"timeline_markers","arguments":{"action":"add","params":{"frame":10440,"color":"Cream","name":"06 参考与结语","note":"章节起点\nVO23｜极小的概率，也能成为可观测、可利用的现实。｜收束；“可观测、可利用”逐级加重，最后0.5秒留白","duration":330,"custom_data":"chapter+voice:VO23"}}}
+]
